@@ -8,7 +8,7 @@ export default {
   components: {
     ArticleBody
   },
-  asyncData($content, params){
+  async asyncData ({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
     return {
       article

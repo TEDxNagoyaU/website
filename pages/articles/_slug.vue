@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ArticleBody from '~/components/ArticleBody.vue'
+import ArticleBody from '~/components/articles/ArticleBody.vue'
 export default {
   components: {
     ArticleBody

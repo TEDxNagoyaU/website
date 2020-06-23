@@ -1,6 +1,13 @@
 # PAGES
 
-This directory contains your Application Views and Routes.
-The framework reads all the `*.vue` files inside this directory and creates the router of your application.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/routing).
+pages
+├── README.md
+├── about.vue     <----- TED,TEDx,TedxNagoyaUについて紹介
+├── articles
+│   └── _slug.vue <----- NEWS投稿
+├── event.vue     <----- 今年のイベント内容を紹介
+├── index.vue     <----- ホームディレクトリ
+├── partners
+│   └── _slug.vue <----- これに年ごとのデータ流し込んでページ作成
+└── speakers
+    └── _slug.vue <----- これに年ごとのデータ流し込んでページ作成

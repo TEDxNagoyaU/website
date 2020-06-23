@@ -13,22 +13,16 @@
       app
     >
       <v-list>
-        <v-list-item>
-          <nuxt-link to="/">Home</nuxt-link>
-        </v-list-item>
-        <v-list-item>
-          <nuxt-link to="/about">About</nuxt-link>
-        </v-list-item>
-        <v-list-item>
-          <nuxt-link to="/event">Event</nuxt-link>
-        </v-list-item>
+        <v-list-item href="/" nuxt>Home</v-list-item>
+        <v-list-item href="/about" nuxt>About</v-list-item>
+        <v-list-item href="/event" nuxt>Event</v-list-item>
         <v-list-group>
           <template v-slot:activator>
             <v-list-item-title>Speaker</v-list-item-title>
           </template>
           <v-list>
-            <v-list-item><n-link to="/speakers/2020">2020</n-link></v-list-item>
-            <v-list-item><n-link to="/speakers/2019">2019</n-link></v-list-item>
+            <v-list-item href="/speakers/2020" nuxt>2020</v-list-item>
+            <v-list-item href="/speakers/2019" nuxt>2019</v-list-item>
           </v-list>
         </v-list-group>
         <v-list-group>
@@ -36,8 +30,8 @@
             <v-list-item-title>Partners</v-list-item-title>
           </template>
           <v-list>
-            <v-list-item><n-link to="/partners/2020">2020</n-link></v-list-item>
-            <v-list-item><n-link to="/partners/2019">2019</n-link></v-list-item>
+            <v-list-item href="/partners/2020" nuxt>2020</v-list-item>
+            <v-list-item href="/partners/2019" nuxt>2019</v-list-item>
           </v-list>
         </v-list-group>
       </v-list>

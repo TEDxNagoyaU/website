@@ -103,8 +103,28 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'About',
+          to: '/about'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Event',
+          to: '/event'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Partners-2020',
+          to: '/partners-2020'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Speakers-2020',
+          to: '/Speakers-2020'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Articles',
+          to: '/articles'
         }
       ],
       miniVariant: false,

@@ -1,11 +1,11 @@
 <template>
   <v-app light>
     <global-header />
-    <v-content>
+    <v-main>
       <v-container>
         <nuxt />
       </v-container>
-    </v-content>
+    </v-main>
     <v-footer>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>

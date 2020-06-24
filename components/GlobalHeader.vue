@@ -11,6 +11,7 @@
     <v-navigation-drawer
       v-model="drawer"
       app
+      temporary
     >
       <v-list>
         <v-list-item href="/" nuxt>Home</v-list-item>

@@ -1,5 +1,8 @@
 <template>
-  <article-body :article="article" />
+  <div>
+    <h1>{{ article.title }}</h1>
+    <article-body :article="article" />
+  </div>
 </template>
 
 <script>

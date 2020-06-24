@@ -12,6 +12,15 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
+    /*
+    ** github pagesにデプロイするときはheadに{base: ~~}が追加される。
+    ** それ以外では追加されていない(underfind)
+    */
+    base: process.env.DEPLOY_ENV === 'DEVELOP' 
+    ? {
+      href: 'router.base'
+    } 
+    : undefined,
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
     meta: [
@@ -61,7 +70,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
@@ -74,6 +83,11 @@ export default {
         }
       }
     }
+  },
+  router: {
+    base: process.env.DEPLOY_ENV === 'DEVELOP' 
+    ? '/website/'
+    : undefined,
   },
   /*
   ** Build configuration

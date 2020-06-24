@@ -1,5 +1,5 @@
 <template>
-  <v-parallax height=1000 dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+  <v-parallax height=1070 dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
 
     <v-row align="center" justify="center">
       <v-col class="text-center" cols="12">
@@ -8,11 +8,11 @@
     </v-row>
 
     <v-row align="center" justify="center">
-      <v-col class="text-center" cols="5">
+      <v-col class="text-center" cols="6">
         <h2 class="display-1 font-weight-bold mb-4">{{theme}}</h2>
       </v-col>
-      <v-col  cols="7">
-        <v-img :src=keyVisual aspect-ratio="1.7"></v-img>
+      <v-col  cols="6">
+        <v-img :src=keyVisual aspect-ratio="2.7"></v-img>
       </v-col>
     </v-row>
 

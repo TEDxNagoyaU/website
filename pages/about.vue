@@ -9,6 +9,7 @@
 <script>
 import VSection from '~/components/about/VSection'
 export default {
+  layout: 'full',
   data () {
     return {
       ted: {

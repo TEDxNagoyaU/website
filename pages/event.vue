@@ -11,6 +11,7 @@ import VSectionForm from '~/components/event/VSectionForm'
 import VSectionInfo from '~/components/event/VSectionInfo'
 import VSectionTheme from '~/components/event/VSectionTheme'
 export default {
+  layout: 'full',
   data () {
     return {
       theme: {

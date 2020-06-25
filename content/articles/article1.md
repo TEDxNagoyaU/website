@@ -1,8 +1,8 @@
 ---
-title : post1
+title : タイトル
 description : this is post1.
 ---
 
-# h1
+# あああ
 
 ## test of tedx.

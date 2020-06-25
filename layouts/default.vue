@@ -7,23 +7,18 @@
       </v-container>
     </v-main>
     <v-footer>
-      <span>&copy; {{ new Date().getFullYear() }}{{ DEPLOY_ENV }}</span>
+      <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import GlobalHeader from '~/components/GlobalHeader.vue'
+import GlobalHeader from '~/components/header/GlobalHeader.vue'
 
 export default {
 
   components: {
     GlobalHeader
-  },
-  data () {
-    const DEPLOY_ENV = process.env.DEPLOY_ENV
-    console.log(DEPLOY_ENV)
-    return { DEPLOY_ENV }
   }
 }
 </script>

@@ -17,6 +17,7 @@
         <v-list-item to="/" nuxt>Home</v-list-item>
         <v-list-item to="/about" nuxt>About</v-list-item>
         <v-list-item to="/event" nuxt>Event</v-list-item>
+        <v-list-item to="/articles" nuxt>Artile</v-list-item>
         <v-list-group>
           <template v-slot:activator>
             <v-list-item-title>Speaker</v-list-item-title>

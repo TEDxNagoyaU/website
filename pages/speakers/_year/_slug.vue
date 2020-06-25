@@ -2,9 +2,7 @@
   <div>
     <h1>{{ speaker.name }}</h1>
     <v-row>
-      <v-col>
-
-      </v-col>
+      <v-col />
     </v-row>
   </div>
 </template>

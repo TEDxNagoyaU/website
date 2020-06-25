@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-section v-bind="ted"></v-section>
-    <v-section v-bind="tedx"></v-section>
-    <v-section v-bind="tedxnu"></v-section>
+    <v-section v-bind="ted" />
+    <v-section v-bind="tedx" />
+    <v-section v-bind="tedxnu" />
   </div>
 </template>
 
@@ -10,6 +10,9 @@
 import VSection from '~/components/about/VSection'
 export default {
   layout: 'full',
+  components: {
+    VSection
+  },
   data () {
     return {
       ted: {
@@ -25,9 +28,6 @@ export default {
         content: 'TEDxNagoyaU は、TED Talk に感銘を受けたメンバーが TEDx イベントを名古屋大学で開催しようという意気込みのもと、 2013年度に発足しました。 実行委員会は名古屋大学の学生を中心とした名古屋近辺の学生で構成され、運営を行っています。'
       }
     }
-  },
-  components: {
-    VSection
   }
 }
 </script>

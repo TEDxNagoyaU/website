@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-section-theme v-bind="theme"></v-section-theme>
-    <v-section-info v-bind="info"></v-section-info>
-    <v-section-form v-bind="form"></v-section-form>
+    <v-section-theme v-bind="theme" />
+    <v-section-info v-bind="info" />
+    <v-section-form v-bind="form" />
   </div>
 </template>
 
@@ -12,6 +12,11 @@ import VSectionInfo from '~/components/event/VSectionInfo'
 import VSectionTheme from '~/components/event/VSectionTheme'
 export default {
   layout: 'full',
+  components: {
+    VSectionForm,
+    VSectionInfo,
+    VSectionTheme
+  },
   data () {
     return {
       theme: {
@@ -30,11 +35,6 @@ export default {
         title: 'Form'
       }
     }
-  },
-  components: {
-    VSectionForm,
-    VSectionInfo,
-    VSectionTheme
   }
 }
 </script>

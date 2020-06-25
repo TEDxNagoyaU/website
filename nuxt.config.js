@@ -16,13 +16,13 @@ export default {
     ** github pagesにデプロイするときはheadに{base: ~~}が追加される。
     ** それ以外では追加されていない(underfind)
     */
-   base: {
-     href: 'router.base'
-   },
-    /* base: process.env.DEPLOY_ENV === 'DEVELOP' 
+    base: {
+      href: 'router.base'
+    },
+    /* base: process.env.DEPLOY_ENV === 'DEVELOP'
     ? {
       href: 'router.base'
-    } 
+    }
     : undefined, */
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
@@ -88,9 +88,9 @@ export default {
     }
   },
   router: {
-    base: process.env.DEPLOY_ENV === 'DEVELOP' 
-    ? '/website/'
-    : undefined,
+    base: process.env.DEPLOY_ENV === 'DEVELOP'
+      ? '/website/'
+      : undefined
   },
   /*
   ** Build configuration

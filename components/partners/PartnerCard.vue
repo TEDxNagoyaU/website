@@ -2,7 +2,7 @@
   <v-card>
     <v-img :src="partner.logo" />
     <v-card-title v-text="partner.name" />
-    <nuxt-content :document="parnter"></nuxt-content>
+    <nuxt-content :document="parnter" />
   </v-card>
 </template>
 

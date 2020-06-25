@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p>slug</p>
-    <p>{{ p.slug }}</p>
-    <p>params</p>
-    <p>{{ p }}</p>
-    <p>speakers</p>
-    <p>{{ speaker }}</p>
+    <h1>{{ speaker.name }}</h1>
+    <v-row>
+      <v-col>
+
+      </v-col>
+    </v-row>
   </div>
 </template>
 
@@ -13,8 +13,7 @@
 export default {
   async asyncData ({ $content, params }) {
     const speaker = await $content('speakers', params.year, params.slug).fetch()
-    const p = params
-    return { p, speaker }
+    return { params, speaker }
   }
 }
 </script>

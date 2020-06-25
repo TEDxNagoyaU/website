@@ -7,7 +7,7 @@
       </v-container>
     </v-main>
     <v-footer>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; {{ new Date().getFullYear() }}{{ DEPLOY_ENV }}</span>
     </v-footer>
   </v-app>
 </template>
@@ -16,8 +16,14 @@
 import GlobalHeader from '~/components/GlobalHeader.vue'
 
 export default {
+
   components: {
     GlobalHeader
+  },
+  data () {
+    const DEPLOY_ENV = process.env.DEPLOY_ENV
+    console.log(DEPLOY_ENV)
+    return { DEPLOY_ENV }
   }
 }
 </script>

@@ -6,19 +6,19 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    <global-footer />
   </v-app>
 </template>
 
 <script>
 import GlobalHeader from '~/components/header/GlobalHeader.vue'
+import GlobalFooter from '~/components/footer/GlobalFooter.vue'
 
 export default {
 
   components: {
-    GlobalHeader
+    GlobalHeader,
+    GlobalFooter
   }
 }
 </script>

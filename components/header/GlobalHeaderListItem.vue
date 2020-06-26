@@ -1,5 +1,5 @@
 <template>
-  <v-list-item :to="path" nuxt>
+  <v-list-item nuxt link :to="path">
     {{ name }}
   </v-list-item>
 </template>

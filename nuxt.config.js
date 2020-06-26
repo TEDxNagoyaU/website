@@ -99,3 +99,21 @@ export default {
   build: {
   }
 }
+/*
+async function dynamicRoutes () {
+  const speakersYearArray = ['2020', '2019', '2018', '2017']
+  const partnersYearArray = ['2020', '2019', '2018', '2017']
+  const speakersRoutesArray = await Promise.all(speakersYearArray.map(async (year) => {
+    const speakers = await $content(year).fetch()
+    const speakersRoutes = speakers.map(speaker => {route: speaker.path})
+    const yearIndexRoute = {
+      route: '/speakers/' + year
+    }
+    return (speakersRoutes.push(yearIndexRoute))
+  }))
+  const partnersRouteArray = partnersYearArray.map(year => {route: '/partners/' + year})
+  
+  const routes = speakersRoutesArray.concat(partnersRouteArray)
+  return routes
+}
+*/

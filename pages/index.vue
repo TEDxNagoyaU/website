@@ -5,6 +5,7 @@
     <p>Thank you for your attention.</p>
     <p>PLZ PLZ DONT HESITATE to ask any question. Don't hesitate to comment.</p>
     <p>Ask us on Slack and Comment us on Google SpreadSheet.</p>
+    <nuxt-link to="/partners/2019">this link is partners/2019</nuxt-link>
   </div>
 </template>
 

@@ -32,6 +32,9 @@ jobs:
     
     - name: export
       run: npm run export
+    
+    - name: ready to deploy
+      run: npm install -g firebase-tools
 
     - name: deploy
       run: firebase deploy --only hosting --token $FIREBASE_TOKEN

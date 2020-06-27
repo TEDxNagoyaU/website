@@ -9,6 +9,7 @@
   </v-row>
 </template>
 <script>
+
 import ArticleCard from '~/components/articles/ArticleCard.vue'
 
 export default {
@@ -16,7 +17,7 @@ export default {
     ArticleCard
   },
   async asyncData ({ $content }) {
-    const articles = await $content('articles').fetch()
+    const articles = await $content('articles').sortBy('createdAt', 'desc').fetch()
     return { articles }
   }
 }

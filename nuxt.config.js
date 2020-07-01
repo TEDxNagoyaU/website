@@ -52,7 +52,8 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
+    '@nuxtjs/google-analytics'
   ],
   /*
   ** Nuxt.js modules
@@ -87,6 +88,20 @@ export default {
       }
     }
   },
+  googleAnalytics: {
+    id: 'UA-119308617-1',
+    /**
+     * firebaseにデプロイするときはtrueになる。
+     * 詳しくは.github/workflows/deploy-firebase.ymlを参照
+     */
+    debug: {
+      sendHitTask: process.env.DEPLOY_ENV === 'PRODUCTION'
+    }
+  },
+  /**
+   * github-pagesにデプロイするときはtrueになる
+   * 詳しくは.github/workflows/gh-pages.ymlを参照
+   */
   router: {
     base: process.env.DEPLOY_ENV === 'DEVELOP'
       ? '/website/'

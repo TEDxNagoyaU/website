@@ -1,4 +1,6 @@
 name: deploy-firebase
+env:
+  DEPLOY_ENV: PRODUCTION
 
 on:
   push:

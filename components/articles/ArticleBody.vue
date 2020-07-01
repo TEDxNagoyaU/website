@@ -1,5 +1,7 @@
 <template>
-  <nuxt-content :document="article" />
+  <div class="content">
+    <nuxt-content :document="article" />
+  </div>
 </template>
 
 <script>
@@ -13,3 +15,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.content h2{
+  border-left: 5px solid rgb(38, 38, 38) ;
+}
+</style>

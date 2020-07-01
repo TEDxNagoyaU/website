@@ -4,7 +4,7 @@
       v-for="article in articles"
       :key="article.path"
     >
-      <article-card :article="article" />
+      <article-card class="col-md-1" :article="article" />
     </v-col>
   </v-row>
 </template>

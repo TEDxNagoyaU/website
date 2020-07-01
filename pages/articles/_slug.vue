@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article">
     <h1>{{ article.title }}</h1>
     <article-body :article="article" />
   </div>
@@ -19,3 +19,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.article h1{
+  margin: 30px 0;
+}
+</style>

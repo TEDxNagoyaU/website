@@ -1,7 +1,13 @@
 <template>
   <div class="article">
-    <h1>{{ article.title }}</h1>
-    <article-body :article="article" />
+    <h1 class="article-title"><span>{{ article.title }}</span></h1>
+    <article-body class="body" :article="article" />
+    <div class="category" v-if="article.category">
+      <h4>category: {{article.category}}</h4>
+    </div>
+    <div class="tag" v-if="article.tag">
+      <h4>tag: {{article.tag}}</h4>
+    </div>
   </div>
 </template>
 
@@ -26,7 +32,17 @@ export default {
 </script>
 
 <style>
-.article h1{
+
+.article .article-title{
   margin: 30px 0;
+  color: rgb(133, 24, 24);
+  border-bottom: 1px solid rgb(184, 49, 49);
+  line-height: 1.5;
+}
+.article .article-title span{
+  border-bottom: 6px solid rgb(184, 49, 49);
+}
+.body{
+  border-bottom: 1px solid #000;
 }
 </style>

@@ -16,7 +16,7 @@
       align="center"
       justify="center"
     >
-      <v-col cols="6">
+      <v-col cols="5">
         <p class="subheading">
           {{ content }}
         </p>

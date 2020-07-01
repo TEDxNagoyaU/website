@@ -1,7 +1,7 @@
 <template>
   <v-card
     class="ma-1 mb-1"
-    max-width="400"
+    max-width="300"
     :nuxt="true"
     :to="article.path"
     outlined
@@ -11,32 +11,14 @@
       height="200px"
       :src="article.thumbnail"
     >
-      <v-card-title>{{article.title}}</v-card-title>
-    </v-img>
 
-    <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
+    </v-img>
+    <v-card-title>{{article.title}}</v-card-title>
+    <v-card-subtitle class="pb-0">{{article.date}}</v-card-subtitle>
 
     <v-card-text class="text--primary">
-      <div>Whitehaven Beach</div>
-
-      <div>Whitsunday Island, Whitsunday Islands</div>
+      <div>{{ article.description }}</div>
     </v-card-text>
-
-    <v-card-actions>
-      <v-btn
-        color="orange"
-        text
-      >
-        Share
-      </v-btn>
-
-      <v-btn
-        color="orange"
-        text
-      >
-        Explore
-      </v-btn>
-    </v-card-actions>
   </v-card>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <v-footer absolute padless>
+  <v-footer absolute padless app>
     <v-container>
       <v-row>
         <v-col>

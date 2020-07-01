@@ -12,6 +12,11 @@ export default {
   async asyncData ({ $content, params }) {
     const speaker = await $content('speakers', params.year, params.slug).fetch()
     return { params, speaker }
+  },
+  head () {
+    return {
+      title: this.params.slug
+    }
   }
 }
 </script>

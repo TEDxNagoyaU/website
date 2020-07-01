@@ -21,6 +21,11 @@ export default {
   async asyncData ({ $content, params }) {
     const partners = await $content('partners', params.year).fetch()
     return { params, partners }
+  },
+  head () {
+    return {
+      title: this.params.year
+    }
   }
 }
 </script>

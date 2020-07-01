@@ -19,7 +19,12 @@ export default {
   },
   async asyncData ({ $content, params }) {
     const articles = await $content('articles').where({ category: params.slug }).fetch()
-    return { articles }
+    return { articles, params }
+  },
+  head () {
+    return {
+      title: this.params.slug
+    }
   }
 }
 </script>

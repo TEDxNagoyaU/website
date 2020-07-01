@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/articles/category", (function(a,b){return {data:[{},{},{allCategory:[{category:a},{category:b},{category:b},{category:a}]}],fetch:[],mutations:void 0}}("fugafuga","hogehoge")));

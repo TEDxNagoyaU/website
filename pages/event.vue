@@ -35,6 +35,11 @@ export default {
         title: 'Form'
       }
     }
+  },
+  head () {
+    return {
+      title: 'Steer Your Ship!'
+    }
   }
 }
 </script>

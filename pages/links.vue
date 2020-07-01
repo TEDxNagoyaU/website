@@ -72,6 +72,11 @@ export default {
       speakersLinks,
       partnersLinks
     }
+  },
+  head () {
+    return {
+      title: 'Links'
+    }
   }
 }
 </script>

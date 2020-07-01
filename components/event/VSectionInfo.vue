@@ -1,5 +1,5 @@
 <template>
-  <v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+  <div>
     <v-row align="center" justify="center">
       <v-col class="text-center" cols="12">
         <h1 class="display-1 font-weight-bold mb-4">
@@ -21,7 +21,7 @@
         <p>{{ date }}</p>
       </v-col>
     </v-row>
-  </v-parallax>
+  </div>
 </template>
 
 <script>

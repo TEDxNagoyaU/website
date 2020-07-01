@@ -1,8 +1,7 @@
 <template>
-  <v-parallax
-    dark
-    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
-  >
+  <v-card
+    outlined
+    class="ma-1 mb-1">
     <v-row
       align="center"
       justify="center"
@@ -26,7 +25,8 @@
         <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7" />
       </v-col>
     </v-row>
-  </v-parallax>
+
+  </v-card>
 </template>
 
 <script>

@@ -1,7 +1,13 @@
 <template>
   <div class="article">
     <h1 class="article-title"><span>{{ article.title }}</span></h1>
-    <article-body :article="article" />
+    <article-body class="body" :article="article" />
+    <div class="category" v-if="article.category">
+      <h4>category: {{article.category}}</h4>
+    </div>
+    <div class="tag" v-if="article.tag">
+      <h4>tag: {{article.tag}}</h4>
+    </div>
   </div>
 </template>
 
@@ -28,5 +34,7 @@ export default {
 .article .article-title span{
   border-bottom: 5px solid #000;
 }
-
+.body{
+  border-bottom: 1px solid #000;
+}
 </style>

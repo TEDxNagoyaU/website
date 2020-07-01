@@ -6,7 +6,7 @@
 export default {
   head () {
     return {
-      titleTemplate: '%s | Partner | TEDxNagoyaU'
+      titleTemplate: '%s | category | TEDxNagoyaU'
     }
   }
 }

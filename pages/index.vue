@@ -12,5 +12,10 @@
 <script>
 
 export default {
+  head () {
+    return {
+      titleTemplate: 'TEDxNagoyaU'
+    }
+  }
 }
 </script>

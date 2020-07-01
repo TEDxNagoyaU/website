@@ -1,5 +1,8 @@
 <template>
-  <p>{{ allCategory }}</p>
+  <div>
+    <h1>Work In Progress</h1>
+    <p>{{ allCategory }}</p>
+  </div>
 </template>
 
 <script>
@@ -12,6 +15,11 @@ export default {
       console.error(error)
     }
     return { allCategory }
+  },
+  head () {
+    return {
+      title: 'list'
+    }
   }
 }
 </script>

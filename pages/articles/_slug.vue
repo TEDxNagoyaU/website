@@ -1,6 +1,6 @@
 <template>
   <div class="article">
-    <h1>{{ article.title }}</h1>
+    <h1 class="article-title"><span>{{ article.title }}</span></h1>
     <article-body :article="article" />
   </div>
 </template>
@@ -21,7 +21,12 @@ export default {
 </script>
 
 <style>
-.article h1{
+.article .article-title{
   margin: 30px 0;
+  border-bottom: 1px solid #000;
 }
+.article .article-title span{
+  border-bottom: 5px solid #000;
+}
+
 </style>

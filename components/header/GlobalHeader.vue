@@ -1,12 +1,22 @@
 <template>
   <div>
     <v-app-bar>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-img
-        src="https://live.staticflickr.com/65535/49633281918_bcdc62932a_m.jpg"
-        height="20"
-        contain
-      />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"  class="d-md-none" />
+      <v-toolbar-title>
+        <v-img
+          src="https://live.staticflickr.com/65535/49633281918_bcdc62932a_m.jpg"
+          height="20"
+          contain
+        />
+      </v-toolbar-title>
+      <v-tabs class="d-none d-md-flex">
+        <global-header-tabs name="Home" path="/" />
+        <global-header-tabs name="About" path="/about" />
+        <global-header-tabs name="Event" path="/event" />
+        <global-header-tabs name="Article" path="/articles" />
+        <global-header-tabs-menu title="Speaker" :links="speakerLinks" />
+        <global-header-tabs-menu title="Partner" :links="partnerLinks" />
+      </v-tabs>
     </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"
@@ -22,17 +32,22 @@
         <global-header-list-group title="Partner" :links="partnerLinks" />
       </v-list>
     </v-navigation-drawer>
+
   </div>
 </template>
 
 <script>
 import GlobalHeaderListItem from '~/components/header/GlobalHeaderListItem.vue'
 import GlobalHeaderListGroup from '~/components/header/GlobalHeaderListGroup.vue'
+import GlobalHeaderTabs from '~/components/header/GlobalHeaderTabs.vue'
+import GlobalHeaderTabsMenu from '~/components/header/GlobalHeaderTabsMenu.vue'
 export default {
   name: 'GlobalHeader',
   components: {
     GlobalHeaderListItem,
-    GlobalHeaderListGroup
+    GlobalHeaderListGroup,
+    GlobalHeaderTabs,
+    GlobalHeaderTabsMenu
   },
   data () {
     return {

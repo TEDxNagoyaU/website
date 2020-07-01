@@ -11,9 +11,9 @@
       height="200px"
       :src="article.thumbnail"
     >
-      <v-card-title>{{article.title}}</v-card-title>
-    </v-img>
 
+    </v-img>
+    <v-card-title>{{article.title}}</v-card-title>
     <v-card-subtitle class="pb-0">{{article.date}}</v-card-subtitle>
 
     <v-card-text class="text--primary">

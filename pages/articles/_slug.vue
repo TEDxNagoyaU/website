@@ -27,12 +27,15 @@ export default {
 </script>
 
 <style>
+
 .article .article-title{
   margin: 30px 0;
-  border-bottom: 1px solid #000;
+  color: rgb(133, 24, 24);
+  border-bottom: 1px solid rgb(184, 49, 49);
+  line-height: 1.5;
 }
 .article .article-title span{
-  border-bottom: 5px solid #000;
+  border-bottom: 6px solid rgb(184, 49, 49);
 }
 .body{
   border-bottom: 1px solid #000;

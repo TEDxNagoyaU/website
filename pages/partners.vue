@@ -2,7 +2,6 @@
   <div>
     <topic-path />
     <nuxt-child />
-    {{ params }}
   </div>
 </template>
 
@@ -11,9 +10,6 @@ import TopicPath from '~/components/TopicPath.vue'
 export default {
   components: {
     TopicPath
-  },
-  asyncData ({ params }) {
-    return { params }
   },
   head () {
     return {

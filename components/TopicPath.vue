@@ -1,16 +1,6 @@
 <template>
   <div>
-      <v-breadcrumbs divider="/">
-    <v-breadcrumbs-item
-      v-for="item in breadcrumbs"
-      :key="item.path"
-      exact
-      nuxt
-      :to="item.path"
-    >{{ item.name }}</v-breadcrumbs-item>
-  </v-breadcrumbs>
-  <p>breadcrumbs: {{ breadcrumbs }}</p>
-  <p>path: {{ path }}</p>
+    <v-breadcrumbs :items="breadcrumbs" divider="/" />
   </div>
 </template>
 
@@ -24,27 +14,16 @@ export default {
       const slicePath = path.split('/')
       slicePath.shift()
 
-      const items = slicePath.map((name, i, array) => {
+      const items = slicePath.map((string, i, array) => {
         const path = `/${array.slice(0, i + 1).join('/')}`
         return {
-          name,
-          path
+          text: string,
+          to: path,
+          exact: true,
+          nuxt: true
         }
       })
-      /* const items = [
-        {
-          name: 'partners',
-          path: '/partners'
-        },
-        {
-          name: '2020',
-          path: '2020'
-        }
-      ] */
       return items
-    },
-    path () {
-      return this.$route.path
     }
   }
 }

@@ -38,6 +38,21 @@ nuxt@2.13から動的なパスもすべて取得できるはずだった。
           </v-card-text>
         </v-card>
       </v-col>
+      <v-col>
+        <v-card>
+          <v-card-title>Articles</v-card-title>
+          <v-card-text>
+            <ul>
+              <li
+                v-for="article in articles"
+                :key="article.path"
+              >
+                <nuxt-link :to="article.path">{{ article.title }}</nuxt-link>
+              </li>
+            </ul>
+          </v-card-text>
+        </v-card>
+      </v-col>
     </v-row>
   </v-container>
 </template>
@@ -68,9 +83,12 @@ export default {
       }
     })
 
+    const articles = await $content('articles', { deep: true }).fetch()
+
     return {
       speakersLinks,
-      partnersLinks
+      partnersLinks,
+      articles
     }
   },
   head () {

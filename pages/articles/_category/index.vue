@@ -18,12 +18,12 @@ export default {
     ArticleCard
   },
   async asyncData ({ $content, params }) {
-    const articles = await $content('articles').where({ category: params.slug }).fetch()
+    const articles = await $content('articles', params.category).fetch()
     return { articles, params }
   },
   head () {
     return {
-      title: this.params.slug
+      title: this.params.category
     }
   }
 }

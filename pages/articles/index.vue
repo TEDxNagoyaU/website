@@ -17,7 +17,7 @@ export default {
     ArticleCard
   },
   async asyncData ({ $content }) {
-    const articles = await $content('articles').sortBy('createdAt', 'desc').fetch()
+    const articles = await $content('articles', { deep: true }).sortBy('createdAt', 'desc').fetch()
     return { articles }
   }
 }

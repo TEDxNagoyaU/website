@@ -3,7 +3,7 @@
     <h1 class="article-title"><span>{{ article.title }}</span></h1>
     <article-body class="body" :article="article" />
     <div class="category" v-if="article.category">
-      <h4>category: {{article.category}}</h4>
+      <h4>category: {{params.category}}</h4>
     </div>
     <div class="tag" v-if="article.tag">
       <h4>tag: {{article.tag}}</h4>
@@ -18,14 +18,14 @@ export default {
     ArticleBody
   },
   async asyncData ({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+    const article = await $content('articles', params.category, params.slug).fetch()
     return {
       article, params
     }
   },
   head () {
     return {
-      title: this.params.slug
+      title: `${this.params.slug} | ${this.params.category}`
     }
   }
 }

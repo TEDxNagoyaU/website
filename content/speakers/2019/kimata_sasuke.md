@@ -1,5 +1,6 @@
 ---
 name: 木全佐介
+title: hogehoge
 position: アクトあいち代表
 img: http://tedxnagoyau.com/wp-content/uploads/2019/06/SasukeKimataSqr.png
 detail: true

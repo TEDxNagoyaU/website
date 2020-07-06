@@ -1,9 +1,17 @@
 <template>
-  <v-card>
-    <v-img :src="speaker.img" />
+  <v-card
+    class="ma-1 mb-1"
+    max-width="300"
+    :nuxt="true"
+    outlined
+  >
+    <v-img
+      :src="speaker.img"
+      class="white--text align-end"
+    />
     <v-card-title v-text="speaker.name" />
     <v-card-subtitle v-text="speaker.position" />
-    <v-card-text v-text="speaker.leadSentence" />
+    <v-card-text v-text="speaker.leadSentence" class="text--primary"/>
     <v-card-actions>
       <v-btn
         v-if="speaker.detail"

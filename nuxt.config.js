@@ -66,7 +66,8 @@ export default {
   ** Content module configuration
   ** See https://content.nuxtjs.org/configuration
   */
-  content: {},
+  content: {
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module

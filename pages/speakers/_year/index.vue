@@ -3,10 +3,6 @@
     <v-col
       v-for="speaker in speakers"
       :key="speaker.name"
-      cols="1"
-      sm="2"
-      md="3"
-      lg="4"
     >
       <speaker-card :speaker="speaker" />
     </v-col>

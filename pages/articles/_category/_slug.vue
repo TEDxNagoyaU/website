@@ -5,8 +5,8 @@
     <div class="category" v-if="article.category">
       <h4>category: {{params.category}}</h4>
     </div>
-    <div class="tag" v-if="article.tag">
-      <h4>tag: {{article.tag}}</h4>
+    <div class="tag" v-if="article.tags">
+      <h4>tags: {{ article.tags }}</h4>
     </div>
   </div>
 </template>
@@ -25,7 +25,8 @@ export default {
   },
   head () {
     return {
-      title: `${this.params.slug} | ${this.params.category}`
+      title: `${this.params.slug} | ${this.params.category}`,
+      meta: this.article.meta
     }
   }
 }

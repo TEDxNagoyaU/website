@@ -1,8 +1,20 @@
 <template>
-  <v-card>
-    <v-img :src="partner.logo" />
-    <v-card-title v-text="partner.name" />
-    <nuxt-content :document="parnter" />
+  <v-card
+    class="ma-1 mb-1"
+    max-width="300"
+    :nuxt="true"
+    outlined
+  >
+    <v-img
+      :v-if="img"
+      class="white--text align-end"
+      height="200px"
+      :src="partner.logo"
+    />
+    <v-card-title :v-if="title">{{ partner.name }}</v-card-title>
+    <v-card-text class="text--primary">
+      <nuxt-content :document="partner" />
+    </v-card-text>
   </v-card>
 </template>
 

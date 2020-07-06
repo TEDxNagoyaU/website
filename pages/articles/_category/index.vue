@@ -23,7 +23,8 @@ export default {
   },
   head () {
     return {
-      title: this.params.category
+      title: this.params.category,
+      meta: []
     }
   }
 }

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{364:function(e,t,n){"use strict";n.r(t);var r={head:function(){return{titleTemplate:"Speaker | TEDxNagoyaU"}}},l=n(21),component=Object(l.a)(r,(function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("this is speaker index")])}),[],!1,null,null,null);t.default=component.exports}}]);

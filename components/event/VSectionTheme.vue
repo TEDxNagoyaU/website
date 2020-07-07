@@ -10,23 +10,23 @@
 
     <v-row align="center" justify="center">
       <v-col cols="12">
-        <v-img :src="keyVisual" aspect-ratio="2.7" />
+        <v-img :src="keyVisual" aspect-ratio="3.7" />
       </v-col>
     </v-row>
 
     <v-row align="center" justify="center">
       <v-col cols="12">
-        <h1 class="display-1 font-weight-bold mb-4">
-          {{ wishs }}
+        <h1 class="event-title display-1 font-weight-bold mb-4">
+          <span>{{ wishs }}</span>
         </h1>
       </v-col>
     </v-row>
 
     <v-row align="center" justify="center">
-      <v-col class="text-center" cols="6">
+      <v-col class="text-center" cols="12" sm="6">
         <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7" />
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" sm="6">
         <div>
           <p class="subheading">
             {{ content }}

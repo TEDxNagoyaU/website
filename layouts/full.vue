@@ -2,9 +2,9 @@
   <v-app light>
     <global-header />
     <v-main class="main">
-      <v-content>
+      <v-main>
         <nuxt />
-      </v-content>
+      </v-main>
     </v-main>
     <global-footer />
   </v-app>

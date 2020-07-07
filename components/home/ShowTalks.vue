@@ -1,5 +1,6 @@
 <template>
 <div>
+  <!--
   <h2
     class="d-none d-sm-block"
   >TEDxNagoyaU Talk</h2>
@@ -35,20 +36,22 @@
       </v-card>
     </v-carousel-item>
   </v-carousel>
-
+  -->
   <!--
   ここまでパソコン向け。vuetifyのmd以上が対応
   スマホタブレットの表示はここから。vuetify の sm以下が対応
   -->
 
-  <v-container class="d-sm-none">
+  <v-container>
     <v-row>
       <h1 class="pl-3">TEDxNagoyaU Talk</h1>
     </v-row>
     <v-row>
       <v-col
-        v-for="speaker in shuffleSlicedSpeakers()"
+        v-for="speaker in shuffleSlicedSpeakers"
         :key="speaker.name"
+        sm="12"
+        md="6"
       >
         <v-card
         >
@@ -98,9 +101,9 @@ export default {
       youtubeModalData: ''
     }
   },
-  methods: {
+  computed: {
     shuffleSlicedSpeakers () {
-      return this.speakers.sort(() => Math.random() - 0.5).slice(0, 3)
+      return Object.create(this.speakers).sort(() => Math.random() - 0.5).slice(0, 4)
     }
   }
 }

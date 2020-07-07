@@ -9,7 +9,7 @@
 <script>
 import VSection from '~/components/about/VSection'
 export default {
-  layout: 'full',
+  layout: 'bg',
   components: {
     VSection
   },

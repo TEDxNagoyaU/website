@@ -9,7 +9,7 @@
 import VSectionInfo from '~/components/event/VSectionInfo'
 import VSectionTheme from '~/components/event/VSectionTheme'
 export default {
-  layout: 'full',
+  layout: 'bg',
   components: {
     VSectionInfo,
     VSectionTheme

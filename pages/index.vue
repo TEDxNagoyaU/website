@@ -10,6 +10,7 @@ import TheShowYoutube from '~/components/home/TheShowYoutube'
 import FirstView from '~/components/home/FirstView'
 
 export default {
+  layout: 'full',
   components: {
     TheShowYoutube,
     FirstView

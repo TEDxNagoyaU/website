@@ -70,7 +70,7 @@ export default {
   async asyncData ({ $content }) {
     const speakersYearArray = ['2019', '2018', '2017']
     const speakersLinks = await Promise.all(speakersYearArray.map(async (year) => {
-      const speakers = await $content('speakers', year).fetch()
+      const speakers = await $content('talks', year).fetch()
       const paths = speakers.map((obj) => {
         return {
           name: obj.name,

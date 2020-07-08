@@ -17,7 +17,7 @@ export default {
     SpeakerCard
   },
   async asyncData ({ $content, params }) {
-    const speakers = await $content('speakers', params.year).fetch()
+    const speakers = await $content('talks', params.year).fetch()
     return { params, speakers }
   },
   head () {

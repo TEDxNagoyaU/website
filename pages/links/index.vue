@@ -12,7 +12,7 @@ nuxt@2.13から動的なパスもすべて取得できるはずだった。
           <v-card-text>
             <ul>
               <li v-for="parentObj in speakersLinks" :key="parentObj.year">
-                <nuxt-link :to="'/speakers/' + parentObj.year">{{ parentObj.year }}</nuxt-link>
+                <nuxt-link :to="'/talks/' + parentObj.year">{{ parentObj.year }}</nuxt-link>
                 <ul>
                   <li v-for="childObj in parentObj.paths" :key="childObj.path">
                     <nuxt-link :to="childObj.path">{{ childObj.name }}</nuxt-link>

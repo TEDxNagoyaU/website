@@ -19,7 +19,7 @@
 import SpeakerCard from '~/components/speakers/SpeakerCard.vue'
 export default {
   async asyncData ({ $content }) {
-    const speakers = await $content('speakers', { deep: true }).limit(12).fetch()
+    const speakers = await $content('talks', { deep: true }).limit(12).fetch()
     return {
       speakers
     }

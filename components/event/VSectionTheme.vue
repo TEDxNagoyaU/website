@@ -24,7 +24,7 @@
 
     <v-row align="center" justify="center">
       <v-col class="text-center" cols="12" sm="6">
-        <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7" />
+        <v-img src="/eventTheme.jpg" aspect-ratio="1.7" />
       </v-col>
       <v-col cols="12" sm="6">
         <div>
@@ -32,7 +32,7 @@
             {{ content }}
           </p>
           <p class="subheading">
-            TEDxNagoyaU2020 代表 れんれん
+            TEDxNagoyaU2020 代表 上田蓮
           </p>
         </div>
       </v-col>

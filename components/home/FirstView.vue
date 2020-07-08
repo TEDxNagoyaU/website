@@ -16,8 +16,11 @@
         <v-img src="/keyVisual.png"></v-img>
       </v-col>
       <v-col class="text-center" sm="6" xs="12">
-        <h1 class="display-1 font-weight-thin mb-4">なんかださいどうしよう</h1>
-        <v-btn class="ma-2" outlined color="white" href='/event'>View more</v-btn>
+        <h1 class="display-1 font-weight-thin mb-4 text-decoration-underline">Date 10/11</h1>
+        <nuxt-link to="/event">
+          <v-btn class="ma-2" outlined color="white">view more</v-btn>
+        </nuxt-link>
+
       </v-col>
     </v-row>
   </v-parallax>
@@ -30,4 +33,8 @@ export default {
 </script>
 
 <style scoped>
+a{
+  color:white !important;
+  text-decoration: none;
+}
 </style>

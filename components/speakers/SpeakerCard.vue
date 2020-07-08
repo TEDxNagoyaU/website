@@ -11,7 +11,7 @@
     />
     <v-card-title v-text="speaker.name" />
     <v-card-subtitle v-text="speaker.position" />
-    <v-card-text v-text="speaker.leadSentence" class="text--primary"/>
+    <v-card-text class="text--primary" v-text="speaker.leadSentence" />
     <v-card-actions>
       <v-btn
         v-if="speaker.detail"

@@ -17,7 +17,7 @@ export default {
   },
   head () {
     return {
-      titleTemplate: '%s | Speaker | TEDxNagoyaU'
+      titleTemplate: '%s | Talks | TEDxNagoyaU'
     }
   }
 }

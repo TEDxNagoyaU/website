@@ -10,11 +10,11 @@
       class="white--text align-end"
       height="200px"
       :src="article.thumbnail"
-    >
-
-    </v-img>
-    <v-card-title>{{article.title}}</v-card-title>
-    <v-card-subtitle class="pb-0">{{article.date}}</v-card-subtitle>
+    />
+    <v-card-title>{{ article.title }}</v-card-title>
+    <v-card-subtitle class="pb-0">
+      {{ article.date }}
+    </v-card-subtitle>
 
     <v-card-text class="text--primary">
       <div>{{ article.description }}</div>

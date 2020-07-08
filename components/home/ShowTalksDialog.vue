@@ -6,16 +6,18 @@
       <v-btn
         color="red"
         v-bind="attrs"
-        v-on="on"
         text
+        v-on="on"
       >
-        <v-icon large>mdi-youtube</v-icon>
+        <v-icon large>
+          mdi-youtube
+        </v-icon>
       </v-btn>
     </template>
     <youtube
-     ref="youtube"
-     :video-id="youtubeId"
-     :resize="true"
+      ref="youtube"
+      :video-id="youtubeId"
+      :resize="true"
     />
   </v-dialog>
 </template>

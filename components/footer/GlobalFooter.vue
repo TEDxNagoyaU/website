@@ -9,11 +9,15 @@
             icon
             :href="item.link"
           >
-            <v-icon size="24px">{{ item.icon }}</v-icon>
+            <v-icon size="24px">
+              {{ item.icon }}
+            </v-icon>
           </v-btn>
         </v-col>
       </v-row>
-      <v-row justify="center"><span>&copy; {{ new Date().getFullYear() }} - TEDxNagoyaU</span></v-row>
+      <v-row justify="center">
+        <span>&copy; {{ new Date().getFullYear() }} - TEDxNagoyaU</span>
+      </v-row>
     </v-container>
   </v-footer>
 </template>

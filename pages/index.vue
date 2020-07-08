@@ -18,17 +18,17 @@ export default {
     ShowTalks,
     ShowArticles
   },
-  head () {
-    return {
-      titleTemplate: 'TEDxNagoyaU'
-    }
-  },
   async asyncData ({ $content }) {
-    const speakers = await $content('speakers', '2019').fetch()
+    const speakers = await $content('talks', '2019').fetch()
     const articles = await $content('articles', { deep: true }).limit(3).fetch()
     return {
       speakers,
       articles
+    }
+  },
+  head () {
+    return {
+      titleTemplate: 'TEDxNagoyaU'
     }
   }
 }

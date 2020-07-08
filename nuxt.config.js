@@ -128,7 +128,7 @@ async function dynamicRoutes () {
     return (speakersRoutes.push(yearIndexRoute))
   }))
   const partnersRouteArray = partnersYearArray.map(year => {route: '/partners/' + year})
-  
+
   const routes = speakersRoutesArray.concat(partnersRouteArray)
   return routes
 }

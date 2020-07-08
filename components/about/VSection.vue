@@ -1,7 +1,8 @@
 <template>
   <v-card
     outlined
-    class="ma-1 mb-1">
+    class="ma-1 mb-1"
+  >
     <v-row
       align="center"
       justify="center"
@@ -25,7 +26,6 @@
         </p>
       </v-col>
     </v-row>
-
   </v-card>
 </template>
 

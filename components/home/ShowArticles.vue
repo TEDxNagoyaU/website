@@ -1,6 +1,10 @@
 <template>
   <v-container>
-    <v-row><h2 class="pl-2">Articles</h2></v-row>
+    <v-row>
+      <h2 class="pl-2">
+        Articles
+      </h2>
+    </v-row>
     <v-row><article-list :articles="articles" /></v-row>
   </v-container>
 </template>

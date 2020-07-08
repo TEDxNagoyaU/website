@@ -18,14 +18,14 @@
 <script>
 import SpeakerCard from '~/components/speakers/SpeakerCard.vue'
 export default {
+  components: {
+    SpeakerCard
+  },
   async asyncData ({ $content }) {
     const speakers = await $content('talks', { deep: true }).limit(12).fetch()
     return {
       speakers
     }
-  },
-  components: {
-    SpeakerCard
   },
   head () {
     return {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"  class="d-md-none" />
+      <v-app-bar-nav-icon class="d-md-none" @click.stop="drawer = !drawer" />
       <v-toolbar-title>
         <v-img
           src="https://live.staticflickr.com/65535/49633281918_bcdc62932a_m.jpg"
@@ -32,7 +32,6 @@
         <global-header-list-group title="Partner" :links="partnerLinks" />
       </v-list>
     </v-navigation-drawer>
-
   </div>
 </template>
 

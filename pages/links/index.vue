@@ -12,10 +12,14 @@ nuxt@2.13から動的なパスもすべて取得できるはずだった。
           <v-card-text>
             <ul>
               <li v-for="parentObj in speakersLinks" :key="parentObj.year">
-                <nuxt-link :to="'/talks/' + parentObj.year">{{ parentObj.year }}</nuxt-link>
+                <nuxt-link :to="'/talks/' + parentObj.year">
+                  {{ parentObj.year }}
+                </nuxt-link>
                 <ul>
                   <li v-for="childObj in parentObj.paths" :key="childObj.path">
-                    <nuxt-link :to="childObj.path">{{ childObj.name }}</nuxt-link>
+                    <nuxt-link :to="childObj.path">
+                      {{ childObj.name }}
+                    </nuxt-link>
                   </li>
                 </ul>
               </li>
@@ -32,7 +36,9 @@ nuxt@2.13から動的なパスもすべて取得できるはずだった。
                 v-for="obj in partnersLinks"
                 :key="obj.path"
               >
-                <nuxt-link :to="obj.path">{{ obj.year }}</nuxt-link>
+                <nuxt-link :to="obj.path">
+                  {{ obj.year }}
+                </nuxt-link>
               </li>
             </ul>
           </v-card-text>
@@ -47,7 +53,9 @@ nuxt@2.13から動的なパスもすべて取得できるはずだった。
                 v-for="article in articles"
                 :key="article.path"
               >
-                <nuxt-link :to="article.path">{{ article.title }}</nuxt-link>
+                <nuxt-link :to="article.path">
+                  {{ article.title }}
+                </nuxt-link>
               </li>
             </ul>
           </v-card-text>

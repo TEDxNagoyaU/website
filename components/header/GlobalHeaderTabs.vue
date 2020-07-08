@@ -3,7 +3,9 @@
     link
     nuxt
     :to="path"
-  >{{ name }}</v-tab>
+  >
+    {{ name }}
+  </v-tab>
 </template>
 
 <script>

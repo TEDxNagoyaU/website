@@ -1,11 +1,13 @@
 <template>
   <div class="article">
-    <h1 class="article-title"><span>{{ article.title }}</span></h1>
+    <h1 class="article-title">
+      <span>{{ article.title }}</span>
+    </h1>
     <article-body class="body" :article="article" />
-    <div class="category" v-if="article.category">
-      <h4>category: {{params.category}}</h4>
+    <div v-if="article.category" class="category">
+      <h4>category: {{ params.category }}</h4>
     </div>
-    <div class="tag" v-if="article.tags">
+    <div v-if="article.tags" class="tag">
       <h4>tags: {{ article.tags }}</h4>
     </div>
   </div>

@@ -11,7 +11,7 @@
       height="200px"
       :src="partner.logo"
     />
-    <v-card-title :v-if="title">{{ partner.name }}</v-card-title>
+    <v-card-title>{{ partner.name }}</v-card-title>
     <v-card-text class="text--primary">
       <nuxt-content :document="partner" />
     </v-card-text>

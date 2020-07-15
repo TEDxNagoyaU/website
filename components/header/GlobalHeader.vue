@@ -98,8 +98,8 @@ export default {
           name: 'hogehoge'
         },
         {
-          path: '/articles/fugafuga',
-          name: 'fugafuga'
+          path: '/articles/pastTalks',
+          name: '過去のトーク'
         }
       ]
     }

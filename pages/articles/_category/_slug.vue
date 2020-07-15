@@ -48,4 +48,10 @@ export default {
 .body{
   border-bottom: 1px solid #000;
 }
+p{
+  margin: 1rem;
+}
+h2{
+  margin: 1.3rem;
+}
 </style>

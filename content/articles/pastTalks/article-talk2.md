@@ -3,7 +3,7 @@ title : 「社会に学生を解き放つ」  木全 佐介
 date: 2020/07/09
 description : スピーカーの木全さんは、弱冠16歳にして、学生に新たな出会いと発見を届ける学生団体 アクトあいちの代表を務めています。まだ見ぬ世界へ一歩踏み出そうとする1人の若者が、名古屋の地で、ある”思い”を語ります。
 tags: ["木全 佐介", "2019"]
-thumbnail: "https://images.unsplash.com/photo-1583301787654-b67c30c3f6e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+thumbnail: "/article/past-talks/SasukeKimataSqr.png"
 ---
 
 このトークは、TEDxNagoyaU 2019 で行われたトークです。

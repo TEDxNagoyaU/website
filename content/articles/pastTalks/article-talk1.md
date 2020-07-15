@@ -3,7 +3,7 @@ title : 「幸せを探す旅」  喜多桜子
 date: 2020/07/09
 description : スピーカーの喜多さんは、幸せとは？をテーマにこれまで世界二周を経験しています。1度目はひとり旅、2度目は新婚旅行で世界を巡りました。「世界二周して見つけた、幸せの形」とは何でしょうか？
 tags: ["喜多桜子", "2019"]
-thumbnail: "https://images.unsplash.com/photo-1583301787654-b67c30c3f6e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+thumbnail: "/article/past-talks/SakurakoKitaSqr.png"
 ---
 
 このトークは、TEDxNagoyaU 2019 で行われたトークです。

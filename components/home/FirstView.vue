@@ -17,7 +17,7 @@
         <h1 class="display-1 font-weight-thin mb-4">
           2020 TedxNagoyaU Theme
         </h1>
-        <v-img src="/keyVisual.png" />
+        <v-img src="/keyvisual_white.png" />
       </v-col>
       <v-col class="text-center" sm="6" xs="12">
         <h1 class="display-1 font-weight-thin mb-4 text-decoration-underline">

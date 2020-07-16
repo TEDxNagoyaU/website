@@ -18,14 +18,14 @@ export default {
     return {
       theme: {
         title: '2020 TEDxNagoyaU Theme is ...',
-        keyVisual: '/keyVisualBlack.png',
+        keyVisual: '/keyvisual_black.png',
         theme: 'steer your ship!',
         wishs: 'テーマへの思い',
-        content: 'TEDxとは、「ideas worth spreading」というTEDの 精神のもとに世界各地で発足し、 独自に運営されているイベントです。 世界各地の人々が、 TEDイベントのような経験を共有することができます。 TEDxイベントでは、TED Talksの 上映やライブ・スピーカーのプレゼンテーションによって深い議論が起こり、参加者同士の間に“つながり”が生まれます。 このように、各地域で独自に運営されるイベントを「TEDx」と呼び、 「x」は、「独自に開催されるTEDイベント」という意味を持ちます。TEDxイベントは、 TEDイベントの手引きにより運営されますが、 定められたルールの下で、独自に運営されています。'
+        content: '今年のテーマは「Steer Your Ship!」（舵を取れ！）です。テーマを考える上で、私たちは人生を「航海」と位置付けました。オンライン開催を余儀なくされてしまいましたが、私たちは本イベントが、時には目指す方向を見失いながらも自らの手で前に進もうとするあなたにとって新たな船出となることを切に願い、運営・開催をしていく所存です。その日が来ることを、スタッフ一同心待ちにしております。'
       },
       info: {
         title: 'Event Information',
-        abstruct: 'abstruct: 今年はオンライン開催となりました。',
+        abstruct: '今年はオンライン開催となりました。詳細は後日お知らせします。',
         date: '2020/10/11(日)'
       }
     }

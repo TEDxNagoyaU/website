@@ -1,3 +1,4 @@
+<!--
 <template>
   <div>
     <p>{{ uniqueTags }}</p>
@@ -27,3 +28,4 @@ export default {
   }
 }
 </script>
+-->

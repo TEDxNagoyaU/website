@@ -90,11 +90,15 @@ export default {
       articleLinks: [
         {
           path: '/articles',
-          name: 'all'
+          name: 'all articles'
         },
         {
           path: '/articles/pastTalks',
           name: '過去のトーク'
+        },
+        {
+          path: '/articles/news',
+          name: 'NEWS'
         }
       ]
     }

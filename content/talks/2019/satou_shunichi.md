@@ -1,8 +1,9 @@
 ---
-name: 佐藤
-title: hogehoge
-position: アクトあいち代表
-img: http://tedxnagoyau.com/wp-content/uploads/2019/06/SasukeKimataSqr.png
-leadSentence: 学生に新たな出会いと発見を届ける学生団体 アクトあいち。弱冠16歳にして、その代表を務めている。まだ見ぬ世界へ一歩踏み出そうとする1人の若者が、名古屋の地で、ある”思い”を語る。
+name: 佐藤秀一
+title: satou_shunichi
+position: 50円おにぎり食堂経営者
+img: /talks/2019/SyuichiSatoSqr.jpg
+youtubeId: no_video
+detail: false
+leadSentence: 現在、名古屋市中村区にて、手作りのおにぎりとお惣菜、なんでも一品50円で提供する「50円おにぎり食堂」を経営中。自身がホームレスであった経験も経て、現実に横たわる様々な問題と向かいあってきた。社会をより良い方向へ変えていくには何が必要なのだろうか。
 ---
-

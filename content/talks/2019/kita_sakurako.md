@@ -1,9 +1,10 @@
 ---
 name: 喜多桜子
 title: 幸せを探す旅
-position: アクトあいち代表
-img: http://tedxnagoyau.com/wp-content/uploads/2019/06/SasukeKimataSqr.png
+position: 株式会社エブリ・プラスCOO カップルトラベラー
+img: /talks/2019/SakurakoKitaSqr.jpg
 youtubeId: iXcQhnYR2kA
-leadSentence: 学生に新たな出会いと発見を届ける学生団体 アクトあいち。弱冠16歳にして、その代表を務めている。まだ見ぬ世界へ一歩踏み出そうとする1人の若者が、名古屋の地で、ある”思い”を語る。
+detail: false
+leadSentence: 幸せとは？をテーマにこれまで世界二周を経験。1度目はひとり旅、2度目は新婚旅行で世界を巡る。「世界二周して見つけた、幸せの形」とは？
 ---
 

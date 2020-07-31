@@ -93,10 +93,6 @@ export default {
           name: 'all'
         },
         {
-          path: '/articles/hogehoge',
-          name: 'hogehoge'
-        },
-        {
           path: '/articles/pastTalks',
           name: '過去のトーク'
         }

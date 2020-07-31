@@ -2,7 +2,9 @@
   <div>
     <h1>{{ speaker.name }}</h1>
     <v-row>
-      <v-col />
+      <div>
+        <nuxt-content :document="speaker" />
+      </div>
     </v-row>
   </div>
 </template>
@@ -15,7 +17,8 @@ export default {
   },
   head () {
     return {
-      title: this.speaker.name
+      title: this.speaker.name,
+      meta: this.speaker.meta
     }
   }
 }

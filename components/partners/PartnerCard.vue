@@ -6,8 +6,9 @@
     outlined
   >
     <v-img
-      :v-if="img"
+      :v-if="partner.logo"
       class="white--text align-end"
+      contain
       height="200px"
       :src="partner.logo"
     />

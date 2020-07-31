@@ -1,7 +1,6 @@
 ---
-name: 大同特殊鋼
-logo: "https://www.daido.co.jp/common/img/common/facebook_def.png"
+name: アビームシステムズ
+logo: /partners/2019/abeam_systems.png
 ---
 
-[大同特殊鋼](https://google.com)は素材の力で様々な産業を支える特殊鋼メーカーです。 TEDの目的や精神には、私たちの経営理念に通じるものがあります。主催・運営を担う学生の皆さんとスピーカーの皆さんの熱意を我々は応援します。
-<nuxt-link to="/articles/hogehoge/article1">紹介記事</nuxt-link>
+我々アビームシステムズはお客様の Real Partner として、お客様のビジネス成功に向けともに進み続けます

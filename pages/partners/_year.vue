@@ -20,6 +20,9 @@ export default {
   },
   async asyncData ({ $content, params }) {
     const partners = await $content('partners', params.year).fetch()
+    partners.sort((a, b) => {
+      return a.order - b.order
+    })
     return { params, partners }
   },
   head () {

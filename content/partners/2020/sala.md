@@ -1,5 +1,5 @@
 ---
-name: 株式会社サーラコーポレーション
+name: サーラーグループ
 logo: /partners/2020/sala.jpg
 order: 2
 ---

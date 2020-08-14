@@ -10,12 +10,12 @@
     >
       <v-col class="text-center" cols="12">
         <h1 class="display-1 font-weight-bold mb-4">
-          TedxNagoyaU2020オンラインイベント開催が決定しました！
+          TEDxNagoyaU2020オンラインイベント開催が決定しました！
         </h1>
       </v-col>
       <v-col class="text-center" sm="6" xs="12">
         <h1 class="display-1 font-weight-thin mb-4">
-          2020 TedxNagoyaU Theme
+          2020 TEDxNagoyaU Theme
         </h1>
         <v-img src="/keyvisual_white.png" />
       </v-col>

@@ -14,7 +14,7 @@ export default {
     ArticleList
   },
   async asyncData ({ $content }) {
-    const articles = await $content('articles', 'hogehoge', { deep: true }).limit(3).fetch()
+    const articles = await $content('articles', 'news', { deep: true }).limit(3).fetch()
     return {
       articles
     }

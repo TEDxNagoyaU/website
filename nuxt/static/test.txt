@@ -1,0 +1,4 @@
+this text is test.
+this is in nuxt/static/
+this must be ddeleted.
+deploy tester: 1.0.0

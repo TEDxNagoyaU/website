@@ -1,33 +1,33 @@
 <template>
-  <v-app>
+  <v-app style="background-color: #F5F5F5">
     <v-main>
-    <div>
-      <the-first-view></the-first-view>
-    </div>
+      <div>
+        <the-first-view></the-first-view>
+      </div>
 
-    <div>
-      <tedx-nagoyau></tedx-nagoyau>
-    </div>
+      <div>
+        <tedx-nagoyau></tedx-nagoyau>
+      </div>
 
-    <div>
-      <mission-vision-session></mission-vision-session>
-    </div>
+      <div>
+        <mission-vision-session></mission-vision-session>
+      </div>
 
-    <div>
-      <please-sponsor></please-sponsor>
-    </div>
+      <div>
+        <please-sponsor></please-sponsor>
+      </div>
 
-    <div>
-      <plan-session></plan-session>
-    </div>
+      <div>
+        <plan-session></plan-session>
+      </div>
 
-    <div>
-      <past-sponsor-session></past-sponsor-session>
-    </div>
+      <div>
+        <past-sponsor-session></past-sponsor-session>
+      </div>
 
-    <div>
-      <Contact></Contact>
-    </div>
+      <div>
+        <Contact></Contact>
+      </div>
     </v-main>
   </v-app>
 </template>

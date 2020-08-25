@@ -1,19 +1,21 @@
 <template>
-  <v-parallax :src="imgLink.normalSize" :height="parallaxHeight">
+  <div>
     <v-container>
-      <v-row align="center">
+      <v-row>
         <v-col xs="12" class="text-center">
-          <h1 class="display-1 font-weight-thin mb-4">協賛のお願い</h1>
+          <h1 class="display-1 font-weight-thin">協賛のお願い</h1>
         </v-col>
       </v-row>
       <v-row justify="center">
         <v-col cols="12" sm="6" md="6" v-for="item in messageFromTeam" :key="item.title">
-          <h2>{{item.title}}</h2>
-          <p>{{item.body}}</p>
+          <v-card>
+            <v-card-title>{{item.title}}</v-card-title>
+            <v-card-text>{{item.body}}</v-card-text>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
-  </v-parallax>
+  </div>
 </template>
 
 <script>

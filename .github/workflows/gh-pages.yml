@@ -40,11 +40,11 @@ jobs:
 
     - name: install partnersLp project dependencies
       run: npm ci
-      working-derectory: ./partnersLp
+      working-directory: ./partnersLp
 
     - name: build partnersLp
       run: npm run build
-      working-derectory: ./partnersLp
+      working-directory: ./partnersLp
 
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3

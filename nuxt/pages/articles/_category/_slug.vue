@@ -1,16 +1,16 @@
 <template>
-  <div class="article">
-    <h1 class="article-title">
-      <span>{{ article.title }}</span>
-    </h1>
-    <article-body class="body" :article="article" />
-    <div v-if="article.category" class="category">
-      <h4>category: {{ params.category }}</h4>
-    </div>
-    <div v-if="article.tags" class="tag">
-      <h4>tags: {{ article.tags }}</h4>
-    </div>
-  </div>
+  <v-row
+    justify="center"
+  >
+    <v-col cols="12" sm="10" md="10">
+      <h1 class="article-title">
+        <span>{{ article.title }}</span>
+      </h1>
+    </v-col>
+    <v-col xs="12" sm="10" md="10">
+      <article-body class="body" :article="article" />
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -34,24 +34,38 @@ export default {
 }
 </script>
 
-<style>
 
-.article .article-title{
-  margin: 30px 0;
-  color: rgb(133, 24, 24);
-  border-bottom: 1px solid rgb(184, 49, 49);
-  line-height: 1.5;
+<style lang="scss">
+.article-title {
+  font-size: 1.4rem;
 }
-.article .article-title span{
-  border-bottom: 6px solid rgb(184, 49, 49);
+
+.headline {
+  border-bottom: solid 1px rgb(221,221,221);
+  margin-top: 49px;
+  margin-bottom: 24px;
 }
-.body{
-  border-bottom: 1px solid #000;
-}
-p{
-  margin: 1rem;
-}
-h2{
-  margin: 1.3rem;
+.nuxt-content {
+  h1 {
+    @extend .headline;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 0.95;
+    font-weight: 600;
+  }
+  img {
+    max-width: 90%;
+    height: auto;
+  }
 }
 </style>

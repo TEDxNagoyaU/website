@@ -7,7 +7,7 @@
           <v-card-text>
             <v-row justify="center">
               <v-col cols="12" sm="7">
-                <v-img :src="imgLink.logoPartner" alt="2019年パンフレット" @load="loaded()"></v-img>
+                <v-img :src="imgLink.logoPartner" alt="2019年パンフレット"></v-img>
                 <!--
                 {{loading}}
                 <v-skeleton-loader type="image" :loading="loading">
@@ -40,10 +40,10 @@
 <script>
 export default {
   name: 'PastSponsorSession',
-  data: function () {
+  data () {
     return {
       imgLink: {
-        logoPartner: 'img/logoMatrix.jpg'
+        logoPartner: '/partnersLp/img/logoMatrix.jpg'
       },
       sponsorList2019normal: [
         {
@@ -108,16 +108,6 @@ export default {
       ],
       loading: true,
     }
-  },
-  methods: {
-    loaded: function () {
-      console.log(this.loading);
-      this.loading = false
-      console.log(this.loading);
-    }
   }
 }
 </script>
-
-<style lang="css" scoped>
-</style>

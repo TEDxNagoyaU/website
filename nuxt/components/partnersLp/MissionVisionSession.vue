@@ -30,8 +30,8 @@ export default {
   data: function () {
     return {
       imgLink: {
-        missionView: 'img/25.jpg' ,
-        visionView: "img/23.jpg",
+        missionView: '/partnersLp/img/25.jpg' ,
+        visionView: '/partnersLp/img/23.jpg',
       }
     }
   }

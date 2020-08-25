@@ -19,6 +19,3 @@ export default {
   name: 'TedxNagoyau',
 }
 </script>
-
-<style lang="css" scoped>
-</style>

@@ -19,9 +19,9 @@
 <script>
 export default {
   name: 'PleaseSponsor',
-  data: function () {
+  data () {
     return {
-      width: window.innerWidth,
+      // width: this.window.innerWidth,
       parallaxHeight: 500,
       messageFromTeam: [
         {
@@ -42,16 +42,13 @@ export default {
         }
       ],
       imgLink: {
-        normalSize: 'img/21.jpg',
-        bigSize: 'img/21_big.jpg'
+        normalSize: '/partnersLp/img/21.jpg',
+        bigSize: '/partnersLp/img/21_big.jpg'
       }
     }
   },
-  methods: {
-
-  },
-  created: function () {
-    this.width = window.innerWidth;
+  created () {
+    /*this.width = window.innerWidth;
     if (this.width < 500 ) {
       this.parallaxHeight = 1200
       this.imgLink.normalSize = this.imgLink.bigSize
@@ -61,7 +58,7 @@ export default {
       this.parallaxHeight = 800
     }else{
       this.parallaxHeight = 500
-    }
+    }*/
   },
   /*mounted: function () {
     window.addEventListener('resize',this.handleResize)

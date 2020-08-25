@@ -26,6 +26,14 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
+    - name: install partnersLp project dependencies
+      run: npm ci
+      working-directory: ./partnersLp
+
+    - name: build partnersLp
+      run: npm run build
+      working-directory: ./partnersLp
+
     - name: install nuxt project dependencies
       run: npm ci
       working-directory: ./nuxt
@@ -37,14 +45,6 @@ jobs:
     - name: export nuxt project
       run: npm run export
       working-directory: ./nuxt
-
-    - name: install partnersLp project dependencies
-      run: npm ci
-      working-directory: ./partnersLp
-
-    - name: build partnersLp
-      run: npm run build
-      working-directory: ./partnersLp
     
     - name: ready to deploy
       run: npm install -g firebase-tools

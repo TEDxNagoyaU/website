@@ -8,5 +8,5 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'PRODUCTION' || process.env.NODE_ENV === 'DEVELOP'
     ? deploy_destination
     : './',
-  outputDir: '../dist/partnersLp'
+  outputDir: '../nuxt/static/partnersLp'
 }

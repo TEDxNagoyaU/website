@@ -26,14 +26,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - name: install partnersLp project dependencies
-      run: npm ci
-      working-directory: ./partnersLp
-
-    - name: build partnersLp
-      run: npm run build
-      working-directory: ./partnersLp
-
     - name: install nuxt project dependencies
       run: npm ci
       working-directory: ./nuxt

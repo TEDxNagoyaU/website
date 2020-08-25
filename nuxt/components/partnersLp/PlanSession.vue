@@ -69,13 +69,13 @@ export default {
         */
         {
           title: '企業宣伝',
-          img: 'img/megahon.png',
+          img: '/partnersLp/img/megahon.png',
           price: '3万円',
           desc: 'TEDxNagoyaUイベントにどのようなご協力をしていただいているかや、応援していただいている理由などをインタビューさせていただき、TEDxNagoyaUのホームページや公式SNSで発信いたします。'
         },
         {
           title: 'アンケート調査',
-          img: 'img/yes_no.jpg',
+          img: '/partnersLp/img/yes_no.jpg',
           price: '目安2万円（3社限定）',
           desc: '貴社からの質問のアンケート結果と、年齢・出身地などの属性を掛け合わせた調査報告をいたします。対象である100名以上の学生に対し、調査したい質問や最近の若者の流行まで、お気軽にご質問いただけます。'
         },
@@ -85,10 +85,7 @@ export default {
           price: 'ご相談ください',
           desc: '物品協賛は物品に応じて金額に換算し、ロゴ掲載や企業宣伝など、他の協賛プランに代えさせていただきます。',
         }
-      ],
-      imgLink: {
-        test: ""
-      },
+      ]
     }
   },
   methods: {

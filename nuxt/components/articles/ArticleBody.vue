@@ -15,9 +15,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.content h1{
-  border-left: 5px solid rgb(38, 38, 38) ;
-}
-</style>

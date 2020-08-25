@@ -1,27 +1,29 @@
 <template>
-  <v-parallax :src="imgLink.normalSize" :height="parallaxHeight">
+  <div>
     <v-container>
-      <v-row align="center">
+      <v-row>
         <v-col xs="12" class="text-center">
-          <h1 class="display-1 font-weight-thin mb-4">協賛のお願い</h1>
+          <h1 class="display-1 font-weight-thin">協賛のお願い</h1>
         </v-col>
       </v-row>
       <v-row justify="center">
         <v-col cols="12" sm="6" md="6" v-for="item in messageFromTeam" :key="item.title">
-          <h2>{{item.title}}</h2>
-          <p>{{item.body}}</p>
+          <v-card>
+            <v-card-title>{{item.title}}</v-card-title>
+            <v-card-text>{{item.body}}</v-card-text>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
-  </v-parallax>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'PleaseSponsor',
-  data: function () {
+  data () {
     return {
-      width: window.innerWidth,
+      // width: this.window.innerWidth,
       parallaxHeight: 500,
       messageFromTeam: [
         {
@@ -42,16 +44,13 @@ export default {
         }
       ],
       imgLink: {
-        normalSize: 'img/21.jpg',
-        bigSize: 'img/21_big.jpg'
+        normalSize: '/partnersLp/img/21.jpg',
+        bigSize: '/partnersLp/img/21_big.jpg'
       }
     }
   },
-  methods: {
-
-  },
-  created: function () {
-    this.width = window.innerWidth;
+  created () {
+    /*this.width = window.innerWidth;
     if (this.width < 500 ) {
       this.parallaxHeight = 1200
       this.imgLink.normalSize = this.imgLink.bigSize
@@ -61,7 +60,7 @@ export default {
       this.parallaxHeight = 800
     }else{
       this.parallaxHeight = 500
-    }
+    }*/
   },
   /*mounted: function () {
     window.addEventListener('resize',this.handleResize)

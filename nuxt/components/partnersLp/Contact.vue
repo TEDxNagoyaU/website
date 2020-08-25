@@ -12,7 +12,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <v-list-item-title><a :href="item.link">{{ item.title }}</a></v-list-item-title>
-                  <v-list-item-sub-title>{{item.subTitle}}</v-list-item-sub-title>
+                  <v-list-item-subtitle>{{item.subTitle}}</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
             </v-list>

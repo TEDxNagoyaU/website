@@ -22,6 +22,10 @@
       </div>
 
       <div>
+        <faq-list></faq-list>
+      </div>
+
+      <div>
         <past-sponsor-session></past-sponsor-session>
       </div>
 
@@ -38,6 +42,7 @@ import MissionVisionSession from '~/components/partnersLp/MissionVisionSession.v
 import PlanSession from '~/components/partnersLp/PlanSession.vue'
 import TedxNagoyau from '~/components/partnersLp/TedxNagoyau.vue'
 import PleaseSponsor from '~/components/partnersLp/PleaseSponsor.vue'
+import FaqList from '~/components/partnersLp/FaqList.vue'
 import PastSponsorSession from '~/components/partnersLp/PastSponsorSession.vue'
 import Contact from '~/components/partnersLp/Contact.vue'
 
@@ -49,8 +54,51 @@ export default {
     PlanSession,
     TedxNagoyau,
     PleaseSponsor,
+    FaqList,
     PastSponsorSession,
     Contact
+  },
+  head () {
+    return {
+      title: '協賛のお願い',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'TEDxNagoyaUは名古屋大学を中心に活動する、学生のみで構成されたTEDx運営団体・イベントです。今年はYouTubeをZoomを活用したオンラインイベントを開催いたします。'
+        },
+        {
+          hid: 'og:site_name',
+          property: 'og:site_name',
+          content: 'TEDxNagoyaU'
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://tedxnagoyau.com'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: '協賛企業募集中'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'TEDxNagoyaUは名古屋大学を中心に活動する、学生のみで構成されたTEDx運営団体・イベントです。今年はYouTubeをZoomを活用したオンラインイベントを開催いたします。'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://tedxnagoyau.com/partnersLp/img/ogp.png'
+        }
+      ]
+    }
   }
 }
 </script>

@@ -22,6 +22,10 @@
       </div>
 
       <div>
+        <faq-list></faq-list>
+      </div>
+
+      <div>
         <past-sponsor-session></past-sponsor-session>
       </div>
 
@@ -38,6 +42,7 @@ import MissionVisionSession from '~/components/partnersLp/MissionVisionSession.v
 import PlanSession from '~/components/partnersLp/PlanSession.vue'
 import TedxNagoyau from '~/components/partnersLp/TedxNagoyau.vue'
 import PleaseSponsor from '~/components/partnersLp/PleaseSponsor.vue'
+import FaqList from '~/components/partnersLp/FaqList.vue'
 import PastSponsorSession from '~/components/partnersLp/PastSponsorSession.vue'
 import Contact from '~/components/partnersLp/Contact.vue'
 
@@ -49,6 +54,7 @@ export default {
     PlanSession,
     TedxNagoyau,
     PleaseSponsor,
+    FaqList,
     PastSponsorSession,
     Contact
   },

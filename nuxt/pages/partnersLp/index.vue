@@ -51,6 +51,48 @@ export default {
     PleaseSponsor,
     PastSponsorSession,
     Contact
+  },
+  head () {
+    return {
+      title: '協賛のお願い',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'TEDxNagoyaUは名古屋大学を中心に活動する、学生のみで構成されたTEDx運営団体・イベントです。今年はYouTubeをZoomを活用したオンラインイベントを開催いたします。'
+        },
+        {
+          hid: 'og:site_name',
+          property: 'og:site_name',
+          content: 'TEDxNagoyaU'
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://tedxnagoyau.com'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: '協賛企業募集中'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'TEDxNagoyaUは名古屋大学を中心に活動する、学生のみで構成されたTEDx運営団体・イベントです。今年はYouTubeをZoomを活用したオンラインイベントを開催いたします。'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://tedxnagoyau.com/partnersLp/img/ogp.png'
+        }
+      ]
+    }
   }
 }
 </script>

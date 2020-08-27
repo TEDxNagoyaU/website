@@ -27,7 +27,7 @@ export default {
   },
   head () {
     return {
-      title: `${this.params.slug} | ${this.params.category}`,
+      title: `${this.article.title} | ${this.params.category}`,
       meta: this.article.meta
     }
   }

@@ -28,7 +28,13 @@ export default {
   head () {
     return {
       title: `${this.article.title} | ${this.params.category}`,
-      meta: this.article.meta
+      meta: this.article.meta_tag.concat([
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://tedxnagoyau.com' + this.$route.path
+        }
+      ])
     }
   }
 }

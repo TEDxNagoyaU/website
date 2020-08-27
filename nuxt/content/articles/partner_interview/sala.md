@@ -4,6 +4,29 @@ date: 2020/08/28
 description : サーラグループ様へインタビュー
 tags: ["2020"]
 thumbnail: /article/partner_interview/sala/sala_office.png
+meta: [
+  { hid: 'description', name: 'description', content: 'スピーカーの木全さんは、弱冠16歳にして、学生に新たな出会いと発見を届ける学生団体 アクトあいちの代表を務めています。まだ見ぬ世界へ一歩踏み出そうとする1人の若者が、名古屋の地で、ある”思い”を語ります。' },
+  {
+    hid: 'og:url',
+    property: 'og:url',
+    content: 'https://tedxnagoyau.com'
+  },
+  {
+    hid: 'og:title',
+    property: 'og:title',
+    content: 'サーラグループ様にインタビュー'
+  },
+  {
+    hid: 'og:description',
+    property: 'og:description',
+    content: 'サーラグループ（株式会社サーラコーポレーション）様へインタビュー！「TEDxNagoyaUにサポートしていただけるワケとは？」'
+  },
+  {
+    hid: 'og:image',
+    property: 'og:image',
+    content: 'https://tedxnagoyau.com/partner_interview/sala/sala_office.png'
+  }
+]
 ---
 
 <div align="center">

@@ -24,7 +24,7 @@ meta: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/partner_interview/sala/sala_office.png'
+    content: 'https://tedxnagoyau.com/article/partner_interview/sala/sala_office.png'
   }
 ]
 ---

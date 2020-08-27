@@ -60,7 +60,8 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Content module configuration
@@ -108,6 +109,50 @@ export default {
       sendHitTask: process.env.DEPLOY_ENV === 'PRODUCTION'
     }
   },
+  sitemap: {
+    hostname: 'https://tedxnagoyau.com',
+    exclude: [
+      '/links',
+      '/partnersLp'
+    ],
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+
+      const articlesContent = await $content('/articles', { deep: true }).fetch()
+      const articlesPath = articlesContent.map( content => content.path )
+
+      /**
+       * talksのpathの生成は少し複雑なので解説する。
+       * まずtalksの中にはトークの詳細な説明を行うものと行わないものがある。
+       * 詳細な説明を行うものは最初のyml記法をしているところのdetailがtrueになっておりページが生成される。
+       * detailがfalseだとページは生成されない。
+       * この除外作業を行っている。
+       * また、各年のページを探査して生成するのは実装がめんどいので、ここで手作業でやることにした。
+       * そのため、最後にtalksPath.push()で各年のページを登録している。
+       * もし動的にpathを取ってやるぜ！という意気込みと時間（重要）があればぜひ挑戦してほしい。
+       */
+      const talksContent = await $content('/talks', { deep: true }).fetch()
+      const talksPath = talksContent.map( content => {
+        return content.detail === true ? content.path : null
+      }).filter( path => path === null ? false : path )
+      // 最後に各年のページを入れている。
+      talksPath.push(
+        '/talks/2017',
+        '/talks/2018',
+        '/talks/2019',
+        '/talks/2020'
+      )
+
+      const partnersPath = [
+        '/partners/2017',
+        '/partners/2018',
+        '/partners/2019',
+        '/partners/2020'
+      ]
+
+      return [ ...articlesPath, ...partnersPath, ...talksPath ]
+    }
+  },
   /**
    * github-pagesにデプロイするときはtrueになる
    * 詳しくは.github/workflows/gh-pages.ymlを参照
@@ -127,21 +172,3 @@ export default {
     dir: '../dist'
   }
 }
-/*
-async function dynamicRoutes () {
-  const speakersYearArray = ['2020', '2019', '2018', '2017']
-  const partnersYearArray = ['2020', '2019', '2018', '2017']
-  const speakersRoutesArray = await Promise.all(speakersYearArray.map(async (year) => {
-    const speakers = await $content(year).fetch()
-    const speakersRoutes = speakers.map(speaker => {route: speaker.path})
-    const yearIndexRoute = {
-      route: '/speakers/' + year
-    }
-    return (speakersRoutes.push(yearIndexRoute))
-  }))
-  const partnersRouteArray = partnersYearArray.map(year => {route: '/partners/' + year})
-
-  const routes = speakersRoutesArray.concat(partnersRouteArray)
-  return routes
-}
-*/

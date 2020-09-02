@@ -199,6 +199,7 @@ export default {
   build: {
   },
   generate: {
-    dir: '../dist'
+    dir: '../dist',
+    fallback: true
   }
 }

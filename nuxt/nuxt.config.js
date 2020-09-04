@@ -7,23 +7,23 @@ export default {
   */
   mode: 'universal',
   target: 'static',
+  /**
+   * github-pagesにデプロイするときはtrueになる
+   * 詳しくは.github/workflows/gh-pages.ymlを参照
+   */
+  router: {
+    base: process.env.DEPLOY_ENV === 'DEVELOP'
+      ? '/website/'
+      : '/'
+  },
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    /*
-    ** github pagesにデプロイするときはheadに{base: ~~}が追加される。
-    ** それ以外では追加されていない(underfind)
-    */
     base: {
-      href: 'router.base'
+      href: process.env.DEPLOY_ENV = "DEVELOP" ? '/website/' : '/'
     },
-    /* base: process.env.DEPLOY_ENV === 'DEVELOP'
-    ? {
-      href: 'router.base'
-    }
-    : undefined, */
     titleTemplate: '%s | ' + 'TEDxNagoyaU',
     // title: 'Steer your ship',
     meta: [
@@ -182,15 +182,6 @@ export default {
 
       return [ ...articlesPath, ...partnersPath, ...talksPath ]
     }
-  },
-  /**
-   * github-pagesにデプロイするときはtrueになる
-   * 詳しくは.github/workflows/gh-pages.ymlを参照
-   */
-  router: {
-    base: process.env.DEPLOY_ENV === 'DEVELOP'
-      ? '/website/'
-      : undefined
   },
   /*
   ** Build configuration

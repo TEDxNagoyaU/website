@@ -1,6 +1,6 @@
 ---
 name: 磯田園製茶株式会社
-logo: /partners/2019/isodaen.jpg
+logo: partners/2019/isodaen.jpg
 order: 9
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: 大同特殊鋼株式会社
-logo: /partners/2019\daidotokushuko.png
+logo: partners/2019\daidotokushuko.png
 order: 2
 ---
 

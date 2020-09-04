@@ -1,6 +1,6 @@
 ---
 name: 株式会社キャディッシュ
-logo: /partners/2019/cadish.jpg
+logo: partners/2019/cadish.jpg
 order: 9
 ---
 

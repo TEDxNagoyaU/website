@@ -3,7 +3,7 @@ title : TEDxNagoyaU Salon “自分自身”で向き合おう
 date: 2020/07/20
 description : “自分自身”で向き合おう。TEDxNagoyaUは2020年もサロンを開催します！
 tags: ["2020"]
-thumbnail: /article/news/salon_vol2.png
+thumbnail: article/news/salon_vol2.png
 ---
 
 テクノロジーの進歩により、私たちは常に誰かと繋がっていられるようになりました。

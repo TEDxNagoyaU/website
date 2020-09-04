@@ -1,6 +1,6 @@
 ---
 name: Harmony For
-logo: /partners/2019/harmony_for.png
+logo: partners/2019/harmony_for.png
 order: 9
 ---
 

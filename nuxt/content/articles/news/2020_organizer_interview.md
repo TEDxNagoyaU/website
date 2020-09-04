@@ -4,7 +4,7 @@ description: TEDxNagoyaU 2020のテーマ「Steer Your Ship!」に込められ�
 date: 2020/09/05
 tags: ["2020"]
 meta_tag: []
-thumbnail: /article/news/2020_organizer_interview/ogp.jpg
+thumbnail: article/news/2020_organizer_interview/ogp.jpg
 ---
 
 TEDxNagoyaU 2020のテーマは「Steer Your Ship!」に決まりました。これに込められた意味や、このテーマの決定に至るまでの詳しい話をTEDxNagoyaUの代表である上田蓮さんにメンバーの高屋が伺いました。

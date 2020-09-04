@@ -1,6 +1,6 @@
 <template>
-  <v-container class="pa-0">
-    <v-row class="pa-0">
+  <v-container>
+    <v-row>
       <v-col
         v-for="article in articles"
         :key="article.path"

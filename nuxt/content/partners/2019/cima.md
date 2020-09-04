@@ -1,6 +1,6 @@
 ---
 name: 株式会社シーマ
-logo: /partners/2019/cima.png
+logo: partners/2019/cima.png
 order: 5
 ---
 

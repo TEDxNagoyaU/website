@@ -48,7 +48,7 @@
           TEDxNagoyaU Talk
         </h1>
       </v-row>
-      <v-row>
+      <v-row align="center">
         <v-col
           v-for="speaker in shuffleSlicedSpeakers"
           :key="speaker.name"

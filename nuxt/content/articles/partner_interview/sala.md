@@ -3,7 +3,7 @@ title : サーラグループ（株式会社サーラコーポレーション）
 date: 2020/08/28
 description : サーラグループ様へインタビュー
 tags: ["2020"]
-thumbnail: /article/partner_interview/sala/sala_office.png
+thumbnail: article/partner_interview/sala/sala_office.png
 meta_tag: [
   {
     hid: 'og:title',
@@ -24,7 +24,7 @@ meta_tag: [
 ---
 
 <div align="center">
-<img src="/article/partner_interview/sala/sala_office.png" alt="サーラ様コミュニティスペース「サーラプラザ」">
+<img src="article/partner_interview/sala/sala_office.png" alt="サーラ様コミュニティスペース「サーラプラザ」">
 </div>
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと、2013年度に誕生したTEDxNagoyaU。
@@ -33,7 +33,7 @@ meta_tag: [
 
 # サーラグループ
 <div align="center">
-<img src="/article/partner_interview/sala/sala_logo.png" alt="サーラ様ロゴ">
+<img src="article/partner_interview/sala/sala_logo.png" alt="サーラ様ロゴ">
 </div>
 
 [ホームページ](https://www.sala.jp/ja/index.html)

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-breadcrumbs :items="breadcrumbs" divider="/" />
+    <v-breadcrumbs :items="breadcrumbs" divider="/" class="pa-0" />
   </div>
 </template>
 

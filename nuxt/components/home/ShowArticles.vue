@@ -1,11 +1,11 @@
 <template>
   <v-container>
     <v-row>
-      <h2 class="pl-3">
+      <h2 class="pl-5">
         Articles
       </h2>
     </v-row>
-    <v-row><article-list :articles="articles" /></v-row>
+    <article-list :articles="articles" />
   </v-container>
 </template>
 

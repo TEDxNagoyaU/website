@@ -1,20 +1,15 @@
 <template>
-  <v-row>
-    <v-col
-      v-for="article in articles"
-      :key="article.path"
-    >
-      <article-card class="col-md-1" :article="article" />
-    </v-col>
-  </v-row>
+  <div>
+    <article-list :articles="articles" />
+  </div>
 </template>
-<script>
 
-import ArticleCard from '~/components/articles/ArticleCard.vue'
+<script>
+import ArticleList from '~/components/articles/ArticleList.vue'
 
 export default {
   components: {
-    ArticleCard
+    ArticleList
   },
   async asyncData ({ $content }) {
     const articles = await $content('articles', { deep: true }).sortBy('createdAt', 'desc').fetch()

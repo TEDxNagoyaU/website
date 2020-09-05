@@ -7,6 +7,7 @@
         xs="12"
         sm="6"
         md="4"
+        lg="4"
       >
         <article-card :article="article" />
       </v-col>

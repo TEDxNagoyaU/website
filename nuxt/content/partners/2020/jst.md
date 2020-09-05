@@ -1,6 +1,6 @@
 ---
 name: jST
-logo: /partners/2019/jst.png
+logo: partners/2019/jst.png
 order: 3
 ---
 

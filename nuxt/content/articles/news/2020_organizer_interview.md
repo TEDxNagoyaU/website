@@ -3,7 +3,23 @@ title: TEDxNagoyaU 代表 上田蓮インタビュー
 description: TEDxNagoyaU 2020のテーマ「Steer Your Ship!」に込められた意味や決定に至るまでの経緯を代表へインタビューしました！
 date: 2020/09/05
 tags: ["2020"]
-meta_tag: []
+meta_tag: [
+  {
+    hid: 'og:title',
+    property: 'og:title',
+    content: 'TEDxNagoyaU 代表 上田蓮へインタビュー'
+  },
+  {
+    hid: 'og:description',
+    property: 'og:description',
+    content: 'TEDxNagoyaU 2020のテーマ「Steer Your Ship!」に込められた意味や決定に至るまでの経緯を代表へインタビューしました！'
+  },
+  {
+    hid: 'og:image',
+    property: 'og:image',
+    content: 'https://tedxnagoyau.com/article/news/2020_organizer_interview/ogp.jpg'
+  }
+]
 thumbnail: article/news/2020_organizer_interview/ogp.jpg
 ---
 

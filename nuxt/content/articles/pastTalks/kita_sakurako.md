@@ -3,6 +3,23 @@ title : 「幸せを探す旅」  喜多桜子
 date: 2020/07/09
 description : スピーカーの喜多さんは、幸せとは？をテーマにこれまで世界二周を経験しています。1度目はひとり旅、2度目は新婚旅行で世界を巡りました。「世界二周して見つけた、幸せの形」とは何でしょうか？
 tags: ["喜多桜子", "2019"]
+meta_tag: [
+  {
+    hid: 'og:title',
+    property: 'og:title',
+    content: 'トーク紹介 「幸せを探す旅」  喜多桜子'
+  },
+  {
+    hid: 'og:description',
+    property: 'og:description',
+    content: 'スピーカーの喜多さんは、幸せとは？をテーマにこれまで世界二周を経験しています。1度目はひとり旅、2度目は新婚旅行で世界を巡りました。「世界二周して見つけた、幸せの形」とは何でしょうか？'
+  },
+  {
+    hid: 'og:image',
+    property: 'og:image',
+    content: ''
+  }
+]
 thumbnail: "article/past-talks/SakurakoKitaSqr.png"
 ---
 

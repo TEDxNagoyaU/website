@@ -69,9 +69,15 @@ export default {
     font-size: 0.95;
     font-weight: 600;
   }
-  img {
-    max-width: 100%;
-    height: auto;
+  p {
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
   }
+
 }
 </style>

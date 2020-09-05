@@ -1,6 +1,6 @@
 ---
 name: 株式会社イノベスト
-logo: /partners/2019/innovst.png
+logo: partners/2019/innovst.png
 order: 9
 ---
 

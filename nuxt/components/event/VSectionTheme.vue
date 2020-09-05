@@ -24,7 +24,7 @@
 
     <v-row align="center" justify="center">
       <v-col class="text-center" cols="12" sm="6">
-        <v-img src="/eventTheme.jpg" aspect-ratio="1.7" />
+        <v-img src="eventTheme.jpg" aspect-ratio="1.7" />
       </v-col>
       <v-col cols="12" sm="6">
         <div>

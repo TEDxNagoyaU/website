@@ -1,7 +1,6 @@
 <template>
   <v-card
     class="ma-1 mb-1"
-    max-width="300"
     :nuxt="true"
     outlined
   >
@@ -9,7 +8,6 @@
       :v-if="partner.logo"
       class="white--text align-end"
       contain
-      height="200px"
       :src="partner.logo"
     />
     <v-card-title>{{ partner.name }}</v-card-title>

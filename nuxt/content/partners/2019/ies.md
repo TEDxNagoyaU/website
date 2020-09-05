@@ -1,6 +1,6 @@
 ---
 name: 株式会社イエス
-logo: /partners/2019/ies.jpg
+logo: partners/2019/ies.jpg
 order: 1
 ---
 

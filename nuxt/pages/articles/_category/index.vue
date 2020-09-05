@@ -1,21 +1,14 @@
 <template>
   <div>
-    <v-row>
-      <v-col
-        v-for="article in articles"
-        :key="article.path"
-      >
-        <article-card :article="article" />
-      </v-col>
-    </v-row>
+    <article-list :articles="articles" />
   </div>
 </template>
 <script>
-import ArticleCard from '~/components/articles/ArticleCard.vue'
+import ArticleList from '~/components/articles/ArticleList.vue'
 
 export default {
   components: {
-    ArticleCard
+    ArticleList
   },
   async asyncData ({ $content, params }) {
     const articles = await $content('articles', params.category).fetch()

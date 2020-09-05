@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     dark
-    src="/bgFirstView.jpg"
+    src="bgFirstView.jpg"
     height="500"
   >
     <v-row
@@ -17,7 +17,7 @@
         <h1 class="display-1 font-weight-thin mb-4">
           2020 TEDxNagoyaU Theme
         </h1>
-        <v-img src="/keyvisual_white.png" />
+        <v-img src="keyvisual_white.png" />
       </v-col>
       <v-col class="text-center" sm="6" xs="12">
         <h1 class="display-1 font-weight-thin mb-4 text-decoration-underline">

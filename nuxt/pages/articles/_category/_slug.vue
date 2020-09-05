@@ -2,12 +2,12 @@
   <v-row
     justify="center"
   >
-    <v-col cols="12" sm="10" md="10">
+    <v-col cols="12" sm="10" md="10" lg="8">
       <h1 class="article-title">
         <span>{{ article.title }}</span>
       </h1>
     </v-col>
-    <v-col xs="12" sm="10" md="10">
+    <v-col xs="12" sm="10" md="10" lg="8" xl="8">
       <article-body class="body" :article="article" />
     </v-col>
   </v-row>
@@ -70,7 +70,7 @@ export default {
     font-weight: 600;
   }
   img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
   }
 }

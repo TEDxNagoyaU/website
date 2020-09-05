@@ -1,6 +1,6 @@
 ---
 name: サーラーグループ
-logo: /partners/2020/sala.jpg
+logo: partners/2020/sala.jpg
 order: 2
 ---
 

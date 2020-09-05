@@ -1,6 +1,6 @@
 ---
 name: 中京テレビ放送株式会社
-logo: /partners/2019/chukyo_tv.jpg
+logo: partners/2019/chukyo_tv.jpg
 order: 9
 ---
 

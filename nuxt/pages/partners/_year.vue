@@ -1,22 +1,14 @@
 <template>
   <div>
-    <v-row>
-      <v-col
-        v-for="partner in partners"
-        :key="partner.name"
-      >
-        <partner-card :partner="partner" />
-      </v-col>
-    </v-row>
+    <partner-list :partners="partners" />
   </div>
 </template>
 
 <script>
-import PartnerCard from '~/components/partners/PartnerCard.vue'
-
+import PartnerList from '~/components/partners/PartnerList.vue'
 export default {
   components: {
-    PartnerCard
+    PartnerList
   },
   async asyncData ({ $content, params }) {
     const partners = await $content('partners', params.year).fetch()

@@ -24,7 +24,7 @@
           <v-row justify="center">
             <v-btn
               text
-              :href="item.link"
+              :to="item.link"
             >
             {{item.text}}
           </v-btn>

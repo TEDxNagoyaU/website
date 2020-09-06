@@ -11,8 +11,8 @@
       <v-subheader>イベント開催前</v-subheader>
       <v-list-group
         value="true"
-        v-for="faq in faqs_before_event"
-        :key="faq"
+        v-for="(faq, index) in faqs_before_event"
+        :key="index"
       >
         <template v-slot:activator>
           <v-list-item-title>{{faq.question}}</v-list-item-title>
@@ -35,8 +35,8 @@
       <v-subheader>イベント本番中</v-subheader>
       <v-list-group
         value="true"
-        v-for="faq in faqs_now_event"
-        :key="faq"
+        v-for="(faq, index) in faqs_now_event"
+        :key="index"
       >
         <template v-slot:activator>
           <v-list-item-title>{{faq.question}}</v-list-item-title>
@@ -45,7 +45,6 @@
         <v-list-item
           v-for="answer in faq.answers"
           :key="answer"
-          :inactive="inactive"
         >
             <v-list-item-content>
               <v-list-item-subtitle v-html="answer"></v-list-item-subtitle>
@@ -94,7 +93,6 @@
         'faq_3' : {
           'question' : 'Zoomに参加できない' ,
           'answers'  : ['メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。']},
-
       }
     }),
   }

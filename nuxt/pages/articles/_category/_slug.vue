@@ -8,13 +8,14 @@
         <h1 class="article-title">
           <span>{{ article.title }}</span>
         </h1>
+        <span class="text--disabled creation_date">作成日時: {{ article.date }}</span>
       </v-col>
     </v-row>
     <v-row
       justify="center"
     >
       <v-col cols="12" sm="10" md="10" lg="7" xl="6">
-        <article-body class="body" :article="article" />
+        <article-body :article="article" />
       </v-col>
     </v-row>
   </div>
@@ -23,6 +24,7 @@
 <script>
 import TopicPath from '~/components/TopicPath.vue'
 import ArticleBody from '~/components/articles/ArticleBody.vue'
+// import ArticleList from '~/components/articles/ArticleList.vue'
 export default {
   components: {
     ArticleBody,
@@ -30,8 +32,10 @@ export default {
   },
   async asyncData ({ $content, params }) {
     const article = await $content('articles', params.category, params.slug).fetch()
+    // const categorizedArticles = await $content('articles', params.category).fetch()
     return {
-      article, params
+      article,
+      params
     }
   },
   head () {
@@ -53,6 +57,10 @@ export default {
 <style lang="scss">
 .article-title {
   font-size: 1.4rem;
+}
+
+.creation_date {
+  font-size: 0.7rem
 }
 
 .headline {

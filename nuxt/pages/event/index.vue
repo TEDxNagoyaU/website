@@ -2,17 +2,20 @@
   <div>
     <v-section-theme v-bind="theme" />
     <v-section-info v-bind="info" />
+    <v-section-faq></v-section-faq>
   </div>
 </template>
 
 <script>
 import VSectionInfo from '~/components/event/VSectionInfo'
 import VSectionTheme from '~/components/event/VSectionTheme'
+import VSectionFaq from '~/components/event/VSectionFaq'
 export default {
   layout: 'bg',
   components: {
     VSectionInfo,
-    VSectionTheme
+    VSectionTheme,
+    VSectionFaq
   },
   data () {
     return {

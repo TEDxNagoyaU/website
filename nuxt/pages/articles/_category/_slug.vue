@@ -79,6 +79,7 @@ export default {
     font-weight: 600;
   }
   p {
+    line-height: 2.0rem;
     img {
       max-width: 100%;
       height: auto;

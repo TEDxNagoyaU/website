@@ -14,10 +14,7 @@ export default {
   router: {
     base: process.env.DEPLOY_ENV === 'DEVELOP'
       ? '/website/'
-      : '/',
-    scrollBehavior (to, from, savedPosition) {
-      return { x: 0, y: 0 }
-    }
+      : '/'
   },
   /*
   ** Headers of the page
@@ -78,6 +75,10 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    /* {
+      src: '@/plugins/vue-youtube',
+      mode: 'client'
+    } */
   ],
   /*
   ** Nuxt.js dev-modules

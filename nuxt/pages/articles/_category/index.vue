@@ -1,14 +1,23 @@
 <template>
   <div>
-    <article-list :articles="articles" />
+    <v-row>
+      <v-col>
+        <topic-path />
+      </v-col>
+    </v-row>
+    <v-row>
+      <article-list :articles="articles" />
+    </v-row>
   </div>
 </template>
 <script>
+import TopicPath from '~/components/TopicPath.vue'
 import ArticleList from '~/components/articles/ArticleList.vue'
 
 export default {
   components: {
-    ArticleList
+    ArticleList,
+    TopicPath
   },
   async asyncData ({ $content, params }) {
     const articles = await $content('articles', params.category).fetch()

@@ -16,6 +16,22 @@
         </v-col>
       </v-row>
       <v-row justify="center">
+        <v-col
+          cols="6"
+          v-for="item in policyLinks"
+          :key="item.link"
+          justify="center">
+          <v-row justify="center">
+            <v-btn
+              text
+              :to="item.link"
+            >
+            {{item.text}}
+          </v-btn>
+          </v-row>
+        </v-col>
+      </v-row>
+      <v-row justify="center">
         <span>&copy; {{ new Date().getFullYear() }} - TEDxNagoyaU</span>
       </v-row>
     </v-container>
@@ -39,6 +55,16 @@ export default {
         {
           link: 'https://www.facebook.com/tedxnagoyau/',
           icon: 'mdi-facebook'
+        },
+      ],
+      policyLinks: [
+        {
+          link: '/privacy_policy',
+          text: 'プライバシーポリシー'
+        },
+        {
+          link: '/manners',
+          text: '行動規範'
         }
       ]
     }

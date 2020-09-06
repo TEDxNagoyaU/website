@@ -23,18 +23,15 @@ meta_tag: [
 ]
 ---
 
-<div align="center">
-<img src="article/partner_interview/sala/sala_office.png" alt="サーラ様コミュニティスペース「サーラプラザ」">
-</div>
+![サーラ様コミュニティスペース「サーラプラザ」](article/partner_interview/sala/sala_office.png)
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと、2013年度に誕生したTEDxNagoyaU。
 
 今回は2017年、第5回目の開催からTEDxNagoyaUをサポートし続けてくださるサーラグループ（株式会社サーラコーポレーション様【以下、サーラ様】）に、TEDxNagoyaU 2020の開催に先立ち、お話をお伺いしました。
 
 # サーラグループ
-<div align="center">
-<img src="article/partner_interview/sala/sala_logo.png" alt="サーラ様ロゴ">
-</div>
+
+![サーラ様110周年記念](article/partner_interview/sala/sala_logo_110.png)
 
 [ホームページ](https://www.sala.jp/ja/index.html)
 
@@ -53,17 +50,14 @@ __TEDxNagoyaU__ ：毎年ご支援いただきありがとうございます。�
 __サーラ様__ ：今年は、新型コロナウイルス感染症の影響もあり、技術の発展や価値観の変化を感じる機会が多いと思います。大変な状況ではありますが、これまでの考え方・やり方を見直し、新しいものを取り入れるチャンスでもあります。このような状況の中で何を考え、どう行動するのか、TEDxNagoyaUの皆さんの柔軟な発想や行動に期待しています。
 
 # 今年で創業110年目のサーラ様の「Steer your ship!」とは？
-<div align="center">
-<img src="article/partner_interview/sala/sala_logo_110.png" alt="サーラ様110周年記念ロゴ">
-</div>
+
+![サーラ様110周年記念画像](article/partner_interview/sala/sala_anniversary_image.png)
 
 __TEDxNagoyaU__：サーラ様は今年、創業110年目とお聞きしました！おめでとうございます！ぜひ今年のTEDxNagoyaU 2020のテーマ「Steer your ship!」（意味は「舵をとれ!」）にちなんで、サーラ様の次の100年に向けて、目指すべきありたい姿を教えてください。
 
 __サーラ様__：サーラグループでは、グループの少し先の未来を描いた「2030年ビジョン」を策定しています。キャッチフレーズは「私のまちにSALA、暮らしとともにSALA」です。地域やお客様の暮らしの中に、サーラの商品やサービスがあふれている様子をイラストで表現しており、社員だけでなくステークホルダーの皆様とも共有しています。100年後の未来は想像もつきませんが、グループの基本理念の実現を目指して、一歩一歩着実に歩みを進めていきたいと考えています。
 
-<div align="center">
-<img src="article/partner_interview/sala/meeting.png" alt="サーラ様オフィス">
-</div>
+![サーラ様オフィス](article/partner_interview/sala/meeting.png)
 
 __TEDxNagoyaU__：それでは最後に、TEDxNagoyaUイベントの参加者の皆様に、メッセージをいただけないでしょうか？
 

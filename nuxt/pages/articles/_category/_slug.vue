@@ -1,23 +1,32 @@
 <template>
-  <v-row
-    justify="center"
-  >
-    <v-col cols="12" sm="10" md="10" lg="8">
-      <h1 class="article-title">
-        <span>{{ article.title }}</span>
-      </h1>
-    </v-col>
-    <v-col xs="12" sm="10" md="10" lg="8" xl="8">
-      <article-body class="body" :article="article" />
-    </v-col>
-  </v-row>
+  <div>
+    <v-row
+      justify="center"
+    >
+      <v-col cols="12" sm="10" md="10" lg="7" xl="7"><topic-path /></v-col>
+      <v-col cols="12" sm="10" md="10" lg="7" xl="7">
+        <h1 class="article-title">
+          <span>{{ article.title }}</span>
+        </h1>
+      </v-col>
+    </v-row>
+    <v-row
+      justify="center"
+    >
+      <v-col cols="12" sm="10" md="10" lg="7" xl="6">
+        <article-body class="body" :article="article" />
+      </v-col>
+    </v-row>
+  </div>
 </template>
 
 <script>
+import TopicPath from '~/components/TopicPath.vue'
 import ArticleBody from '~/components/articles/ArticleBody.vue'
 export default {
   components: {
-    ArticleBody
+    ArticleBody,
+    TopicPath
   },
   async asyncData ({ $content, params }) {
     const article = await $content('articles', params.category, params.slug).fetch()
@@ -69,9 +78,16 @@ export default {
     font-size: 0.95;
     font-weight: 600;
   }
-  img {
-    max-width: 100%;
-    height: auto;
+  p {
+    line-height: 2.0rem;
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
   }
+
 }
 </style>

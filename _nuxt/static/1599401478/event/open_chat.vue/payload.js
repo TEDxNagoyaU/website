@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/event/open_chat.vue", {data:[{}],fetch:[],mutations:void 0});

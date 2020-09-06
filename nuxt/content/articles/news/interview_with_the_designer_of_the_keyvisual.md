@@ -17,10 +17,10 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/news/salon_vol2.png'
+    content: 'https://tedxnagoyau.com/article/news/interview_with_the_designer_of_the_keyvisual_2020/ogp.png'
   }
 ]
-thumbnail: article/news/salon_vol2.png
+thumbnail: article/news/interview_with_the_designer_of_the_keyvisual_2020/ogp.png
 ---
 
 今年はオンラインでの開催となったTEDxNagoyaU 2020。

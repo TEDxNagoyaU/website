@@ -1,24 +1,19 @@
 <template>
   <v-list>
     <v-subheader>{{ listHeader }}</v-subheader>
-    <v-list-group
-      value="true"
-      v-for="(faq, index) in faqs"
-      :key="index"
+    <v-expansion-panels
+      accordion
     >
-      <template v-slot:activator>
-        <v-list-item-title>{{faq.question}}</v-list-item-title>
-      </template>
-      <v-divider></v-divider>
-      <v-list-item
-        v-for="answer in faq.answers"
-        :key="answer"
+      <v-expansion-panel
+        v-for="(faq, i) in faqs"
+        :key="i"
       >
-        <v-list-item-content>
-          <v-list-item-subtitle v-html="answer"></v-list-item-subtitle>
-        </v-list-item-content>
-      </v-list-item>
-    </v-list-group>
+        <v-expansion-panel-header>{{ faq.question }}</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <span v-html="faq.answer"></span>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </v-expansion-panels>
   </v-list>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-  <h1>LINEオープンチャット</h1>
+    <h1>LINEオープンチャット</h1>
   </div>
 </template>
 

@@ -17,17 +17,18 @@
       </v-row>
       <v-row justify="center">
         <v-col
-          cols="6"
           v-for="item in policyLinks"
           :key="item.link"
-          justify="center">
+          cols="6"
+          justify="center"
+        >
           <v-row justify="center">
             <v-btn
               text
               :to="item.link"
             >
-            {{item.text}}
-          </v-btn>
+              {{ item.text }}
+            </v-btn>
           </v-row>
         </v-col>
       </v-row>
@@ -55,7 +56,7 @@ export default {
         {
           link: 'https://www.facebook.com/tedxnagoyau/',
           icon: 'mdi-facebook'
-        },
+        }
       ],
       policyLinks: [
         {

@@ -17,6 +17,6 @@
 
 <script>
 export default {
-  name: 'TedxNagoyau',
+  name: 'TedxNagoyau'
 }
 </script>

@@ -3,14 +3,16 @@
     <v-container>
       <v-row>
         <v-col xs="12" class="text-center">
-          <h1 class="display-1 font-weight-thin">協賛のお願い</h1>
+          <h1 class="display-1 font-weight-thin">
+            協賛のお願い
+          </h1>
         </v-col>
       </v-row>
       <v-row justify="center">
-        <v-col cols="12" sm="6" md="6" v-for="item in messageFromTeam" :key="item.title">
+        <v-col v-for="item in messageFromTeam" :key="item.title" cols="12" sm="6" md="6">
           <v-card>
-            <v-card-title>{{item.title}}</v-card-title>
-            <v-card-text>{{item.body}}</v-card-text>
+            <v-card-title>{{ item.title }}</v-card-title>
+            <v-card-text>{{ item.body }}</v-card-text>
           </v-card>
         </v-col>
       </v-row>
@@ -50,7 +52,7 @@ export default {
     }
   },
   created () {
-    /*this.width = window.innerWidth;
+    /* this.width = window.innerWidth;
     if (this.width < 500 ) {
       this.parallaxHeight = 1200
       this.imgLink.normalSize = this.imgLink.bigSize
@@ -60,14 +62,14 @@ export default {
       this.parallaxHeight = 800
     }else{
       this.parallaxHeight = 500
-    }*/
-  },
-  /*mounted: function () {
+    } */
+  }
+  /* mounted: function () {
     window.addEventListener('resize',this.handleResize)
   },
   beforeDestroy: function () {
     window.removeEventListener('resize',this.handleResize)
-  }*/
+  } */
 }
 </script>
 

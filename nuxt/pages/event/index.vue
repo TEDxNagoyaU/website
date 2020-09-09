@@ -3,7 +3,7 @@
     <v-section-theme v-bind="theme" />
     <v-section-info v-bind="info" />
     <v-section-timeline />
-    <v-section-faq></v-section-faq>
+    <v-section-faq />
   </div>
 </template>
 

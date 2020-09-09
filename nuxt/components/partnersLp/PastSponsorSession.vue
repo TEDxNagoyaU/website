@@ -7,7 +7,7 @@
           <v-card-text>
             <v-row justify="center">
               <v-col cols="12" sm="7">
-                <v-img :src="imgLink.logoPartner" alt="2019年パンフレット"></v-img>
+                <v-img :src="imgLink.logoPartner" alt="2019年パンフレット" />
                 <!--
                 {{loading}}
                 <v-skeleton-loader type="image" :loading="loading">
@@ -18,11 +18,15 @@
               <v-col cols="12" sm="5">
                 <span>Partners</span>
                 <ul>
-                  <li v-for="item in sponsorList2019normal" :key="item.name">{{item.name}} 様</li>
+                  <li v-for="item in sponsorList2019normal" :key="item.name">
+                    {{ item.name }} 様
+                  </li>
                 </ul>
                 <span>Inkind Partners</span>
                 <ul>
-                  <li v-for="item in sponsorList2019material" :key="item.name">{{item.name}} 様</li>
+                  <li v-for="item in sponsorList2019material" :key="item.name">
+                    {{ item.name }} 様
+                  </li>
                 </ul>
                 <span>後援</span>
                 <ul>
@@ -59,34 +63,34 @@ export default {
           name: 'イー・エフ・エデュケーション・ファースト・ジャパン'
         },
         {
-          name: '株式会社青柳総本家'//30000
+          name: '株式会社青柳総本家'// 30000
         },
         {
           name: '株式会社サーラコーポレーション'
         },
         {
-          name: '株式会社ソフトバリー'//30000
+          name: '株式会社ソフトバリー'// 30000
         },
         {
-          name: '株式会社キャディッシュ'//20000
+          name: '株式会社キャディッシュ'// 20000
         },
         {
-          name: '中京テレビ放送株式会社'//20000
+          name: '中京テレビ放送株式会社'// 20000
         },
         {
-          name: '東京海上日動火災保険株式会社'//20000
+          name: '東京海上日動火災保険株式会社'// 20000
         },
         {
-          name: '株式会社Harmony For'//20000
+          name: '株式会社Harmony For'// 20000
         },
         {
-          name: '株式会社イノベスト'//20000
+          name: '株式会社イノベスト'// 20000
         },
         {
-          name: '株式会社コーチング・システムズ'//20000
+          name: '株式会社コーチング・システムズ'// 20000
         },
         {
-          name: '株式会社ジェイエスティ'//10000
+          name: '株式会社ジェイエスティ'// 10000
         }
       ],
       sponsorList2019material: [
@@ -106,7 +110,7 @@ export default {
           name: 'レッドブル・ジャパン株式会社'
         }
       ],
-      loading: true,
+      loading: true
     }
   }
 }

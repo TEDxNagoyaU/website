@@ -3,7 +3,9 @@
     <v-row
       justify="center"
     >
-      <v-col cols="12" sm="10" md="10" lg="7" xl="7"><topic-path /></v-col>
+      <v-col cols="12" sm="10" md="10" lg="7" xl="7">
+        <topic-path />
+      </v-col>
       <v-col cols="12" sm="10" md="10" lg="7" xl="7">
         <h1 class="article-title">
           <span>{{ article.title }}</span>
@@ -52,7 +54,6 @@ export default {
   }
 }
 </script>
-
 
 <style lang="scss">
 .article-title {

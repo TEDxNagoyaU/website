@@ -1,5 +1,9 @@
-<template >
-  <v-footer><v-card-text class="text-center">&copy; TEDxNagoyaU</v-card-text></v-footer>
+<template>
+  <v-footer>
+    <v-card-text class="text-center">
+      &copy; TEDxNagoyaU
+    </v-card-text>
+  </v-footer>
 </template>
 
 <script>

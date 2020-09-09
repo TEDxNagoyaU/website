@@ -1,9 +1,9 @@
 <template>
   <div>
-    <v-header></v-header>
-    <v-about></v-about>
-    <v-merit></v-merit>
-    <v-how-to-attend></v-how-to-attend>
+    <v-header />
+    <v-about />
+    <v-merit />
+    <v-how-to-attend />
   </div>
 </template>
 

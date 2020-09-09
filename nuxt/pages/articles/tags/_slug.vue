@@ -1,6 +1,6 @@
 <template>
   <div>
-    <topic-path class="pl-1"/>
+    <topic-path class="pl-1" />
     <article-list :articles="articles" />
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
   },
   async asyncData ({ $content, params }) {
     const tag = params.slug
-    const articles = await $content('articles', { deep: true }).where({ 'tags': { '$contains': tag }}).fetch()
+    const articles = await $content('articles', { deep: true }).where({ tags: { $contains: tag } }).fetch()
     return {
       articles,
       tag

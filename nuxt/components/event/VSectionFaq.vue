@@ -9,19 +9,18 @@
       <v-col
         cols="12"
         md="10"
+        lg="6"
       >
         <v-section-faq-list
           listHeader="イベント前によくある質問"
+          id="faqs_before_event"
           :faqs="faqs_before_event"
         />
       </v-col>
-    </v-row>
-    <v-row
-      justify="center"
-    >
       <v-col
         cols="12"
         md="10"
+        lg="6"
       >
         <v-section-faq-list
           listHeader="イベント直前・イベント中によくある質問"

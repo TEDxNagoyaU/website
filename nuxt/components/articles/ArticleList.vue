@@ -1,5 +1,7 @@
 <template>
-  <v-row>
+  <v-row
+    dense
+  >
     <v-col
       v-for="article in articles"
       :key="article.path"

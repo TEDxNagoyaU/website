@@ -28,7 +28,9 @@
               >
                 <p
                   style="font-size: 14px;"
-                >This independent TEDx event is operated under license from TED.</p>
+                >
+                  This independent TEDx event is operated under license from TED.
+                </p>
               </v-col>
               <v-col
                 cols="12"

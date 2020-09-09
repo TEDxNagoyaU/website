@@ -3,99 +3,81 @@
     <h1 class="event-title display-1 font-weight-bold mb-4">
       <span>FAQ</span>
     </h1>
-    <v-card
-    class="mx-auto"
-  >
-   <!--イベント開催前までのFAQ-->
-    <v-list>
-      <v-subheader>イベント開催前</v-subheader>
-      <v-list-group
-        value="true"
-        v-for="(faq, index) in faqs_before_event"
-        :key="index"
+    <v-row
+      justify="center"
+    >
+      <v-col
+        cols="12"
+        md="10"
       >
-        <template v-slot:activator>
-          <v-list-item-title>{{faq.question}}</v-list-item-title>
-        </template>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="answer in faq.answers"
-          :key="answer"
-
-        >
-            <v-list-item-content>
-              <v-list-item-subtitle v-html="answer"></v-list-item-subtitle>
-            </v-list-item-content>
-        </v-list-item>
-
-      </v-list-group>
-    </v-list>
-    <!--イベント本番中のFAQ-->
-     <v-list>
-      <v-subheader>イベント本番中</v-subheader>
-      <v-list-group
-        value="true"
-        v-for="(faq, index) in faqs_now_event"
-        :key="index"
+        <v-section-faq-list
+          listHeader="イベント前によくある質問"
+          :faqs="faqs_before_event"
+        />
+      </v-col>
+    </v-row>
+    <v-row
+      justify="center"
+    >
+      <v-col
+        cols="12"
+        md="10"
       >
-        <template v-slot:activator>
-          <v-list-item-title>{{faq.question}}</v-list-item-title>
-        </template>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="answer in faq.answers"
-          :key="answer"
-        >
-            <v-list-item-content>
-              <v-list-item-subtitle v-html="answer"></v-list-item-subtitle>
-            </v-list-item-content>
-        </v-list-item>
-
-      </v-list-group>
-    </v-list>
-
-  </v-card>
+        <v-section-faq-list
+          listHeader="イベント直前・イベント中によくある質問"
+          :faqs="faqs_now_event"
+        />
+      </v-col>
+    </v-row>
   </div>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      admins: [
-        ['Management', 'people_outline'],
-        ['Settings', 'settings'],
-      ],
-      faqs_before_event: {
-        'faq_1' : {
-          'question' : '申し込みしたのに、メールが届かない' ,
-          'answers'  : ['<a href="mailto:info@tedxnagoyau.com">info@tedxnagoyau.com</a>に件名を申し込みメール不在にして送ってください。']},
-        'faq_2' : {
-          'question' : 'オープンチャットに入れない' ,
-          'answers'  : ['<a href="/event/open_chat">こちらのサイト</a>より、案内しております。', 'それでも入れない場合は、メールにて個別に対応させていただきます。']},
-        'faq_3' : {
-          'question' : '参加するブレイクのブースが分からない。' ,
-          'answers'  : ['ブースの詳細は下記に記載されています。また、希望されているブースはメールにてお問い合わせいただけますと、<br>現在のブースを通知いたします。']},
-        'faq_4' : {
-          'question' : '参加するブレイクのブースを変更したい' ,
-          'answers'  : ['メールにて希望のブース変更を受け付けております。ただし、定員のため対応できない可能性がございます。<br>また、オープンチャットでは対応しかねますことをご了承ください。', '期限は10月9日23：59です。']},
-        'faq_5' : {
-          'question' : 'イベント参加を取りやめたい' ,
-          'answers'  : ['メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。']},
+import VSectionFaqList from '~/components/event/VSectionFaqList.vue'
 
+export default {
+  components: {
+    VSectionFaqList
+  },
+  data: () => ({
+    faqs_before_event: [
+      {
+        'question' : '申し込みしたのに、メールが届かない' ,
+        'answer'  : '<a href="mailto:info@tedxnagoyau.com">info@tedxnagoyau.com</a>に件名を申し込みメール不在にして送ってください。'
       },
-      faqs_now_event: {
-        'faq_1' : {
-          'question' : '参加するブレイクのブースが違う' ,
-          'answers'  : ['メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。']},
-        'faq_2' : {
-          'question' : 'youtube視聴が出来ない' ,
-          'answers'  : ['メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。']},
-        'faq_3' : {
-          'question' : 'Zoomに参加できない' ,
-          'answers'  : ['メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。']},
+      {
+        'question' : 'オープンチャットに入れない' ,
+        'answer'  : '<a href="/event/open_chat">こちらのサイト</a>より、案内しております。それでも入れない場合は、メールにて個別に対応させていただきます。'
+      },
+      {
+        'question' : '参加するブレイクのブースが分からない。' ,
+        'answer'  : 'ブースの詳細は下記に記載されています。また、希望されているブースはメールにてお問い合わせいただけますと、現在のブースを通知いたします。'
+      },
+      {
+        'question' : '参加するブレイクのブースを変更したい' ,
+        'answer'  : 'メールにて希望のブース変更を受け付けております。ただし、定員のため対応できない可能性がございます。また、オープンチャットでは対応しかねますことをご了承ください。期限は10月9日23：59です。'
+      },
+      {
+        'question' : 'イベント参加を取りやめたい' ,
+        'answer'  : 'メールまたはオープンチャットにて、お名前をご記名のもとご連絡ください。'
       }
-    }),
-  }
+    ],
+    faqs_now_event: [
+      {
+        'question' : '参加するブレイクのブースが違う' ,
+        'answer'  : 'メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。'
+      },
+      {
+        'question' : 'youtube視聴が出来ない' ,
+        'answer'  : 'メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。'
+      },
+      {
+        'question' : 'Zoomに参加できない' ,
+        'answer'  : 'メールまたはオープンチャットにて、お名前をご記名のもと、ご連絡ください。早急に対処させていただきます。オープンチャットでは、より素早く対応できますので、なるべくそちらの方で連絡してください。'
+      },
+    ]
+  })
+}
 </script>
 
 <style>

@@ -42,11 +42,11 @@ export default {
     faqs_before_event: [
       {
         question: '申し込みしたのに、メールが届かない',
-        answer: '<a href="mailto:info@tedxnagoyau.com">info@tedxnagoyau.com</a>に件名を申し込みメール不在にして送ってください。'
+        answer: '<a href="mailto:info@tedxnagoyau.com">info@tedxnagoyau.com</a>に件名を「申し込みメール不在」にして、「お名前」と「登録したメールアドレス」を添えて送信していただくようお願いいたします。'
       },
       {
-        question: 'オープンチャットに入れない',
-        answer: '<a href="/event/open_chat">こちらのサイト</a>より、案内しております。それでも入れない場合は、メールにて個別に対応させていただきます。'
+        question: '申し込んだら、メールが2通届いた',
+        answer: 'お申し込みいただくと、system.tedxnu@gmail.com から「お申し込み完了のお知らせ」と forms-receipts-noreply@google.com から「TEDxNagoyaU お申し込み」というメールを送付いたします。「お申し込み完了のお知らせ」の受信をもって、お申し込みは完了です。「TEDxNagoyaU お申し込み」はお申し込みいただいた内容のコピーを送付いたします。もし入力内容に誤りがあった場合にはお手数ですが info@tedxnagoyau.com へご連絡いただきますよう、お願いいたします。'
       },
       {
         question: '参加するブレイクのブースが分からない。',

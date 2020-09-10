@@ -8,11 +8,11 @@
             <v-list>
               <v-list-item v-for="item in addressList" :key="item.title">
                 <v-list-item-icon>
-                  <v-icon>{{item.icon}}</v-icon>
+                  <v-icon>{{ item.icon }}</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
                   <v-list-item-title><a :href="item.link">{{ item.title }}</a></v-list-item-title>
-                  <v-list-item-subtitle>{{item.subTitle}}</v-list-item-subtitle>
+                  <v-list-item-subtitle>{{ item.subTitle }}</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
             </v-list>
@@ -26,7 +26,7 @@
 <script>
 export default {
   name: 'Contact',
-  data:function(){
+  data () {
     return {
       overlay: false,
       addressList: [
@@ -39,7 +39,7 @@ export default {
         {
           title: 'TEDxNagoyaUホームページ',
           link: '/',
-          icon: 'mdi-home',
+          icon: 'mdi-home'
         },
         {
           title: 'イベントページ',

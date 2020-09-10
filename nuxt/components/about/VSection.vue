@@ -31,7 +31,20 @@
 
 <script>
 export default {
-  props: ['title', 'content', 'src']
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    content: {
+      type: String,
+      required: true
+    },
+    src: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

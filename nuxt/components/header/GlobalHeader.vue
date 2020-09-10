@@ -4,7 +4,7 @@
       <v-app-bar-nav-icon class="d-md-none" @click.stop="drawer = !drawer" />
       <v-toolbar-title>
         <v-img
-          src="https://live.staticflickr.com/65535/49633281918_bcdc62932a_m.jpg"
+          src="tedxnagoyau_1line_white_background.png"
           height="20"
           contain
         />
@@ -90,15 +90,19 @@ export default {
       articleLinks: [
         {
           path: '/articles',
-          name: 'all articles'
+          name: '全記事'
         },
         {
           path: '/articles/pastTalks',
-          name: '過去のトーク'
+          name: 'トーク紹介'
         },
         {
           path: '/articles/news',
-          name: 'NEWS'
+          name: 'News'
+        },
+        {
+          path: '/article/partner_interview',
+          name: '協賛企業インタビュー'
         }
       ]
     }

@@ -1,24 +1,23 @@
 <template>
-  <v-row>
+  <v-row
+    dense
+  >
     <v-col
       v-for="article in articles"
       :key="article.path"
-      xs="12"
-      sm="6"
-      md="4"
-      lg="4"
+      cols="12"
     >
-      <article-card :article="article" />
+      <article-list-card :article="article" />
     </v-col>
   </v-row>
 </template>
 
 <script>
-import ArticleCard from '~/components/articles/ArticleCard.vue'
+import ArticleListCard from '~/components/articles/ArticleListCard.vue'
 export default {
   name: 'ArticleList',
   components: {
-    ArticleCard
+    ArticleListCard
   },
   props: {
     articles: {

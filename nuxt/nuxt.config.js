@@ -22,7 +22,7 @@ export default {
   */
   head: {
     base: {
-      href: process.env.DEPLOY_ENV = "DEVELOP" ? '/website/' : '/'
+      href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/' : '/'
     },
     titleTemplate: '%s | ' + 'TEDxNagoyaU',
     // title: 'Steer your ship',
@@ -153,7 +153,7 @@ export default {
       const { $content } = require('@nuxt/content')
 
       const articlesContent = await $content('/articles', { deep: true }).fetch()
-      const articlesPath = articlesContent.map( content => content.path )
+      const articlesPath = articlesContent.map(content => content.path)
 
       /**
        * talksのpathの生成は少し複雑なので解説する。
@@ -166,9 +166,9 @@ export default {
        * もし動的にpathを取ってやるぜ！という意気込みと時間（重要）があればぜひ挑戦してほしい。
        */
       const talksContent = await $content('/talks', { deep: true }).fetch()
-      const talksPath = talksContent.map( content => {
+      const talksPath = talksContent.map((content) => {
         return content.detail === true ? content.path : null
-      }).filter( path => path === null ? false : path )
+      }).filter(path => path === null ? false : path)
       // 最後に各年のページを入れている。
       talksPath.push(
         '/talks/2017',
@@ -184,7 +184,7 @@ export default {
         '/partners/2020'
       ]
 
-      return [ ...articlesPath, ...partnersPath, ...talksPath ]
+      return [...articlesPath, ...partnersPath, ...talksPath]
     }
   },
   /*

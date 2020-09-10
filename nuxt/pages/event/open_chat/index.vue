@@ -1,24 +1,23 @@
 <template>
   <div>
-    <v-section-theme v-bind="theme" />
-    <v-section-info v-bind="info" />
-    <v-section-timeline />
-    <v-section-faq />
+    <v-header />
+    <v-about />
+    <v-merit />
+    <v-how-to-attend />
   </div>
 </template>
 
 <script>
-import VSectionInfo from '~/components/event/VSectionInfo'
-import VSectionTheme from '~/components/event/VSectionTheme'
-import VSectionTimeline from '~/components/event/VSectionTimeline.vue'
-import VSectionFaq from '~/components/event/VSectionFaq'
+import VAbout from '~/components/event/openchat/VAbout'
+import VHeader from '~/components/event/openchat/VHeader'
+import VHowToAttend from '~/components/event/openchat/VHowToAttend'
+import VMerit from '~/components/event/openchat/VMerit'
 export default {
-  layout: 'bg',
   components: {
-    VSectionInfo,
-    VSectionTheme,
-    VSectionTimeline,
-    VSectionFaq
+    VAbout,
+    VHeader,
+    VHowToAttend,
+    VMerit
   },
   data () {
     return {
@@ -35,11 +34,18 @@ export default {
         date: '2020/10/11(日)'
       }
     }
-  },
-  head () {
-    return {
-      title: 'Steer Your Ship!'
-    }
   }
 }
 </script>
+
+<style>
+h2{
+margin: 2rem 0;
+}
+h3{
+
+}
+h4{
+
+}
+</style>>

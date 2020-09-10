@@ -1,38 +1,80 @@
 <template>
   <v-footer absolute padless app>
     <v-container>
-      <v-row>
-        <v-col>
-          <v-btn
-            v-for="item in snsLinks"
-            :key="item.link"
-            icon
-            :href="item.link"
-          >
-            <v-icon size="24px">
-              {{ item.icon }}
-            </v-icon>
-          </v-btn>
-        </v-col>
-      </v-row>
-      <v-row justify="center">
+      <v-row
+        dense
+        justify="space-between"
+      >
         <v-col
-          cols="6"
-          v-for="item in policyLinks"
-          :key="item.link"
-          justify="center">
-          <v-row justify="center">
-            <v-btn
-              text
-              :to="item.link"
+          xs="12"
+          sm="6"
+        >
+          <v-container
+            class="pa-0"
+          >
+            <v-row
+              dense
             >
-            {{item.text}}
-          </v-btn>
-          </v-row>
+              <v-col
+                cols="12"
+              >
+                <v-img
+                  src="tedxnagoyau_1line_white_background.png"
+                  max-width="100"
+                />
+              </v-col>
+              <v-col
+                cols="12"
+              >
+                <p
+                  style="font-size: 14px;"
+                >
+                  This independent TEDx event is operated under license from TED.
+                </p>
+              </v-col>
+              <v-col
+                cols="12"
+              >
+                <v-btn
+                  v-for="item in snsLinks"
+                  :key="item.link"
+                  icon
+                  :href="item.link"
+                >
+                  <v-icon size="20">
+                    {{ item.icon }}
+                  </v-icon>
+                </v-btn>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-col>
+        <v-col
+          xs="12"
+          sm="4"
+        >
+          <v-container class="pa-0">
+            <v-row dense>
+              <v-col
+                v-for="(item,i) in footerLinks"
+                :key="i"
+                cols="12"
+              >
+                <nuxt-link
+                  :to="item.link"
+                  class="no-active-link"
+                >
+                  {{ item.text }}
+                </nuxt-link>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-col>
       </v-row>
       <v-row justify="center">
-        <span>&copy; {{ new Date().getFullYear() }} - TEDxNagoyaU</span>
+        <span
+          style="font-size: 0.8rem;"
+        >&copy; {{ new Date().getFullYear() }} - TEDxNagoyaU</span>
       </v-row>
     </v-container>
   </v-footer>
@@ -55,19 +97,35 @@ export default {
         {
           link: 'https://www.facebook.com/tedxnagoyau/',
           icon: 'mdi-facebook'
-        },
+        }
       ],
-      policyLinks: [
+      footerLinks: [
+        {
+          link: '/about',
+          text: 'About'
+        },
+        {
+          link: '/manners',
+          text: '行動規範'
+        },
         {
           link: '/privacy_policy',
           text: 'プライバシーポリシー'
         },
         {
-          link: '/manners',
-          text: '行動規範'
+          link: '/articles/news',
+          text: 'News'
         }
       ]
     }
   }
 }
 </script>
+
+<style scoped>
+.no-active-link {
+  color: grey;
+  text-decoration: none;
+  font-size: 14px;
+}
+</style>

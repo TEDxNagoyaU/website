@@ -16,14 +16,14 @@
 import PartnerCard from '~/components/partners/PartnerCard.vue'
 export default {
   name: 'PartnerList',
+  components: {
+    PartnerCard
+  },
   props: {
     partners: {
       required: true,
       type: Array
     }
-  },
-  components: {
-    PartnerCard
   }
 }
 </script>

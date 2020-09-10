@@ -57,7 +57,7 @@ export default {
           btnText: 'お申込みフォーム',
           btnLink: 'https://forms.gle/VBFtNkzgAiGfTz8S7',
           icon: 'mdi-text-subject',
-          disabled: true
+          disabled: false
         },
         {
           title: '2, 確認メールを受信',

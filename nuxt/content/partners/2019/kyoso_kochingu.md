@@ -1,6 +1,6 @@
 ---
 name: 共創コーチング
-logo: partners/2019/kyosokochingu.png
+logo: partners/2019/kyosokochingu.jpg
 order: 9
 ---
 

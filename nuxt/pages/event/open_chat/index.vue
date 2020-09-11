@@ -34,6 +34,11 @@ export default {
         date: '2020/10/11(日)'
       }
     }
+  },
+  head () {
+    return {
+      title: 'オープンチャットの参加方法'
+    }
   }
 }
 </script>

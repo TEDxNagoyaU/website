@@ -1,6 +1,6 @@
 ---
 name: トビラシステムズ株式会社
-logo: partners/2020/tobila_systems.png
+logo: partners/2020/tobila_systems.jpg
 order: 1
 ---
 

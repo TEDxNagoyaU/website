@@ -32,7 +32,8 @@ export default {
   props: {
     youtubeId: {
       type: String,
-      required: false
+      required: false,
+      default: 'hogehoge'
     }
   },
   data () {

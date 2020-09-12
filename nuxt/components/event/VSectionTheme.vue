@@ -42,7 +42,24 @@
 
 <script>
 export default {
-  props: ['title', 'keyVisual', 'theme', 'wishs', 'content']
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    keyVisual: {
+      type: String,
+      required: true
+    },
+    wishs: {
+      type: String,
+      required: true
+    },
+    content: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

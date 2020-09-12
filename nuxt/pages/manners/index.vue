@@ -53,6 +53,11 @@
 
 <script>
 export default {
+  head () {
+    return {
+      title: '行動規範'
+    }
+  }
 }
 </script>
 

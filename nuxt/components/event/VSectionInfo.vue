@@ -26,7 +26,20 @@
 
 <script>
 export default {
-  props: ['title', 'abstruct', 'date']
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    abstruct: {
+      type: String,
+      required: true
+    },
+    date: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

@@ -20,16 +20,21 @@
           {{ abstruct }}
         </p>
       </v-col>
-      <speaker-cards />
+      <v-col cols="12">
+      <h1 class="event-title display-1 font-weight-bold mb-4">
+        <span>Speakers</span>
+      </h1>
+    </v-col>
+      <v-section-info-speaker-cards />
     </v-row>
   </div>
 </template>
 
 <script>
-import SpeakerCards from '~/components/event/SpeakerCards'
+import VSectionInfoSpeakerCards from '~/components/event/VSectionInfoSpeakerCards'
 export default {
   components: {
-    SpeakerCards
+    VSectionInfoSpeakerCards
   },
   props: {
     title: {

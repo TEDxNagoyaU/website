@@ -1,10 +1,6 @@
 <template>
-  <v-row>
-    <v-col cols="12">
-      <h1 class="event-title display-1 font-weight-bold mb-4">
-        <span>Speakers</span>
-      </h1>
-    </v-col>
+  <v-col>
+    <v-row>
     <v-col
       v-for="(speaker, i) in speakers"
       :key="i"
@@ -17,7 +13,7 @@
     >
       <v-img
         class="white--text align-end"
-        height="400px"
+        height="350px"
         position="center top"
         :src="speaker.image"
       >
@@ -56,6 +52,7 @@
     </v-card>
     </v-col>
   </v-row>
+  </v-col>
 </template>
 
 <script>

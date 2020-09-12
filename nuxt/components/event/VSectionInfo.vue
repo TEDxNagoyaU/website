@@ -20,12 +20,17 @@
           {{ abstruct }}
         </p>
       </v-col>
+      <speaker-cards />
     </v-row>
   </div>
 </template>
 
 <script>
+import SpeakerCards from '~/components/event/SpeakerCards'
 export default {
+  components: {
+    SpeakerCards
+  },
   props: {
     title: {
       type: String,

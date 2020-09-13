@@ -52,10 +52,10 @@ export default {
     return {
       drawer: false,
       speakerLinks: [
-        {
+        /* {
           path: '/talks/2020',
           name: '2020'
-        },
+        }, */
         {
           path: '/talks/2019',
           name: '2019'

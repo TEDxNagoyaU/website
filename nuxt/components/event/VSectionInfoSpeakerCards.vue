@@ -64,7 +64,7 @@ export default {
           name: '石黒由美子',
           title: 'アーティスティックスイミング元日本代表',
           description: '交通事故で大けがを負った少女。入院中にテレビで見たシンクロに憧れ、夢ノートへペンを走らせた。「オリンピックにでる！」顔面麻痺、視力障害、難聴など様々な後遺症を乗り越え、2008年北京オリンピック出場。奇跡とも言える逆転劇をみせた彼女が語るのは〝帰る場所があるということ“',
-          image: 'events/speaker/ishiguro.png',
+          image: 'events/speaker/ishiguro.jpg',
           urls: {
             homepage: 'https://s-rights.co.jp/member/ishiguro-yumiko',
             facebook: 'https://www.facebook.com/yumiko.ishiguro.12',

@@ -1,5 +1,5 @@
 ---
-name: jST
+name: 株式会社ジェイエスティ
 logo: partners/2019/jst.jpg
 order: 17
 ---

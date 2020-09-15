@@ -101,7 +101,7 @@ export default {
           name: 'News'
         },
         {
-          path: '/article/partner_interview',
+          path: '/articles/partner_interview',
           name: '協賛企業インタビュー'
         }
       ]

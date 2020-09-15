@@ -21,10 +21,10 @@
         </p>
       </v-col>
       <v-col cols="12">
-      <h1 class="event-title display-1 font-weight-bold mb-4">
-        <span>Speakers</span>
-      </h1>
-    </v-col>
+        <h1 class="event-title display-1 font-weight-bold mb-4">
+          <span>Speakers</span>
+        </h1>
+      </v-col>
       <v-section-info-speaker-cards />
     </v-row>
   </div>

@@ -10,6 +10,7 @@
     >
       <v-row
         dense
+        align="center"
       >
         <v-col
           xs="12"

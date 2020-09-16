@@ -1,5 +1,5 @@
 ---
-title : トビラシステムズ株式会社様へインタビュー！「社長のTEDxNagoyaUをサポートする思いとは！？」
+title : トビラシステムズ株式会社様へインタビュー！「明田社長のTEDxNagoyaUをサポートする思いとは！？」
 date: 2020/09/16
 description : トビラシステムズ株式会社様へインタビュー
 tags: ["2020"]
@@ -13,7 +13,7 @@ meta_tag: [
   {
     hid: 'og:description',
     property: 'og:description',
-    content: 'トビラシステムズ株式会社様へインタビュー！「社長のTEDxNagoyaUをサポートする思いとは！？」'
+    content: 'トビラシステムズ株式会社様へインタビュー！「明田社長のTEDxNagoyaUをサポートする思いとは！？」'
   },
   {
     hid: 'og:image',
@@ -29,15 +29,13 @@ meta_tag: [
 
 今回は、今年の開催からTEDxNagoyaUをサポートしてくださるトビラシステムズ株式会社様（以下、トビラシステムズ様）の代表取締役社長である明田様に、TEDxNagoyaU 2020の開催に先立ち、お話を伺いました！
 
+# トビラシステムズ株式会社
+
 ![企業ロゴ](article/partner_interview/tobila_systems/logo.jpg)
 
 
-[ホームページ](https://tobila.com/)  
-[Twitter](https://twitter.com/tobilasystems)  
-[Facebook](https://www.facebook.com/TobilaSystems)  
-[Wantedly](https://www.wantedly.com/companies/tobila/feed) 
-
-「企業紹介文」  
+[ホームページ](https://tobila.com/)　[Twitter](https://twitter.com/tobilasystems)　[Facebook](https://www.facebook.com/TobilaSystems)　[Wantedly](https://www.wantedly.com/companies/tobila/feed) 
+ 
 私たちはテクノロジーで社会課題の解決に挑みます。特殊詐欺撲滅を目指し、電話やメールによる犯罪を防止する「迷惑情報フィルター事業」を行う国内随一の企業です。独自のアルゴリズムを用いた調査に加え、警察からの情報提供も受けており、高品質な迷惑情報データベースを構築。固定電話、法人電話、モバイルサービス向けに展開し、現在サービス利用者は約1000万人に上ります。
 
 # TEDxNagoyaUをサポートし続けてくださる理由とは？
@@ -52,6 +50,8 @@ __TEDxNagoyaU__：オンライン開催となり、新たな挑戦をしてい�
 __トビラシステムズ様__：今年で8回目の開催、そして毎回多くのの学生の方が参加されているということで、非常にエネルギーのあるイベントだと思います。名古屋を代表するイベントになる日も近いのではないでしょうか。今後どんな驚くべきアイデアが生み出されてくるのか、楽しみです。
 
 ![オフィスの様子](article/partner_interview/tobila_systems/office_talking.jpg)
+
+# トビラシステムズ様の目指す姿とは？？
 
 __TEDxNagoyaU__：今年のTEDxNagoyaU 2020のテーマは「Steer Your Ship!」（意味は「舵をとれ」）ですが、トビラシステムズ様の目指すべき、ありたい姿とは何ですか？
 

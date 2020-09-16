@@ -3,7 +3,7 @@ title : トビラシステムズ株式会社様へインタビュー！「社長
 date: 2020/09/16
 description : トビラシステムズ株式会社様へインタビュー
 tags: ["2020"]
-thumbnail: article/partner_interview/tobira_systems/thumbnail.jpg
+thumbnail: article/partner_interview/tobira_systems/akita_prof.webp
 meta_tag: [
   {
     hid: 'og:title',
@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/tobira_systems/thumbnail.jpg'
+    content: 'https://tedxnagoyau.com/article/partner_interview/tobira_systems/akita_prof.webp'
   }
 ]
 ---

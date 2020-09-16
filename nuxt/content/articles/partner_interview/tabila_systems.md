@@ -3,7 +3,7 @@ title : トビラシステムズ株式会社様へインタビュー！「社長
 date: 2020/09/16
 description : トビラシステムズ株式会社様へインタビュー
 tags: ["2020"]
-thumbnail: article/partner_interview/tobira_systems/akita_prof.webp
+thumbnail: article/partner_interview/tobila_systems/akita_prof.webp
 meta_tag: [
   {
     hid: 'og:title',
@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/tobira_systems/akita_prof.webp'
+    content: 'https://tedxnagoyau.com/article/partner_interview/tobila_systems/akita_prof.webp'
   }
 ]
 ---
@@ -31,22 +31,9 @@ meta_tag: [
 
 ![企業ロゴ](article/partner_interview/tobila_systems/logo.webp)
 
-<!--
 [ホームページ](https://tobila.com/)  
 [Twitter](https://twitter.com/tobilasystems)  
 [Facebook](https://www.facebook.com/TobilaSystems)  
--->
-
-<v-btn icon href="https://tobila.com/">
-<v-icon>mdi-home</v-icon>
-</v-btn>
-<v-btn icon href="https://twitter.com/tobilasystems">
-<v-icon>mdi-twitter</v-icon>
-</v-btn>
-<v-btn icon href="https://www.facebook.com/TobilaSystems">
-<v-icon>mdi-facebook</v-icon>
-</v-btn>
-
 [Wantedly](https://www.wantedly.com/companies/tobila/feed) 
 
 「企業紹介文」  

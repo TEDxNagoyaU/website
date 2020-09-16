@@ -23,13 +23,14 @@ meta_tag: [
 ]
 ---
 
-![代表取締役社長　明田篤](article/partner_interview/tobila_systems/akita_prof.webp)
+![代表取締役社長　明田篤](article/partner_interview/tobila_systems/akita_prof.jpg)
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと、2013年度に誕生したTEDxNagoyaU。
 
 今回は、今年の開催からTEDxNagoyaUをサポートしてくださるトビラシステムズ株式会社様（以下、トビラシステムズ様）の代表取締役社長である明田様に、TEDxNagoyaU 2020の開催に先立ち、お話を伺いました！
 
-![企業ロゴ](article/partner_interview/tobila_systems/logo.webp)
+![企業ロゴ](article/partner_interview/tobila_systems/logo.jpg)
+
 
 [ホームページ](https://tobila.com/)  
 [Twitter](https://twitter.com/tobilasystems)  
@@ -52,14 +53,14 @@ __TEDxNagoyaU__：オンライン開催となり、新たな挑戦をしてい�
 
 __トビラシステムズ様__：今年で8回目の開催、そして毎回多くのの学生の方が参加されているということで、非常にエネルギーのあるイベントだと思います。名古屋を代表するイベントになる日も近いのではないでしょうか。今後どんな驚くべきアイデアが生み出されてくるのか、楽しみです。
 
-![オフィスの様子](article/partner_interview/tobila_systems/office_talking.webp)
+![オフィスの様子](article/partner_interview/tobila_systems/office_talking.jpg)
 
 __TEDxNagoyaU__：今年のTEDxNagoyaU 2020のテーマは「Steer Your Ship!」（意味は「舵をとれ」）ですが、トビラシステムズ様の目指すべき、ありたい姿とは何ですか？
 
 __トビラシステムズ様__：実は、私も会社をよく船に例えることがあります。「会社という大きな船に乗って、皆で前進していこう！」という思いがあります。だから今回TEDxNagoyaUのテーマを聞いた時、何か不思議な縁を感じました。
 現在の私たちの生活は、人々が何百年に渡って生み出してきた様々な素晴らしいモノやアイデアのおかげで成り立っています。私たちも同じように、100年後の未来にもなくてはならない存在、社会を支えられるインフラのような存在になれるよう、サービスの開発に取り組んでいます。
 
-![オフィス概観](article/partner_interview/tobila_systems/office_view.webp)
+![オフィス概観](article/partner_interview/tobila_systems/office_view.jpg)
 
 __TEDxNagoyaU__：それでは最後に、TEDxNagoyaUイベントの参加者の皆様に、メッセージをいただきたいです！
 

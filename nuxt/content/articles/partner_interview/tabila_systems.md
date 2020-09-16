@@ -38,13 +38,13 @@ meta_tag: [
 -->
 
 <v-btn icon href="https://tobila.com/">
-<v-icon>mdi-home<v-icon>
+<v-icon>mdi-home</v-icon>
 </v-btn>
 <v-btn icon href="https://twitter.com/tobilasystems">
-<v-icon>mdi-twitter<v-icon>
+<v-icon>mdi-twitter</v-icon>
 </v-btn>
 <v-btn icon href="https://www.facebook.com/TobilaSystems">
-<v-icon>mdi-facebook<v-icon>
+<v-icon>mdi-facebook</v-icon>
 </v-btn>
 
 [Wantedly](https://www.wantedly.com/companies/tobila/feed) 

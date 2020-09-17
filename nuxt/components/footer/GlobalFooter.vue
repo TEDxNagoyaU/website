@@ -115,6 +115,10 @@ export default {
         {
           link: '/articles/news',
           text: 'News'
+        },
+        {
+          link: '/contact',
+          text: 'お問い合わせ'
         }
       ]
     }

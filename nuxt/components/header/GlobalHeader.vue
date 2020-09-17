@@ -3,11 +3,15 @@
     <v-app-bar>
       <v-app-bar-nav-icon class="d-md-none" @click.stop="drawer = !drawer" />
       <v-toolbar-title>
-        <v-img
-          src="tedxnagoyau_1line_white_background.png"
-          height="20"
-          contain
-        />
+        <nuxt-link
+          to="/"
+        >
+          <v-img
+            src="tedxnagoyau_1line_white_background.png"
+            height="20"
+            contain
+          />
+        </nuxt-link>
       </v-toolbar-title>
       <v-tabs class="d-none d-md-flex">
         <global-header-tabs name="Home" path="/" />

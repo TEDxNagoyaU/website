@@ -1,6 +1,6 @@
 ---
 name: アビームシステムズ株式会社
-logo: partners/2019/abeam_systems.jpg
+logo: partners/2020/abeam_systems_1120_800.jpg
 order: 2
 ---
 

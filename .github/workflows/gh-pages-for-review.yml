@@ -1,6 +1,6 @@
 name: github pages
 env:
-  DEPLOY_ENV: DEVELOP 
+  DEPLOY_ENV: REVIEW
 
 on:
   push:

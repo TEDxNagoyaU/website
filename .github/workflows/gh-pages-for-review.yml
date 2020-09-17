@@ -1,0 +1,46 @@
+name: github pages
+env:
+  DEPLOY_ENV: DEVELOP 
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - name: Cache dependencies
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: install nuxt project dependencies
+      run: npm ci
+      working-directory: ./nuxt
+
+    - name: build nuxt project
+      run: npm run build
+      working-directory: ./nuxt
+    
+    - name: export nuxt project
+      run: npm run export
+      working-directory: ./nuxt
+
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        external_repository: TEDxNagoyaU/review
+        publish_dir: ./dist

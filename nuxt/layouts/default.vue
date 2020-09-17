@@ -22,9 +22,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.main{
-  margin-bottom: 108px;
-}
-</style>

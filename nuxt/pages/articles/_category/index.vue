@@ -5,9 +5,7 @@
         <topic-path />
       </v-col>
     </v-row>
-    <v-row>
-      <article-list :articles="articles" />
-    </v-row>
+    <article-list :articles="articles" />
   </div>
 </template>
 <script>

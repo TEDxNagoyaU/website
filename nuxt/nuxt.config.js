@@ -12,8 +12,8 @@ export default {
    * 詳しくは.github/workflows/gh-pages.ymlを参照
    */
   router: {
-    base: process.env.DEPLOY_ENV === 'DEVELOP'
-      ? '/website/'
+    base: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
+      : process.env.DEPLOY_ENV === 'REVIEW' ? 'review'
       : '/'
   },
   /*
@@ -22,7 +22,9 @@ export default {
   */
   head: {
     base: {
-      href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/' : '/'
+      href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
+        : process.env.DEPLOY_ENV === 'REVIEW' ? 'review'
+        : '/'
     },
     titleTemplate: '%s | ' + 'TEDxNagoyaU',
     // title: 'Steer your ship',

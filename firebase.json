@@ -5,6 +5,31 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|webp)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "2,592,000"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "86400"
+        }]
+      },
+      {
+        "source": "*/_nuxt/content/db.json",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "0"
+        }]
+      }
     ]
   }
 }

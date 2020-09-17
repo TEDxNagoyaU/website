@@ -13,7 +13,7 @@ export default {
    */
   router: {
     base: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
-      : process.env.DEPLOY_ENV === 'REVIEW' ? 'review'
+      : process.env.DEPLOY_ENV === 'REVIEW' ? '/review/'
       : '/'
   },
   /*
@@ -23,7 +23,7 @@ export default {
   head: {
     base: {
       href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
-        : process.env.DEPLOY_ENV === 'REVIEW' ? 'review'
+        : process.env.DEPLOY_ENV === 'REVIEW' ? '/review/'
         : '/'
     },
     titleTemplate: '%s | ' + 'TEDxNagoyaU',

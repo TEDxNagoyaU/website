@@ -12,7 +12,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "2,592,000"
+            "value": "max-age=2,592,000"
           }
         ]
       },
@@ -20,14 +20,14 @@
         "source": "**/*.@(js|css)",
         "headers": [{
           "key": "Cache-Control",
-          "value": "86400"
+          "value": "max-age=86400"
         }]
       },
       {
         "source": "*/_nuxt/content/db.json",
         "headers": [{
           "key": "Cache-Control",
-          "value": "0"
+          "value": "max-age=0"
         }]
       }
     ]

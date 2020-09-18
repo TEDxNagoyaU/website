@@ -44,7 +44,7 @@
 
     <v-container>
       <v-row>
-        <h1 class="pl-3">
+        <h1 class="pl-3 text-h5">
           TEDxNagoyaU Talk
         </h1>
       </v-row>

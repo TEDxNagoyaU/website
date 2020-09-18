@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <h2 class="pl-5">
+      <h2 class="pl-5 text-h5">
         Articles
       </h2>
     </v-row>

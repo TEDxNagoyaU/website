@@ -32,7 +32,7 @@
             {{ content }}
           </p>
           <p class="subheading">
-            TEDxNagoyaU2020 代表 上田蓮
+            TEDxNagoyaU 代表 上田蓮
           </p>
         </div>
       </v-col>

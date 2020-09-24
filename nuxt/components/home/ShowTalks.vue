@@ -1,47 +1,5 @@
 <template>
   <div>
-    <!--
-  <h2
-    class="d-none d-sm-block"
-  >TEDxNagoyaU Talk</h2>
-  <v-carousel class="align-center d-none d-sm-block">
-    <v-carousel-item
-      v-for="speaker in speakers"
-      :key="speaker.name"
-      class="pa-0"
-    >
-      <v-card color="white">
-        <v-container class="pa-0">
-          <v-row>
-            <v-col
-              cols="6"
-              class="pa-0"
-            >
-              <v-img
-                max-height="500px"
-                :src="speaker.img"
-              >
-              </v-img>
-            </v-col>
-            <v-col cols="6">
-              <v-card-title class="black--text">{{ speaker.title }}</v-card-title>
-              <v-card-subtitle class="black--text">{{ speaker.name }}</v-card-subtitle>
-              <v-card-text class="black--text">{{ speaker.leadSentence }}</v-card-text>
-              <v-card-actions>
-                <show-talks-dialog :youtubeId="speaker.youtubeId"/>
-              </v-card-actions>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-card>
-    </v-carousel-item>
-  </v-carousel>
-  -->
-    <!--
-  ここまでパソコン向け。vuetifyのmd以上が対応
-  スマホタブレットの表示はここから。vuetify の sm以下が対応
-  -->
-
     <v-container>
       <v-row>
         <h1 class="pl-3 text-h5">
@@ -52,7 +10,8 @@
         <v-col
           v-for="speaker in shuffleSlicedSpeakers"
           :key="speaker.name"
-          sm="12"
+          xs="12"
+          sm="6"
           md="6"
         >
           <v-card>

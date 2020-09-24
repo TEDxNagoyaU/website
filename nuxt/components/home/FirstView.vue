@@ -67,6 +67,6 @@ a{
 }
 
 .bg-filter {
-  backdrop-filter: blur(10px);
+  backdrop-filter: brightness(50%)
 }
 </style>

@@ -2,10 +2,10 @@
 title : 「接ぎ木で切り開く未来」  野田口 理孝
 date: 2020/09/20
 description : スピーカーの野田口さんは現在、名古屋大学生物機能開発利用研究センター准教授として「接ぎ木」の技術を研究中です。古くから用いられてきた「接ぎ木」という技術を通して、植物と共に生きる私たちの未来を作っています。
-tags: ["木全 佐介", "2019"]
-thumbnail: "article/past-talks/SasukeKimataSqr.png"
+tags: ["野田口 理孝", "2019"]
+thumbnail: "article/past-talks/MichitakaNotaguchiSqr.jpg"
 meta_tag: [
-  { hid: 'description', name: 'description', content: 'スピーカーの木全さんは、弱冠16歳にして、学生に新たな出会いと発見を届ける学生団体 アクトあいちの代表を務めています。まだ見ぬ世界へ一歩踏み出そうとする1人の若者が、名古屋の地で、ある”思い”を語ります。' }
+  { hid: 'description', name: 'description', content: 'スピーカーの野田口さんは現在、名古屋大学生物機能開発利用研究センター准教授として「接ぎ木」の技術を研究中です。古くから用いられてきた「接ぎ木」という技術を通して、植物と共に生きる私たちの未来を作っています。' }
 ]
 ---
 

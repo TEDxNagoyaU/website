@@ -47,7 +47,7 @@ __TEDxNagoyaU__：オンライン開催となり、新たな挑戦をしてい�
 
 __ネクトラ様__：コロナで暗いニュースが多い中、みんなが思わず上を見て笑顔になってしまう！（感動で泣くも含む）そんなイベントの開催を大大大期待しております。
 
-![NEXTRA株式会社のバナー](article/partner_interview/nextra/panel.jpg)
+![プレゼンテーションの様子](article/partner_interview/nextra/presentation.jpg)
 
 # NEXTRA様の目指す姿とは！？
 __TEDxNagoyaU__：今年のTEDxNagoyaU 2020のテーマは「Steer Your Ship!」（意味は「舵をとれ」）ですが、ネクトラ様の目指すべき、ありたい姿とは何ですか？
@@ -55,7 +55,7 @@ __TEDxNagoyaU__：今年のTEDxNagoyaU 2020のテーマは「Steer Your Ship!」
 __ネクトラ様__：私たちがビジョンに掲げる「挑戦」とは、自身でやりたいことを定め、その方向に行動することです。そのために大切なのは、その方向を「自分で」決めること。つまりSteer Your Ship！です。社会には〇〇すべきという同調圧力が強く、自分らしい方向を決めることが難しいように感じることもあります。しかし、そんな中でも同じ想いを抱く仲間となら可能です。  
 NEXTRAが運営するキャリアLABOには、参加者全員が自分らしい挑戦の一歩を踏み出す「きっかけ」と「一緒に走る仲間」がいる。そんなコミュニティでありたいです。
 
-![プレゼンテーションの様子](article/partner_interview/nextra/presentation.jpg)
+![NEXTRA株式会社のバナー](article/partner_interview/nextra/panel.jpg)
 
 # 参加者へのメッセージ
 

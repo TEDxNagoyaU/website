@@ -1,6 +1,6 @@
 <template>
   <v-img
-    src="bgFirstView.jpg"
+    src="bgFirstViewSecond.jpg"
     height="100%"
     max-height="600px"
     dark
@@ -22,7 +22,7 @@
           <h1 class="display-1 font-weight-thin mb-4">
             2020' TEDxNagoyaU Theme
           </h1>
-          <v-img src="keyvisual_white.png" />
+          <v-img src="keyvisual_white.png" class="bg-filter"/>
         </v-col>
         <v-col class="text-center" sm="6" xs="12">
           <h1 class="display-1 font-weight-thin mb-4 text-decoration-underline">
@@ -31,13 +31,13 @@
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
           <v-btn
             class="ma-2"
-            outlined
             color="white"
             to="/event"
             nuxt
+            depressed
             @click.native="eventOfClickedEventDetail"
           >
-            view more
+            <span style="color: red">VIEW MORE</span>
           </v-btn>
         </v-col>
       </v-row>
@@ -64,5 +64,9 @@ export default {
 a{
   color:white !important;
   text-decoration: none;
+}
+
+.bg-filter {
+  backdrop-filter: blur(10px);
 }
 </style>

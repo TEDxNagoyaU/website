@@ -30,6 +30,11 @@
           "value": "max-age=0"
         }]
       }
-    ]
+    ],
+    "redirects": [{
+      "source": "/articles/partner_interview/tabila_systems",
+      "destination": "/articles/partner_interview/tobila_systems",
+      "type": 301
+    }]
   }
 }

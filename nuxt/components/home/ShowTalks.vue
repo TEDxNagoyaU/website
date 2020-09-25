@@ -12,7 +12,6 @@
           :key="speaker.name"
           xs="12"
           sm="6"
-          md="4"
         >
           <v-card>
             <v-img
@@ -68,8 +67,9 @@ export default {
   computed: {
     // 画面幅に合わせてスピーカーの表示数を調整しつつ、シャッフルする関数
     shuffleSlicedSpeakers () {
-      const breakpoint = this.$vuetify.breakpoint.name
-      const numberOfDisplay = breakpoint === 'xs' ? 3 : breakpoint === 'sm' ? 4 : 6
+      // const breakpoint = this.$vuetify.breakpoint.name
+      // const numberOfDisplay = breakpoint === 'xs' ? 3 : breakpoint === 'sm' ? 4 : 6
+      const numberOfDisplay = 4
       return Object.create(this.speakers).sort(() => Math.random() - 0.5).slice(0, numberOfDisplay)
     }
   }

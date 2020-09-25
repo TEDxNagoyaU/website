@@ -23,7 +23,7 @@ export default {
   data () {
     return {
       theme: {
-        title: '2020 TEDxNagoyaU Theme is ...',
+        title: '2020 TEDxNagoyaU Theme',
         keyVisual: 'keyvisual_black.png',
         theme: 'steer your ship!',
         wishs: 'テーマへの思い',

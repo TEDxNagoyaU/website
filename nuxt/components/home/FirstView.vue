@@ -30,14 +30,14 @@
           </h1>
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
           <v-btn
-            class="ma-2"
+            class="ma-2 red--text"
             color="white"
             to="/event"
             nuxt
             depressed
             @click.native="eventOfClickedEventDetail"
           >
-            <span style="color: red">VIEW MORE</span>
+            VIEW MORE
           </v-btn>
         </v-col>
       </v-row>

@@ -18,7 +18,7 @@
         align="center"
         justify="center"
       >
-        <v-col xs="12"  sm="12" md="6">
+        <v-col xs="12" sm="12" md="6">
           <v-img
             :src="src"
           />

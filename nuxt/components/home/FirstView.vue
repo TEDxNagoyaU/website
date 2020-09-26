@@ -22,7 +22,7 @@
           <h1 class="display-1 font-weight-thin mb-4">
             2020' TEDxNagoyaU Theme
           </h1>
-          <v-img src="keyvisual_white.png" class="bg-filter"/>
+          <v-img src="keyvisual_white.png" class="bg-filter" />
         </v-col>
         <v-col class="text-center" sm="6" xs="12">
           <h1 class="display-1 font-weight-thin mb-4 text-decoration-underline">
@@ -30,14 +30,14 @@
           </h1>
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
           <v-btn
-            class="ma-2"
+            class="ma-2 red--text"
             color="white"
             to="/event"
             nuxt
             depressed
             @click.native="eventOfClickedEventDetail"
           >
-            <span style="color: red">VIEW MORE</span>
+            VIEW MORE
           </v-btn>
         </v-col>
       </v-row>

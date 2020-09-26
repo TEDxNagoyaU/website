@@ -49,7 +49,6 @@
 
 <script>
 import ShowTalksDialog from '~/components/home/ShowTalksDialog.vue'
-import defaultVue from '../../layouts/default.vue'
 export default {
   name: 'ShowTalks',
   components: {

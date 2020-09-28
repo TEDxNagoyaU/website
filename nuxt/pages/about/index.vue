@@ -1,8 +1,18 @@
 <template>
   <div>
-    <v-section v-bind="ted" />
-    <v-section v-bind="tedx" />
-    <v-section v-bind="tedxnu" />
+    <v-section :title="ted.title" :src="ted.src" :alt="ted.alt">
+      <p>TEDは、先進的な思想家と活動家による短時間のトーク（通常18分以内）により、「価値あるアイデアを広げる」ことに邁進する非営利団体です。これらの多くのトークは、TEDカンファレンスや、懇意なTEDサロン、そして独立して組織された数千もの世界中のTEDxイベントにおいて提供されます。これらのトークのビデオは<a href="https://www.ted.com/">TED.com</a>や他のプラットフォームで無料で視聴できます。TEDトークのオーディオ版は<a href="http://applepodcasts.com/tedtalksdaily">TED Talks Daily</a>で公開され、すべてのポッドキャストプラットフォームで聞くことができます。アイデアを広めるためのTEDのオープンで自由な取り組みには、新しいTEDトーク動画が毎日投稿される<a href="https://www.ted.com/">TED.com</a>、何千もの人々やグループに、自分達の手で地域に根差したTEDスタイルのイベントを世界中で開催することを許可する<a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a>、注目に値するプロジェクトや活動の影響を広げるために世界中から革新者を選ぶ<a href="https://www.ted.com/participate/ted-fellows-program">TED Fellows Program</a>、数百万の生命に影響を与えうる批判的なアイデアを発掘し、資金を提供する<a href="https://audaciousproject.org/">The Audacious Project</a>、重要なアイデアが言語と国境の壁を越えて広がっていくことができるように、TEDトークの字幕付けをクラウドソーシングする<a href="https://www.ted.com/participate/translate">TED Translate</a>、そして、教育的な取り組みをする<a href="https://ed.ted.com/">TED-Ed</a>があります。TEDはさらに、職場での学びのためにTEDトークを再構成する、<a href="https://tedatwork.ted.com/">TED@Work</a>を提供しています。また、TEDはクリス・アンダーソンによる<a href="https://www.ted.com/podcasts/ted-interview">TED Interview</a>や、<a href="https://www.ted.com/podcasts/worklife">WorkLife with Adam Grant</a>、<a href="https://www.ted.com/podcasts/pindrop">Pindrop</a>、そして<a href="https://www.ted.com/podcasts/tedxshorts">TEDxSHORTS</a>を含むオリジナルのポッドキャストライブラリーを拡大させています。<a href="http://twitter.com/TEDTalks">Twitter</a>、<a href="http://www.facebook.com/TED">Facebook</a>、<a href="https://www.instagram.com/ted/">Instagram </a>、そして <a href="https://www.linkedin.com/company/ted-conferences">LinkedIn</a>でTEDをフォローしてください。</p>
+    </v-section>
+    <v-section :title="tedx.title" :src="tedx.src" :alt="tedx.alt">
+      <p>
+        TEDx（テデックス）とは、”ideas worth spreading”の精神に則り、人々にTEDのような体験の共有をもたらすことを目的として世界各地で独自に運営されているプログラムです。TEDxイベントでは、TEDトーク動画とライブスピーカーが、火花のようにきらめく、深い対話とつながりを組み合わせます。これらの、地域に根差した独自のイベントはTEDxとしてブランド化され、「x」は独自に運営されていることを意味します。TEDカンファレンスがTEDxプログラムのために一般的なガイダンスを提示していますが、個々のTEDxイベントは独自に運営されています。（一定のルールと規制に基づく）
+      </p>
+    </v-section>
+    <v-section :title="tedxnu.title" :src="tedxnu.src" :alt="tedxnu.alt">
+      <p>
+        ”ideas worth spreading”というTEDの理念に共感した学生たちにより結成され、TEDから正式にライセンスを取得し、2013年に発足した非営利団体です。現在も名古屋大学を中心に、大学生のみで構成・運営されています。
+      </p>
+    </v-section>
   </div>
 </template>
 
@@ -17,18 +27,18 @@ export default {
     return {
       ted: {
         title: 'What is TED?',
-        content: 'TEDとは1984年に設立された、世界的なプレゼンテーションのカンファレンスです。このカンファレンスは１年に１度、カナダのバンクーバーで開催され、5 日間で約70名が登壇します。TEDは、Technology、Entertainment、Designの頭文字を表し、未来を作るための「価値あるアイディアを広める（ideas worth spreading）」という目的をもっています。 このプレゼンテーションの動画はTED Talksとしてインターネット上で公開されており(http://www.ted.com/)、3200 本以上の動画を誰でも見ることができます。過去にはビル・ゲイツやビル・クリントン、アル・ゴアなど著名な人物が数多く登壇しています。',
-        src: 'aboutTed.png'
+        src: 'aboutTed.png',
+        alt: 'TEDのロゴ'
       },
       tedx: {
         title: 'What is TEDx?',
-        content: 'TEDxとは、「ideas worth spreading」の精神に基づき、TEDはTEDxと呼ばれるプログラムを作成しました。 TEDxは、TEDのような体験を共有するために人々を結びつける、ローカルな、独立して組織されたイベントです。このイベントはTEDxNagoyaUと呼ばれます。ここで、xは独立して組織されたTEDイベント、という意味を指します。TEDxNagoyaUイベントでは、TEDTalksのビデオと生のトークが組み合わさり、少人数のグループでの深い議論とつながりが誕生します。TED本部はTEDxプログラムの一般的なガイダンスを提供しますが、私たちを含む個々のTEDxイベントは本部とは独立して運営されています。',
-        src: 'aboutTedx.jpg'
+        src: 'aboutTedx.jpg',
+        alt: 'TEDxのロゴ、舞台装飾'
       },
       tedxnu: {
         title: 'What is TEDxNagoyaU?',
-        content: 'TEDxNagoyaU は、TED Talk に感銘を受けたメンバーが TEDx イベントを名古屋大学で開催しようという意気込みのもと、 2013年度に発足しました。 実行委員会は名古屋大学の学生を中心とした名古屋近辺の学生で構成され、運営を行っています。',
-        src: 'aboutTedxNu.jpg'
+        src: 'aboutTedxNu.jpg',
+        alt: 'TEDxNagoyaU 2019の代表挨拶'
       }
     }
   },

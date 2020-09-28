@@ -30,7 +30,7 @@ meta_tag: [
 
 # CODE BASE NAGOYA(株式会社プロトコーポレーション)様
 
-![CODE BASE NAGOYA　ロゴ](article/partner_interview/code_base_nagoya/logo.png)
+![CODE BASE NAGOYA　ロゴ](article/partner_interview/code_base_nagoya/logo.jpg)
 
 [ホームページ](https://codebase.proto-g.co.jp/)  
 [Twitter](https://twitter.com/codebase_nagoya)

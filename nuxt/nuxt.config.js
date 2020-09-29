@@ -61,6 +61,16 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         content: 'https://tedxnagoyau.com/keyvisual_white.png'
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:site',
+        property: 'twitter:site',
+        content: '@TEDxNagoyaU'
       }
     ],
     link: [

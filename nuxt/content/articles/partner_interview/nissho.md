@@ -3,7 +3,7 @@ title : 株式会社ニッショー様へインタビュー！「ニッショー
 date: 2020/09/23
 description : 株式会社ニッショー様へインタビュー
 tags: ["2020"]
-thumbnail: article/partner_interview/nissho/syaoku.png
+thumbnail: article/partner_interview/nissho/thumbnail.jpg
 meta_tag: [
   {
     hid: 'og:title',
@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/nissho/syaoku.png'
+    content: 'https://tedxnagoyau.com/article/partner_interview/nissho/thumbnail.jpg'
   }
 ]
 ---
@@ -34,7 +34,8 @@ meta_tag: [
 ![企業ロゴ](article/partner_interview/nissho/logo.jpg)
 
 ニッショーは1972年の創業から49周年を迎え、東海地区の賃貸住宅仲介会社の“第一人者”として、 現在、愛知・岐阜・三重県下101ヵ所（2020年5月現在）に営業拠点を展開するとともに、 物件情報を「ニッショー.jp」を通じて提供。厚い信頼、豊富なノウハウなど、どこにも負けない実績があります。物件のご紹介だけでなく、 宅地建物総合管理、退去立合、営繕、損害保険代理業務など、総合不動産流通業として、トータルパワーであらゆるニーズにお応えしています。  
-HPリンク：https://www.nissho-apn.co.jp/
+HPリンク：https://www.nissho-apn.co.jp/  
+[Twitter](https://twitter.com/nissho_JP)
 
 # TEDxNagoyaUをサポートしていただいている理由とは？
 

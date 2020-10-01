@@ -31,8 +31,7 @@ export default {
       },
       info: {
         title: 'Event Information',
-        abstruct: '今年はオンライン開催となりました。詳細は後日お知らせします。',
-        date: '2020/10/11(日)'
+        date: '2020年10月11日(日) 13:00~17:00'
       }
     }
   },

@@ -33,6 +33,7 @@
                   color="primary"
                   :href="item.btnLink"
                   :disabled="item.disabled"
+                  @click.native="clickBtn(item.isFormLink)"
                 >
                   {{ item.btnText }}
                 </v-btn>
@@ -57,7 +58,8 @@ export default {
           btnText: 'お申込みフォーム',
           btnLink: 'https://forms.gle/VBFtNkzgAiGfTz8S7',
           icon: 'mdi-text-subject',
-          disabled: false
+          disabled: false,
+          isFormLink: true
         },
         {
           title: '2, 確認メールを受信',
@@ -65,7 +67,8 @@ export default {
           btnText: 'メールが届かない場合',
           btnLink: '/event#faqs_before_event',
           icon: 'mdi-email',
-          disabled: false
+          disabled: false,
+          isFormLink: false
         },
         {
           title: '3, オープンチャットへ参加',
@@ -73,13 +76,15 @@ export default {
           btnText: 'オープンチャットの参加方法',
           btnLink: '/event/open_chat',
           icon: 'mdi-chat',
-          disabled: false
+          disabled: false,
+          isFormLink: false
         },
         {
           title: 'Extra, SNSのフォローお願いします！',
           text: 'TwitterやFacebook, Instagramを更新しています！スピーカー情報なども随時お知らせしていますので、ぜひフォローしてください！',
           icon: 'mdi-share-variant-outline',
-          disabled: false
+          disabled: false,
+          isFormLink: false
         }
       ]
     }
@@ -92,6 +97,20 @@ export default {
         case 'lg': return false
         default: return false
       }
+    }
+  },
+  methods: {
+    clickBtn (isClickedFormLink) {
+      if (!isClickedFormLink) {
+        return
+      }
+
+      this.$ga.event({
+        eventCategory: 'Event_2020',
+        eventAction: 'clickLinkToForm',
+        eventLabel: 'event2020',
+        eventValue: 1
+      })
     }
   }
 }

@@ -9,16 +9,17 @@
     </v-row>
 
     <v-row align="start" justify="center">
-      <v-col class="text-center" cols="12" sm="6">
+      <v-col class="text-center" cols="12">
         <h1 class="display-1 font-weight-bold mb-4">
-          概要
+          開催：{{ date }}
         </h1>
-        <p>{{ date }}</p>
       </v-col>
-      <v-col cols="12" sm="6">
-        <p class="subheading">
-          {{ abstruct }}
-        </p>
+      <v-col cols="12">
+        <v-img
+          :aspect-ratio="16/9"
+          :width="width"
+          src="events/time_table.png"
+    ></v-img>
       </v-col>
       <v-col cols="12">
         <h1 class="event-title display-1 font-weight-bold mb-4">

@@ -23,7 +23,7 @@ meta_tag: [
 ]
 ---
 
-![株式会社ニッショー様社屋](article/partner_interview/nissho/syaoku.png)
+![株式会社ニッショー](article/partner_interview/nissho/thumbnail.jpg)
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと2013年度に誕生したTEDxNagoyaU。
 
@@ -34,8 +34,8 @@ meta_tag: [
 ![企業ロゴ](article/partner_interview/nissho/logo.jpg)
 
 ニッショーは1972年の創業から49周年を迎え、東海地区の賃貸住宅仲介会社の“第一人者”として、 現在、愛知・岐阜・三重県下101ヵ所（2020年5月現在）に営業拠点を展開するとともに、 物件情報を「ニッショー.jp」を通じて提供。厚い信頼、豊富なノウハウなど、どこにも負けない実績があります。物件のご紹介だけでなく、 宅地建物総合管理、退去立合、営繕、損害保険代理業務など、総合不動産流通業として、トータルパワーであらゆるニーズにお応えしています。  
-HPリンク：https://www.nissho-apn.co.jp/  
-Twitter：https://twitter.com/nissho_JP
+[ホームページ](https://www.nissho-apn.co.jp/)  
+[Twitter](https://twitter.com/nissho_JP)
 
 # TEDxNagoyaUをサポートしていただいている理由とは？
 

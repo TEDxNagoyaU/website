@@ -3,7 +3,7 @@ title : 大同特殊鋼株式会社様へインタビュー！「TEDxNagoyaUに�
 date: 2020/09/28
 description : 大同特殊鋼株式会社様へインタビュー！
 tags: ["2020"]
-thumbnail: article/partner_interview/daido/product_shaped_ring.jpg
+thumbnail: article/partner_interview/daido/furnace.jpg
 meta_tag: [
   {
     hid: 'og:title',
@@ -23,7 +23,7 @@ meta_tag: [
 ]
 ---
 
-![冷却前の完成したばかりの製品](article/partner_interview/daido/product_shaped_ring.jpg)
+![炉の外見](article/partner_interview/daido/furnace.jpg)
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと、2013年度に誕生したTEDxNagoyaU。
 
@@ -49,7 +49,7 @@ __TEDxNagoyaU__：今年度はオンライン開催を決断し、それに向�
 
 __大同特殊鋼様__：中止にすることは簡単ですが、制限のある中で「何ができるのか」、「どうすればできるのか」を考えていくことが大切だと思います。ＩＴが身近な環境で育ったデジタルネイティブともいわれる若いみなさんの新しい発想やアイデアに期待しています。
 
-![炉の外見](article/partner_interview/daido/furnace.jpg)
+![冷却前の完成したばかりの製品](article/partner_interview/daido/product_shaped_ring.jpg)
 
 # 1916年の創業以来、様々な産業分野の発展を支え続ける大同特殊鋼様のありたい姿とは？
 

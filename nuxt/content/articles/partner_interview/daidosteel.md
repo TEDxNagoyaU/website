@@ -23,7 +23,7 @@ meta_tag: [
 ]
 ---
 
-![液化した金属を流し込む様子](article/partner_interview/daido/pour_iron_2.jpg)
+![液化した金属を流し込む様子](article/partner_interview/daido/pour_iron.jpg)
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと、2013年度に誕生したTEDxNagoyaU。
 

@@ -3,7 +3,7 @@ title : 大同特殊鋼株式会社様へインタビュー！「TEDxNagoyaUに�
 date: 2020/09/28
 description : 大同特殊鋼株式会社様へインタビュー！
 tags: ["2020"]
-thumbnail: article/partner_interview/daido/furnace.jpg
+thumbnail: article/partner_interview/daido/pour_iron_2.jpg
 meta_tag: [
   {
     hid: 'og:title',
@@ -18,12 +18,12 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/daido/product_shaped_ring.jpg'
+    content: 'https://tedxnagoyau.com/article/partner_interview/daido/pour_iron_2.jpg'
   }
 ]
 ---
 
-![炉の外見](article/partner_interview/daido/furnace.jpg)
+![液化した金属を流し込む様子](article/partner_interview/daido/pour_iron_2.jpg)
 
 1984年にアメリカで設立されたTED「価値あるアイデアを広める(Ideas worth spreading)」の精神に基づき、名古屋大学でTEDxイベントを開催しようと、2013年度に誕生したTEDxNagoyaU。
 
@@ -49,7 +49,7 @@ __TEDxNagoyaU__：今年度はオンライン開催を決断し、それに向�
 
 __大同特殊鋼様__：中止にすることは簡単ですが、制限のある中で「何ができるのか」、「どうすればできるのか」を考えていくことが大切だと思います。ＩＴが身近な環境で育ったデジタルネイティブともいわれる若いみなさんの新しい発想やアイデアに期待しています。
 
-![冷却前の完成したばかりの製品](article/partner_interview/daido/product_shaped_ring.jpg)
+![炉の外見](article/partner_interview/daido/furnace.jpg)
 
 # 1916年の創業以来、様々な産業分野の発展を支え続ける大同特殊鋼様のありたい姿とは？
 
@@ -57,7 +57,7 @@ __TEDxNagoyaU__：今年のTEDxNagoyaU 2020のテーマは「Steer your ship!」
 
 __大同特殊鋼様__：私たち大同特殊鋼グループは1916年の創業以来、特殊鋼という素材を通じて自動車産業をはじめ、航空機、船舶、IT機器など様々な産業分野の発展を支えてきました。環境の変化が加速するこれからの時代においても、素材の可能性を追求し、人と社会の未来を支え続けるという経営理念のもと、世界に貢献する特殊鋼メーカーを目指し、お客様との共創を通じて、世界の成長を支える新しい特殊鋼を産み続けていきたいと考えています。
 
-![液化した金属を流し込む様子](article/partner_interview/daido/pour_iron.jpg)
+![冷却前の完成したばかりの製品](article/partner_interview/daido/product_shaped_ring.jpg)
 
 __TEDxNagoyaU__：それでは最後に、TEDxNagoyaUイベントの参加者の皆様に、メッセージをお願いします！
 

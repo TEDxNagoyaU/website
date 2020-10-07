@@ -18,7 +18,7 @@ export default {
     TopicPath
   },
   async asyncData ({ $content, params }) {
-    const articles = await $content('articles', params.category).fetch()
+    const articles = await $content('articles', params.category).sortBy('date', 'desc').fetch()
     return { articles, params }
   },
   head () {

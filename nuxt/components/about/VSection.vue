@@ -18,15 +18,14 @@
         align="center"
         justify="center"
       >
-        <v-col xs="12"  sm="12" md="6">
+        <v-col xs="12" sm="12" md="6">
           <v-img
             :src="src"
+            :alt="alt"
           />
         </v-col>
         <v-col xs="12" sm="12" md="5">
-          <p class="subheading">
-            {{ content }}
-          </p>
+          <slot></slot>
         </v-col>
       </v-row>
     </v-container>
@@ -34,17 +33,20 @@
 </template>
 
 <script>
+/*
+ * slotには文章を入れる。
+ */
 export default {
   props: {
     title: {
       type: String,
       required: true
     },
-    content: {
+    src: {
       type: String,
       required: true
     },
-    src: {
+    alt: {
       type: String,
       required: true
     }

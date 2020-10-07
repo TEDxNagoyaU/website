@@ -1,47 +1,5 @@
 <template>
   <div>
-    <!--
-  <h2
-    class="d-none d-sm-block"
-  >TEDxNagoyaU Talk</h2>
-  <v-carousel class="align-center d-none d-sm-block">
-    <v-carousel-item
-      v-for="speaker in speakers"
-      :key="speaker.name"
-      class="pa-0"
-    >
-      <v-card color="white">
-        <v-container class="pa-0">
-          <v-row>
-            <v-col
-              cols="6"
-              class="pa-0"
-            >
-              <v-img
-                max-height="500px"
-                :src="speaker.img"
-              >
-              </v-img>
-            </v-col>
-            <v-col cols="6">
-              <v-card-title class="black--text">{{ speaker.title }}</v-card-title>
-              <v-card-subtitle class="black--text">{{ speaker.name }}</v-card-subtitle>
-              <v-card-text class="black--text">{{ speaker.leadSentence }}</v-card-text>
-              <v-card-actions>
-                <show-talks-dialog :youtubeId="speaker.youtubeId"/>
-              </v-card-actions>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-card>
-    </v-carousel-item>
-  </v-carousel>
-  -->
-    <!--
-  ここまでパソコン向け。vuetifyのmd以上が対応
-  スマホタブレットの表示はここから。vuetify の sm以下が対応
-  -->
-
     <v-container>
       <v-row>
         <h1 class="pl-3 text-h5">
@@ -50,14 +8,16 @@
       </v-row>
       <v-row align="center">
         <v-col
-          v-for="speaker in shuffleSlicedSpeakers"
+          v-for="speaker in shuffleSlicedSpeakers()"
           :key="speaker.name"
-          sm="12"
-          md="6"
+          xs="12"
+          sm="6"
+          md="4"
         >
           <v-card>
             <v-img
               :src="speaker.img"
+              lazy-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCRkOBjOCFGLKAAAAkklEQVR42u3OwQmAMADAwO4/ZaWga+gKQsEgF8j/xkw2vgZgYWFhYWFFwsLCKoSFhVUICwurEBYWViEsLKxCWFhYhbCwsAphYWEVwsLCKoSFhVXo36zjmut8jrF2h4WFVQgLC6sQFhZWISwsrEJYWFiFsLCwCmFhYRXCwsIqhIWFVQgLC6sQFhZWISwsrEJYb7oBmCDsEMs9N24AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDktMjVUMjM6MDY6NTErMDk6MDC+nySAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA5LTI1VDIzOjA2OjUxKzA5OjAwz8KcPAAAAABJRU5ErkJggg=="
               class="align-end"
             >
               <div
@@ -107,8 +67,23 @@ export default {
     }
   },
   computed: {
+    numberOfDisplay () {
+      let number
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': number = 2; break
+        case 'sm': number = 4; break
+        case 'md': number = 6; break
+        case 'lg': number = 6; break
+        case 'xl': number = 6; break
+        default: number = 2
+      }
+      return number
+    }
+  },
+  methods: {
     shuffleSlicedSpeakers () {
-      return Object.create(this.speakers).sort(() => Math.random() - 0.5).slice(0, 4)
+      const numberOfDisplay = this.numberOfDisplay
+      return [...this.speakers].sort(() => Math.random() - 0.5).slice(0, numberOfDisplay)
     }
   }
 }

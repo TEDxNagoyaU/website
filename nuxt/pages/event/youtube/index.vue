@@ -38,6 +38,9 @@ export default {
     return {
       youtubeUrl: null // 公開時はここにリンクを入れる。
     }
+  },
+  head () {
+    title: 'イベントのYouTubeリンクはこちらから'
   }
 }
 </script>

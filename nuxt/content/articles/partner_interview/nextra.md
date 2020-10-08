@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/nextra/logo.png'
+    content: 'https://tedxnagoyau.com/article/partner_interview/nextra/panel.jpg'
   }
 ]
 ---

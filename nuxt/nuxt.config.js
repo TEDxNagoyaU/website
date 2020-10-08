@@ -159,7 +159,8 @@ export default {
     hostname: 'https://tedxnagoyau.com',
     exclude: [
       '/links',
-      '/partnersLp'
+      '/partnersLp',
+      '/event/youtube'
     ],
     routes: async () => {
       const { $content } = require('@nuxt/content')

@@ -23,7 +23,7 @@
             <p
               v-else
             >
-              Youtube: 未公開です。しばらくお待ちください。
+              Youtube: Coming soon ...
             </p>
           </v-card-text>
         </v-card>

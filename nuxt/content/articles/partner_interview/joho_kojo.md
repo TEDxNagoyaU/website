@@ -1,7 +1,7 @@
 ---
 title : 株式会社情報工場様へインタビュー！書籍から生まれる新たな価値とは
 date: 2020/10/08
-description : アルファス株式会社様へインタビュー！
+description : 株式会社情報工場様へインタビュー！
 tags: ["2020"]
 thumbnail: article/partner_interview/joho_kojo/fujii_tokuhisa.jpg
 meta_tag: [

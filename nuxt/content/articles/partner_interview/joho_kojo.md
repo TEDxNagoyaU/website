@@ -3,7 +3,7 @@ title : 株式会社情報工場様へインタビュー！書籍から生まれ
 date: 2020/10/08
 description : アルファス株式会社様へインタビュー！
 tags: ["2020"]
-thumbnail: article/partner_interview/alphas/tanaka.jpg
+thumbnail: article/partner_interview/joho_kojo/fujii_tokuhisa.jpg
 meta_tag: [
   {
     hid: 'og:title',
@@ -13,12 +13,12 @@ meta_tag: [
   {
     hid: 'og:description',
     property: 'og:description',
-    content: 'アルファス株式会社田中社長に、TEDxNagoyaUをサポートしてくださる思いを伺いました。'
+    content: '株式会社情報工場 藤井社長へ書籍で情報を届ける理由、情報工場様自身のSteer Your Ship について伺いました。'
   },
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'article/partner_interview/alphas/tanaka.jpg'
+    content: 'article/partner_interview/joho_kojo/fujii_tokuhisa.jpg'
   }
 ]
 ---

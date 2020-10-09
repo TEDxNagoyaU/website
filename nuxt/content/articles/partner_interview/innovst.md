@@ -1,6 +1,6 @@
 ---
 title : アルファス株式会社様へインタビュー！「田中社長のTEDxNagoyaUをサポートする思いとは！？」
-date: 2020/10/08
+date: 2020/10/12
 description : アルファス株式会社様へインタビュー！
 tags: ["2020"]
 thumbnail: article/partner_interview/alphas/tanaka.jpg

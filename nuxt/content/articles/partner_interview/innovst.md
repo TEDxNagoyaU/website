@@ -1,24 +1,19 @@
 ---
-title : アルファス株式会社様へインタビュー！「田中社長のTEDxNagoyaUをサポートする思いとは！？」
+title : 株式会社イノベスト様へインタビュー！リーダーシップを発揮できる社会とは
 date: 2020/10/12
-description : アルファス株式会社様へインタビュー！
+description : 株式会社イノベスト様へインタビュー！
 tags: ["2020"]
-thumbnail: article/partner_interview/alphas/tanaka.jpg
+thumbnail: article/partner_interview/innovst/logo.jpg
 meta_tag: [
   {
     hid: 'og:title',
     property: 'og:title',
-    content: 'アルファス株式会社様へインタビュー！'
+    content: '株式会社イノベスト様へインタビュー！'
   },
   {
     hid: 'og:description',
     property: 'og:description',
-    content: 'アルファス株式会社田中社長に、TEDxNagoyaUをサポートしてくださる思いを伺いました。'
-  },
-  {
-    hid: 'og:image',
-    property: 'og:image',
-    content: 'article/partner_interview/alphas/tanaka.jpg'
+    content: '株式会社イノベスト 代表の松岡様にリーダーシップを発揮できる社会について伺いました。'
   }
 ]
 ---

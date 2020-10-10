@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'article/partner_interview/code_base_nagoya/interviewee.jpg'
+    content: 'https://tedxnagoyau.com/article/partner_interview/code_base_nagoya/interviewee.jpg'
   }
 ]
 ---

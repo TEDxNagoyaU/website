@@ -40,7 +40,9 @@ export default {
     }
   },
   head () {
-    title: 'イベントのYouTubeリンクはこちらから'
+    return {
+      title: 'イベントのYouTubeリンクはこちらから'
+    }
   }
 }
 </script>

@@ -8,7 +8,7 @@
 
 <script>
 // import FirstView from '~/components/home/FirstView'
-import EventInfo from '~/components/home/eventInfo'
+import EventInfo from '~/components/home/EventInfo'
 import ShowTalks from '~/components/home/ShowTalks'
 import ShowArticles from '~/components/home/ShowArticles'
 

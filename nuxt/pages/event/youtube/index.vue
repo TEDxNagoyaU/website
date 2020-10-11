@@ -36,11 +36,13 @@
 export default {
   data () {
     return {
-      youtubeUrl: null // 公開時はここにリンクを入れる。
+      youtubeUrl: "https://youtu.be/UUqsEXR-8rc" // 公開時はここにリンクを入れる。
     }
   },
   head () {
-    title: 'イベントのYouTubeリンクはこちらから'
+    return {
+      title: 'イベントのYouTubeリンクはこちらから'
+    }
   }
 }
 </script>

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/event/open_chat", {data:[{}],fetch:[],mutations:void 0});

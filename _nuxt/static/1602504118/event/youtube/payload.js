@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/event/youtube", {data:[{}],fetch:[],mutations:void 0});

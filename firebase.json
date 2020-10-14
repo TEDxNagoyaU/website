@@ -31,10 +31,27 @@
         }]
       }
     ],
-    "redirects": [{
-      "source": "/articles/partner_interview/tabila_systems",
-      "destination": "/articles/partner_interview/tobila_systems",
-      "type": 301
-    }]
+    "redirects": [
+      {
+        "source": "/articles/partner_interview/tabila_systems",
+        "destination": "/articles/partner_interview/tobila_systems",
+        "type": 301
+      },
+      {
+        "source": "/event",
+        "destination": "/events/2020",
+        "type": 301
+      },
+      {
+        "source": "/event/open_chat",
+        "destination": "/events/2020/open_chat",
+        "type": 301
+      },
+      {
+        "source": "/event/youtube",
+        "destination": "/events/2020/youtube",
+        "type": 301
+      }
+    ]
   }
 }

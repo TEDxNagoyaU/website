@@ -58,14 +58,14 @@ export default {
           btnText: 'お申込みフォーム',
           btnLink: 'https://forms.gle/VBFtNkzgAiGfTz8S7',
           icon: 'mdi-text-subject',
-          disabled: false,
+          disabled: true,
           isFormLink: true
         },
         {
           title: '2, 確認メールを受信',
           text: 'お申込みいただくと、登録していただいたメールアドレスに確認用メッセージを送信させていただきます。',
           btnText: 'メールが届かない場合',
-          btnLink: '/event#faqs_before_event',
+          btnLink: '/events/2020#faqs_before_event',
           icon: 'mdi-email',
           disabled: false,
           isFormLink: false
@@ -74,7 +74,7 @@ export default {
           title: '3, オープンチャットへ参加',
           text: '円滑な運営のため、参加者の皆様にはLINE openChatへの参加をお願いしています。必須ではありませんが、イベント当日にも迅速な対応が可能となるため、ぜひご参加ください。',
           btnText: 'オープンチャットの参加方法',
-          btnLink: '/event/open_chat',
+          btnLink: '/events/2020/open_chat',
           icon: 'mdi-chat',
           disabled: false,
           isFormLink: false

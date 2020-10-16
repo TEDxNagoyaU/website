@@ -14,11 +14,6 @@ meta_tag: [
     hid: 'og:description',
     property: 'og:description',
     content: '株式会社情報工場 藤井社長へ書籍で情報を届ける理由、情報工場様自身のSteer Your Ship について伺いました。'
-  },
-  {
-    hid: 'og:image',
-    property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/joho_kojo/logo.jpg'
   }
 ]
 ---

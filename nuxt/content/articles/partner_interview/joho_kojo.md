@@ -3,7 +3,7 @@ title : 株式会社情報工場様へインタビュー！書籍から生まれ
 date: 2020/10/12
 description : 株式会社情報工場様へインタビュー！
 tags: ["2020"]
-thumbnail: article/partner_interview/joho_kojo/fujii_tokuhisa.jpg
+thumbnail: article/partner_interview/joho_kojo/logo.jpg
 meta_tag: [
   {
     hid: 'og:title',
@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'https://tedxnagoyau.com/article/partner_interview/joho_kojo/fujii_tokuhisa.jpg'
+    content: 'https://tedxnagoyau.com/article/partner_interview/joho_kojo/logo.jpg'
   }
 ]
 ---
@@ -49,9 +49,6 @@ __TEDxNagoyaU__：TEDxNagoyaUでは、実際のスピーカーさんのトーク
 __情報工場様__：ビジネスパーソンにとって、専門分野の情報はもちろん、一見仕事とは関係が薄そうな情報をインプットすることは、発想力や洞察力、感性を養うのにとても大事なことであり、一過性でない情報価値として、書籍の果たす役割は大きいと考えています。実際、国内外含めて第一線で活躍するビジネスリーダーの読書率は高いように感じます。
 
 # 情報工場様の「Steer Your Ship!」とは？
-![代表の藤井 徳久（ふじい とくひさ）様](article/partner_interview/joho_kojo/fujii_tokuhisa.jpg)
-代表の藤井 徳久（ふじい とくひさ）様
-
 __TEDxNagoyaU__：ではぜひ今年のTEDxNagoyaU2020のテーマ「Steer Your Ship!」（意味は「舵をとれ!」）にちなんで、様々な情報価値を提供されている情報工場様の目指すべきありたい姿を教えてください。
 
 __情報工場様__：SERENDIPを通してユーザーの皆様が新しい気づきを得て、これからの社会で求められる新たな価値やイノベーションが創出されるサポートができればうれしく思います。

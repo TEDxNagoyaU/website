@@ -32,7 +32,7 @@
           <v-btn
             class="ma-2 red--text"
             color="white"
-            to="/event"
+            to="/events/2020"
             nuxt
             depressed
             @click.native="eventOfClickedEventDetail"

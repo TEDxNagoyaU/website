@@ -22,6 +22,7 @@ meta_tag: [
 今回は今年の開催からTEDxNagoyaUをサポートしてくださる、株式会社Harmony For代表の塚本将弘様（以下塚本様）に、TEDxNagoyaU2020の開催に先立ち、お話をお伺いしました。
 
 # 株式会社Harmony For
+![企業ロゴ](article/partner_interview/harmony_for/harmony_for.jpg)
 「全てのひとが人間らしく生きる社会を」を理念とし、名古屋市のJRゲートタワーにて留学生と企業のマッチングサイトの運営、外国人留学生向けイベント、セミナー、人材紹介等を行っている。
 
 # TEDxNagoyaUをサポートしてくださる理由とは？

@@ -60,7 +60,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://tedxnagoyau.com/keyvisual_white.png'
+        content: 'https://tedxnagoyau.com/default_ogp.jpg'
       },
       {
         hid: 'twitter:card',

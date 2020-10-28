@@ -8,7 +8,7 @@
       </v-row>
       <v-row align="center">
         <v-col
-          v-for="speaker in shuffleSlicedSpeakers()"
+          v-for="speaker in slicedSpeakers()"
           :key="speaker.name"
           xs="12"
           sm="6"
@@ -33,8 +33,16 @@
                         {{ speaker.name }}
                       </v-card-subtitle>
                     </v-col>
-                    <v-col cols="4" class="d-flex align-center">
-                      <show-talks-dialog :youtube-id="speaker.youtubeId" />
+                    <v-col cols="4" class="d-flex align-center" v-if="speaker.youtubeId">
+                      <v-btn
+                        color="red"
+                        text
+                        @click="youtubeModalOn = true; youtubeModalData = speaker.youtubeId"
+                      >
+                        <v-icon large>
+                          mdi-youtube
+                        </v-icon>
+                      </v-btn>
                     </v-col>
                   </v-row>
                 </v-container>
@@ -44,16 +52,25 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-dialog
+      v-model="youtubeModalOn"
+    >
+      <youtube
+        ref="youtube"
+        :video-id="youtubeModalData"
+        :resize="true"
+      />
+    </v-dialog>
   </div>
 </template>
 
 <script>
-import ShowTalksDialog from '~/components/home/ShowTalksDialog.vue'
+import Vue from 'vue'
+import VueYoutube from 'vue-youtube'
+Vue.use(VueYoutube)
+
 export default {
   name: 'ShowTalks',
-  components: {
-    ShowTalksDialog
-  },
   props: {
     speakers: {
       type: Array,
@@ -63,7 +80,7 @@ export default {
   data () {
     return {
       youtubeModalOn: false,
-      youtubeModalData: ''
+      youtubeModalData: null
     }
   },
   computed: {
@@ -81,9 +98,9 @@ export default {
     }
   },
   methods: {
-    shuffleSlicedSpeakers () {
+    slicedSpeakers () {
       const numberOfDisplay = this.numberOfDisplay
-      return [...this.speakers].sort(() => Math.random() - 0.5).slice(0, numberOfDisplay)
+      return [...this.speakers].slice(0, numberOfDisplay)
     }
   }
 }

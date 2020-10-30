@@ -1,5 +1,5 @@
 ---
-name: Tongaliプロジェクト事務局
+name: Tongaliプロジェクト
 logo: partners/2020/tongali.jpg
 order: 15
 ---

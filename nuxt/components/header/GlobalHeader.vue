@@ -30,7 +30,7 @@
       <v-list>
         <global-header-list-item name="Home" path="/" />
         <global-header-list-item name="About" path="/about" />
-        <global-header-list-item name="Event" path="/event" />
+        <global-header-list-group title="Event" :links="eventLinks" />
         <global-header-list-group title="Article" :links="articleLinks" />
         <global-header-list-group title="Talks" :links="speakerLinks" />
         <global-header-list-group title="Partner" :links="partnerLinks" />

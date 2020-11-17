@@ -3,7 +3,7 @@ title : アルファス株式会社様へインタビュー！「田中社長の
 date: 2020/10/08
 description : アルファス株式会社様へインタビュー！
 tags: ["2020"]
-thumbnail: article/partner_interview/alphas/tanaka.jpg
+thumbnail: article/partner_interview/alphas/ALPHAS_logo_slogan.jpg
 meta_tag: [
   {
     hid: 'og:title',
@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'article/partner_interview/alphas/tanaka.jpg'
+    content: 'article/partner_interview/alphas/ALPHAS_logo_slogan.jpg'
   }
 ]
 ---

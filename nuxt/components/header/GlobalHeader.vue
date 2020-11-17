@@ -16,7 +16,7 @@
       <v-tabs class="d-none d-md-flex">
         <global-header-tabs name="Home" path="/" />
         <global-header-tabs name="About" path="/about" />
-        <global-header-tabs name="Event" path="/event" />
+        <global-header-tabs-menu title="Event" :links="eventLinks" />
         <global-header-tabs-menu title="Article" :links="articleLinks" />
         <global-header-tabs-menu title="Talks" :links="speakerLinks" />
         <global-header-tabs-menu title="Partner" :links="partnerLinks" />
@@ -30,7 +30,7 @@
       <v-list>
         <global-header-list-item name="Home" path="/" />
         <global-header-list-item name="About" path="/about" />
-        <global-header-list-item name="Event" path="/event" />
+        <global-header-list-group title="Event" :links="eventLinks" />
         <global-header-list-group title="Article" :links="articleLinks" />
         <global-header-list-group title="Talks" :links="speakerLinks" />
         <global-header-list-group title="Partner" :links="partnerLinks" />
@@ -55,6 +55,12 @@ export default {
   data () {
     return {
       drawer: false,
+      eventLinks: [
+        {
+          path: '/events/2020',
+          name: '2020'
+        }
+      ],
       speakerLinks: [
         /* {
           path: '/talks/2020',

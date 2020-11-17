@@ -42,8 +42,7 @@ __G-net様__：G-netのミッションに「日本一チャレンジにやさし
 
 ![公演の様子](article/partner_interview/g_net/talking.jpg)
 
-![オンラインのプロジェクトの紹介](article/partner_interview/g_net/kaketasu.jpg)
-https://kaketasu.net/
+![オンラインのプロジェクトの紹介](article/partner_interview/g_net/kaketasu_project.jpg)
 
 __TEDxNagoyaU__：ありがとうございます。お話の中で以前からの関わりがあったとおっしゃっておりましたが、どういうつながりだったのでしょうか。
 

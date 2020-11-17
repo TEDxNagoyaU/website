@@ -60,7 +60,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://tedxnagoyau.com/keyvisual_white.png'
+        content: 'https://tedxnagoyau.com/default_ogp.jpg'
       },
       {
         hid: 'twitter:card',
@@ -159,7 +159,8 @@ export default {
     hostname: 'https://tedxnagoyau.com',
     exclude: [
       '/links',
-      '/partnersLp'
+      '/partnersLp',
+      '/event/youtube'
     ],
     routes: async () => {
       const { $content } = require('@nuxt/content')

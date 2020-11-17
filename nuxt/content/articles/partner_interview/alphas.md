@@ -30,7 +30,7 @@ meta_tag: [
 
 # アルファス株式会社様
 
-![アルファス株式会社様のロゴとスローガン](article/partner_interview/alphas/ALPHAS_logo_jp_slogan.jpg)
+![アルファス株式会社様のロゴとスローガン](article/partner_interview/alphas/ALPHAS_logo_slogan.jpg)
 
 [社長インタビュー](https://www.kenja.tv/president/detkz34zb.html)　[コーポレートサイト](https://alphas.biz/)　[採用ページ](https://alphas-recruit.link/)
 

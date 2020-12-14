@@ -14,7 +14,7 @@ export default {
   router: {
     base: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
       : process.env.DEPLOY_ENV === 'REVIEW' ? '/review/'
-      : '/'
+        : '/'
   },
   /*
   ** Headers of the page
@@ -24,7 +24,7 @@ export default {
     base: {
       href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
         : process.env.DEPLOY_ENV === 'REVIEW' ? '/review/'
-        : '/'
+          : '/'
     },
     titleTemplate: '%s | ' + 'TEDxNagoyaU',
     // title: 'Steer your ship',

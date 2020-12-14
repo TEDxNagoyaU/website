@@ -25,7 +25,7 @@
           />
         </v-col>
         <v-col xs="12" sm="12" md="5">
-          <slot></slot>
+          <slot />
         </v-col>
       </v-row>
     </v-container>

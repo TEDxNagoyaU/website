@@ -19,7 +19,7 @@
           :aspect-ratio="16/9"
           :width="width"
           src="events/time_table.png"
-    ></v-img>
+        />
       </v-col>
       <v-col cols="12">
         <h1 class="event-title display-1 font-weight-bold mb-4">

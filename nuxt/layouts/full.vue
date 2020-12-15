@@ -1,7 +1,7 @@
 <template>
   <v-app light>
     <global-header />
-    <v-main class="main">
+    <v-main>
       <v-main>
         <nuxt />
       </v-main>

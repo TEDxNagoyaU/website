@@ -33,7 +33,7 @@
                         {{ speaker.name }}
                       </v-card-subtitle>
                     </v-col>
-                    <v-col cols="4" class="d-flex align-center" v-if="speaker.youtubeId">
+                    <v-col v-if="speaker.youtubeId" cols="4" class="d-flex align-center">
                       <v-btn
                         color="red"
                         text

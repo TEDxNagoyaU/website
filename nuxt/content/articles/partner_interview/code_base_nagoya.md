@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'article/partner_interview/code_base_nagoya/interviewee.jpg'
+    content: 'https://tedxnagoyau.com/article/partner_interview/code_base_nagoya/interviewee.jpg'
   }
 ]
 ---
@@ -39,10 +39,10 @@ CODE BASE NAGOYAは、昨年5月に『名古屋をギガ・シティに』とい
 # TEDxNagoyaUをサポートしてくださることになった理由は？
 __TEDxNagoyaU__: TEDxNagoyaUのパートナーとしてサポートをしていただき、ありがとうございます! ずばり、なぜこうしてサポートをしていただけるのでしょうか?
 
-__CODE BASE NAGOYA様__: TEDxNagoyaUの活動を動画などで見たとき、名古屋を盛り上げてくれそうな方々が集まっていると率直に感じました。ずばり言うなら、支援することで『名古屋をギガ・シティにする』に繋がりそうと思ったからです! もともとCODE BASEではプログラミング教室「At learn up!」等を無料で開講することで、次世代を担いうる意欲の高い学生を支援してきました。CODE BASE自体も、名古屋のITを盛り上げたいと思って出来たものです。会社として、何か新しいことをしよう!という若い気持ちを支援するのが好きなんですね。
+__CODE BASE NAGOYA様__: TEDxNagoyaUの活動を動画などで見たとき、名古屋を盛り上げてくれそうな方々が集まっていると率直に感じました。ずばり言うなら、支援することで『名古屋をギガ・シティにする』に繋がりそうと思ったからです! もともとCODE BASEではプログラミング教室「AI learn up!」等を無料で開講することで、次世代を担いうる意欲の高い学生を支援してきました。CODE BASE自体も、名古屋のITを盛り上げたいと思って出来たものです。会社として、何か新しいことをしよう!という若い気持ちを支援するのが好きなんですね。
 
-![プログラミング教室「At learn up!」第三期の様子](article/partner_interview/code_base_nagoya/programming_class.jpg)
-プログラミング教室「At learn up!」第三期の様子
+![プログラミング教室「AI learn up!」第三期の様子](article/partner_interview/code_base_nagoya/programming_class.jpg)
+プログラミング教室「AI learn up!」第三期の様子
 
 加えて2020のテーマ「Steer Your Ship!」に共感したのも大きいです。CODE BASE NAGOYAを運営しているプロト自体が、そういった、自分の考え、自分の道を切り開く人が集まっているので。
 

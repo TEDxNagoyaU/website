@@ -1,20 +1,20 @@
 <template>
   <div>
-    <event-info />
+    <first-view/>
     <show-talks :speakers="speakers" />
     <show-articles :articles="articles" />
   </div>
 </template>
 
 <script>
-import EventInfo from '~/components/home/EventInfo'
+import FirstView from '~/components/home/FirstView'
 import ShowTalks from '~/components/home/ShowTalks'
 import ShowArticles from '~/components/home/ShowArticles'
 
 export default {
   layout: 'full',
   components: {
-    EventInfo,
+    FirstView,
     ShowTalks,
     ShowArticles
   },

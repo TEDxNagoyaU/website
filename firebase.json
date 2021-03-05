@@ -12,7 +12,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=2,592,000"
+            "value": "max-age=3600"
           }
         ]
       },
@@ -20,7 +20,7 @@
         "source": "**/*.@(js|css)",
         "headers": [{
           "key": "Cache-Control",
-          "value": "max-age=86400"
+          "value": "max-age=3600"
         }]
       },
       {

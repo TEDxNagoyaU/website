@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/events/2021/open_chat", {data:[{}],fetch:[],mutations:void 0});

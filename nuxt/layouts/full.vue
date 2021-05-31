@@ -23,5 +23,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+body,html{
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
 </style>

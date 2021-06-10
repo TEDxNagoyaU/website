@@ -34,7 +34,7 @@
             class="ma-2"
             color="white"
             depressed
-            href="https://tedxnagoyau.github.io/connect/"
+            href="https://tedxnagoyau-connect.web.app/"
             target="_blank"
           >
             イベントの詳細

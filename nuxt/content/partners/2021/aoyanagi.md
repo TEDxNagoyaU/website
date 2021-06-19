@@ -1,6 +1,6 @@
 ---
 name: 株式会社青柳総本家
-logo: partners/2021/sala.jpg
+logo: partners/2021/aoyanagi.png
 order: 5
 ---
 

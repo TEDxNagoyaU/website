@@ -81,6 +81,10 @@ export default {
       ],
       partnerLinks: [
         {
+          path: '/partners/2021',
+          name: '2021'
+        },
+        {
           path: '/partners/2020',
           name: '2020'
         },

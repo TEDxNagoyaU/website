@@ -23,14 +23,16 @@
         -->
         <v-col class="text-center" sm="6" xs="12">
           <h1 class="display-1  mb-4">
-            2021 TEDxNagoyaU Event
+            2021 TEDxNagoyaU Eventは盛況のもと、終演いたしました。
           </h1>
           <h2 class=" font-weight mb-4">
-            開催日時: 2021/07/04(Sun) <br>
-            参加形態: Zoom & youtube
+            ご参加いただいた皆さま、ご協力いただいた方々に心より感謝申し上げます。 <br>
+            
           </h2>
+          <h1 class="display-1 mb-4">現在TEDxNagoyaUではメンバーを募集しています。</h1>
+          <h2 class=" font-weight mb-4">説明会開催日時：2021/10/02 & 2021/10/07(両日ともオンライン)</h2>
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
-          <v-btn
+          <!-- <v-btn
             class="ma-2"
             color="white"
             depressed
@@ -38,12 +40,12 @@
             target="_blank"
           >
             イベントの詳細
-          </v-btn>
+          </v-btn> -->
           <v-btn
             class="ma-2"
             color="white"
             depressed
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfjF9cbXWnZVToFbp1-EctCWTqTo8yuIUNgXg3XXHP7KAAaVA/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdXmOpF0zvXZ6hYDejkTn0VN_uScg_Oek5DTAI6Syxcab5Oag/viewform"
             target="_blank"
           >
             参加申し込み

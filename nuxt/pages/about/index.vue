@@ -10,7 +10,7 @@
     </v-section>
     <v-section :title="tedxnu.title" :src="tedxnu.src" :alt="tedxnu.alt">
       <p>
-        ”ideas worth spreading”というTEDの理念に共感した学生たちにより結成され、TEDから正式にライセンスを取得し、2013年に発足した非営利団体です。現在も名古屋大学を中心に、大学生のみで構成・運営されています。
+        ”ideas worth spreading”というTEDの理念に共感した学生たちにより結成され、TEDから正式にライセンスを取得し、2013年に発足した非営利団体です。現在も名古屋大学を中心に大学生のみで構成・運営されています。
       </p>
     </v-section>
   </div>

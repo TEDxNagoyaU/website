@@ -24,13 +24,13 @@
         <v-col class="text-center" sm="6" xs="12">
 
           <h1 class="display-1 mb-4">新メンバー募集中</h1>
-          <h2 class=" font-weight mb-4">説明会開催日時：2021/10/02 & 2021/10/07</h2>
+          <h2 class=" font-weight mb-4">説明会を開催します！！</h2>
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
           <v-btn
             class="ma-2"
             color="white"
             depressed
-            href="tednagoyau.github.io/2021AutumnRecruit/"
+            href="https://tednagoyau.github.io/2021AutumnRecruit/"
             target="_blank"
           >
             説明会の詳細

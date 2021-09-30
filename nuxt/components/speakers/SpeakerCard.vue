@@ -11,6 +11,7 @@
     />
     <v-card-title v-text="speaker.name" />
     <v-card-subtitle v-text="speaker.position" />
+    <v-card-text class="text--primary" v-text="speaker.title" />
     <v-card-text class="text--primary" v-text="speaker.leadSentence" />
     <v-card-actions>
       <v-btn
@@ -20,6 +21,16 @@
         nuxt
       >
         Detail
+      </v-btn>
+      <v-btn
+        v-if="speaker.youtubeId"
+        text
+        :href="speaker.youtubeId"
+        target="_blank"
+        nuxt
+        color="red"
+      >
+        Youtube
       </v-btn>
     </v-card-actions>
   </v-card>

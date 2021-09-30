@@ -187,14 +187,16 @@ export default {
         '/talks/2017',
         '/talks/2018',
         '/talks/2019',
-        '/talks/2020'
+        '/talks/2020',
+        '/talks/2021'
       )
 
       const partnersPath = [
         '/partners/2017',
         '/partners/2018',
         '/partners/2019',
-        '/partners/2020'
+        '/partners/2020',
+        '/partners/2021'
       ]
 
       return [...articlesPath, ...partnersPath, ...talksPath]

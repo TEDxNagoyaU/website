@@ -19,7 +19,7 @@ export default {
     ShowArticles
   },
   async asyncData ({ $content }) {
-    const speakers = await $content('talks', '2019').fetch()
+    const speakers = await $content('talks', '2021').fetch()
     const articles = await $content('articles', { deep: true }).sortBy('date', 'desc').limit(3).fetch()
     return {
       speakers,

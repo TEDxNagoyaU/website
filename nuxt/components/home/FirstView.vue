@@ -30,7 +30,7 @@
             class="ma-2"
             color="white"
             depressed
-            href="https://tednagoyau.github.io/2021AutumnRecruit/"
+            href="https://tedxnagoyau.github.io/2021AutumnRecruit/"
             target="_blank"
           >
             説明会の詳細

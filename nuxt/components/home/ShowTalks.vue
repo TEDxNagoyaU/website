@@ -25,15 +25,15 @@
               >
                 <v-container class="pa-0">
                   <v-row>
-                    <v-col class="pt-0 pb-0" cols="8">
-                      <v-card-title class="white--text">
+                    <v-col class="pt-0 pb-0" cols="12">
+                      <v-card-title class="white--text text-body-1">
                         {{ speaker.title }}
                       </v-card-title>
                       <v-card-subtitle class="white--text">
                         {{ speaker.name }}
                       </v-card-subtitle>
                     </v-col>
-                    <v-col v-if="speaker.youtubeId" cols="4" class="d-flex align-center">
+                    <v-col v-if="speaker.youtubeId" cols="12" class="d-flex align-center pt-0 pb-0">
                       <v-btn
                         color="red"
                         text

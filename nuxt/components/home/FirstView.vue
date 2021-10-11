@@ -21,11 +21,11 @@
           </h1>
         </v-col>
         -->
-       <!-- <v-col class="text-center" sm="6" xs="12">
-
+       <!-- <v-col class="text-center" sm="6" xs="12"> -
           <h1 class="display-1 mb-4">新メンバー募集中</h1>
-          <h2 class=" font-weight mb-4">説明会を開催します！！</h2>
+          <h2 class=" font-weight mb-4">説明会を開催します！！</h2> -->
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
+          <!--
           <v-btn
             class="ma-2"
             color="white"

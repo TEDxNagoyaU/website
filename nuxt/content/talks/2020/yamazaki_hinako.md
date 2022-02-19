@@ -3,7 +3,7 @@ name: 山崎姫菜子
 title: ありのままを受け入れる第三の道
 position: sobolon代表
 img: talks/2020/yamazaki.jpg
-youtubeId: null
+youtubeId: https://www.youtube.com/watch?v=zICXMnmuXHU
 detail: true
 leadSentence:  「可愛い」で地球を守る！海洋プラスチックアクセサリーsobolon代表。自分の中に    あった「可愛い」×「環境問題」という相反する2つの要素を、バランスをとるのではなく、掛け合わせ一つにすることで、新たな問題解決方法を提案。そんな彼女が語る、みんなで幸せになれる「自分自身の在り方」とは？
 ---

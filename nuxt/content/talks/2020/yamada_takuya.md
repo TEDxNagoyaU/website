@@ -3,7 +3,7 @@ name: 山田卓哉
 title: 「やりたいことをやりたいようにやる」で納得のいく未来を掴む
 position: 大ナゴヤ大学　学長
 img: talks/2020/yamada.jpg
-youtubeId: null
+youtubeId: https://www.youtube.com/watch?v=iNuT8gbClnY
 detail: true
 leadSentence: 北海道出身。現在、大ナゴヤ大学の学長として名古屋市を中心とした東海エリアのまちの魅力を題材に学びあいの場をつくる。「やりたいこと」を追求し続け、仕事や生き方としてカタチにするヒントとは？
 ---

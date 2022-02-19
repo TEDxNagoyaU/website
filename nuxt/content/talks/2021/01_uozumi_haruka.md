@@ -1,5 +1,5 @@
 ---
-name: 魚住　晴香
+name: 魚住晴香
 title: コンプレックスが教えてくれた、ありのまま自分らしく生きること
 position: 名古屋大学文学部４年
 img: talks/2021/uozumi.jpg

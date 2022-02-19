@@ -1,5 +1,5 @@
 ---
-name: 石黒 由美子
+name: 石黒由美子
 title: 逆転人生〜貴方も私も奇跡的に変われる〜
 position: アーティスティックスイミング元日本代表
 img: talks/2020/ishiguro.jpg

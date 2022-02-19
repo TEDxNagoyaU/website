@@ -81,19 +81,19 @@ export default {
         {
           path: '/talks/2017',
           name: '2017'
-        }
+        },
         {
           path: '/talks/2016',
           name: '2016'
-        }
+        },
         {
           path: '/talks/2015',
           name: '2015'
-        }
+        },
         {
           path: '/talks/2014',
           name: '2014'
-        }
+        },
         {
           path: '/talks/2013',
           name: '2013'

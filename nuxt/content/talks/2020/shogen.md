@@ -3,7 +3,7 @@ name: SHOGEN
 title: 「思い込み」の魔法
 position: アフリカンペイントアーティスト
 img: talks/2020/shogen.jpg
-youtubeId: null
+youtubeId: https://www.youtube.com/watch?v=cX2ujXIIepQ
 detail: true
 leadSentence: 色を絞れば絞るほど幸せに近づけるとされていることから、6色のみで描かれるタンザニアのペンキアート「ティンガティンガ」。事前のコネクション無しに単身タンザニアに渡り、現地の人々と共に過ごしたSHOGENが、彼らから学び大切にしているのは「思い込み」。「思い込み」こそが自分自身に魔法をかけ、人を幸せにする。
 ---

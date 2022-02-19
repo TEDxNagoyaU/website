@@ -1,9 +1,9 @@
 ---
-name: Comming Soon !
-title: Cognitive Cyborgs
-position: ~ 8/31
+name: 永野直
+title: 
+position: 千葉県公立高等学校教諭
 img: https://live.staticflickr.com/65535/49633281918_bcdc62932a_m.jpg
-youtubeId: https://www.youtube.com/watch?v=4Kuqil3lOIk
+youtubeId: null
 detail: false
 leadSentence: 準備中です。
 ---

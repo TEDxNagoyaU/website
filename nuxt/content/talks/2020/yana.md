@@ -4,7 +4,7 @@ title: 大人は嘘をついているかもしれない
 position: 高校生で世界二周
 img: talks/2020/yana.jpg
 youtubeId: https://www.youtube.com/watch?v=FSs0RctaVng
-detail: true
+detail: false
 leadSentence: 高校生活が嫌になり、逃げ出すために世界一周しようと決意。世界一周をする中で、自分自身を認めてあげることができるようになった。本当の自分と向き合うために大切なこととは？
 ---
 

@@ -1,9 +1,9 @@
 ---
-name: 長谷部貴美
-title: null
-position: 株式会社ホワイトシップ代表取締役社長
+name: 永野直
+title: Coming Soon！
+position: 千葉県公立高等学校教諭
 img: https://live.staticflickr.com/65535/49633281918_bcdc62932a_m.jpg
-youtubeId: null
+youtubeId: Coming Soon！
 detail: false
 leadSentence: 準備中です。
 ---

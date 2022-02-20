@@ -1,6 +1,6 @@
 ---
 name: 佐藤秀一
-title: 佐藤秀一
+title: （体調不良のため欠席）
 position: 50円おにぎり食堂経営者
 img: talks/2019/SyuichiSatoSqr.jpg
 youtubeId:

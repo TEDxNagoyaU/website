@@ -111,14 +111,6 @@ export default {
         {
           path: '/partners/2019',
           name: '2019'
-        },
-        {
-          path: '/partners/2018',
-          name: '2018'
-        },
-        {
-          path: '/partners/2017',
-          name: '2017'
         }
       ],
       articleLinks: [

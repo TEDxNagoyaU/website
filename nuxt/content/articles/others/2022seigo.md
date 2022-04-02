@@ -18,7 +18,7 @@ meta_tag: [
   {
     hid: 'og:image',
     property: 'og:image',
-    content: 'article/partner_interview/alphas/ALPHAS_logo_slogan.jpg'
+    content: 'article/others/2022seigo/topseigo.jpg'
   }
 ]
 ---

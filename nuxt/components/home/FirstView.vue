@@ -22,7 +22,7 @@
         </v-col>
         -->
        <v-col class="text-center" sm="6" xs="12"> -
-          <h1 class="display-1 mb-4">サロン開催決定！</h1>
+          <h1 class="display-1 mb-4">新メンバー募集中！</h1>
           <h2 class=" font-weight mb-4">対面で開催します！！</h2>
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
           
@@ -30,7 +30,7 @@
             class="ma-2"
             color="white"
             depressed
-            href="https://tedxnagoyau.github.io/salon_web/"
+            href="https://tedxnagoyau.github.io/2022SpringRecruit/"
             target="_blank"
           >
             詳細

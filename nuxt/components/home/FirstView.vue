@@ -23,7 +23,7 @@
         -->
        <v-col class="text-center" sm="6" xs="12"> -
           <h1 class="display-1 mb-4">新メンバー募集中！</h1>
-          <h2 class=" font-weight mb-4">対面で開催します！！</h2>
+          <h2 class=" font-weight mb-4">集え大学生！！</h2>
           <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
           
           <v-btn

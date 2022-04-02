@@ -3,7 +3,7 @@ title : 【！非公開サイト・対外共有禁止！！！！】
 date: 2020/10/08
 description : タブ表示
 tags: ["2020"]
-thumbnail: article/partner_interview/alphas/ALPHAS_logo_slogan.jpg
+thumbnail: article/others/2022seigo/topseigo.jpg
 meta_tag: [
   {
     hid: 'og:title',

@@ -8,12 +8,12 @@ meta_tag: [
   {
     hid: 'og:title',
     property: 'og:title',
-    content: 'アルファス株式会社様へインタビュー！'
+    content: 'TEDxNagoyaUメンバーにインタビュー'
   },
   {
     hid: 'og:description',
     property: 'og:description',
-    content: 'アルファス株式会社田中社長に、TEDxNagoyaUをサポートしてくださる思いを伺いました。'
+    content: 'TEDxNagoyaU2022、コミュニケーションチーム　リーダの浜上くんにインタビューしました。'
   },
   {
     hid: 'og:image',
@@ -23,7 +23,7 @@ meta_tag: [
 ]
 ---
 
-![コミュニケーションチーム　リーダー　浜上晴吾](article/partner_interview/alphas/tanaka.jpg)
+![コミュニケーションチーム　リーダー　浜上晴吾](article/others/2022seigo/topseigo.jpg)
 
 　浪人生活を送って、大学4年間は有意義な時間を過ごしたい。そんな想いを抱いていたそう。
 　有意義な時間を過ごすためにTEDxNagoyaUに加入し、現在コミュニケーションチームのリーダーをしている浜上晴梧さん（以下：せーごくん）にインタビューをしました。

@@ -33,8 +33,6 @@ meta_tag: [
 
 ![アルファス株式会社様のロゴとスローガン](article/partner_interview/alphas/ALPHAS_logo_slogan.jpg)
 
-[社長インタビュー](https://www.kenja.tv/president/detkz34zb.html)　[コーポレートサイト](https://alphas.biz/)　[採用ページ](https://alphas-recruit.link/)
-
 もともとプライドが高かったと話すせーごくん。
 
 「浪人はプライドの塊だったんだよね～、高校は地元で一番の進学校に通っていて、偏差値でしか大学を見れなかったんだよね。」

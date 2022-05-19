@@ -43,7 +43,7 @@
             target="_blank"
           >
             参加申し込み
-          </v-btn> 
+          </v-btn> -->
         </v-col>
       </v-row>
     </v-container>

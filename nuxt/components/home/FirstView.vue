@@ -15,14 +15,14 @@
         max-height="550px"
       >
        
-       <!-- <v-col class="text-center" cols="12">
+        <v-col class="text-center" cols="12">
           <h1 class="display-1 font-weight-bold mb-4">
-            TEDxNagoyaU2020オンラインイベント開催が決定しました
+            TEDxNagoyaU2020オンラインイベント開催が決定しました！
           </h1>
-        </v-col> -->
+        </v-col> 
                 
        <v-col class="text-center" sm="6" xs="12"> -
-          <h1 class="display-1 mb-4">サロンを開催します</h1>
+          <h1 class="display-1 mb-4">サロン開催決定！</h1>
           
           <v-btn
             class="ma-2"

@@ -9,7 +9,6 @@
     <v-container fluid fill-height>
       <v-row
         class="bg-filter"
-        align="center"
         justify="center"
         height="100%"
         max-height="550px"

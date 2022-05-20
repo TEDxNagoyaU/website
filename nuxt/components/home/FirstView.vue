@@ -23,6 +23,7 @@
                 
        <v-col class="text-center" sm="6" xs="12"> -
           <h1 class="display-1 mb-4">サロン開催決定！</h1>
+          <h2 class=" font-weight mb-4"></h2>
           
           <v-btn
             class="ma-2"

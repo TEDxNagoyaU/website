@@ -34,8 +34,7 @@
             target="_blank"
           >
             詳細 
-           </v-btn>
-           <!--
+          <!-- </v-btn>
           <v-btn
             class="ma-2"
             color="white"

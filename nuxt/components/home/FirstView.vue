@@ -29,7 +29,7 @@
             class="ma-2"
             color="white"
             depressed
-            href="https://github.com/TEDxNagoyaU/2022salon2_website"
+            href="https://tedxnagoyau.github.io/2022salon2_website/"
             target="_blank"
           >
             詳細

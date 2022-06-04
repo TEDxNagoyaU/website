@@ -34,8 +34,8 @@ jobs:
       run: npm run build
       working-directory: ./nuxt
     
-    - name: export nuxt project
-      run: npm run export
+    - name: generate static site
+      run: npm run generate
       working-directory: ./nuxt
 
     - name: deploy

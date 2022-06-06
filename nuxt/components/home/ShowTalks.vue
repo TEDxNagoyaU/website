@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <h1 class="pl-3 text-h5">
-          TEDxNagoyaU Talk
+          TEDxNagoyaU Talk(2021)
         </h1>
       </v-row>
       <v-row align="center">

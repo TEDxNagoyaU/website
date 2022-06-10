@@ -41,10 +41,10 @@
             class="ma-2"
             color="white"
             depressed
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeCR9XqO6MtuIx3dIQy7mPHLMs98tPYcnXXTtrdhuDSTQ_wsw/viewform"
+            href="https://tedxnagoyau.github.io/2022_event_web/"
             target="_blank"
           >
-            参加申し込み
+            特設サイト
           </v-btn> 
         </v-col>
       </v-row>

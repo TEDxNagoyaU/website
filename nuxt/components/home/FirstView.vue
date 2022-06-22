@@ -20,20 +20,6 @@
           </h1>
         </v-col>
         -->
-       <v-col class="text-center" sm="6" xs="12"> 
-          <h1 class="display-1 mb-4">サロンイベントを開催します！</h1>
-          <h2 class=" font-weight mb-4"></h2>
-          <!-- @click.nativeすることで、nuxt-linkを使いながらもclickイベントでメソッドを起こすことができる。 -->
-          
-          <v-btn
-            class="ma-2"
-            color="white"
-            depressed
-            href="https://tedxnagoyau.github.io/2022salon2_website/"
-            target="_blank"
-          >
-            詳細
-           </v-btn>
 
         <h1 class="display-1 mb-4">TEDxNagoyaU2022メインイベントを開催します！</h1>
           <h2 class=" font-weight mb-4"></h2>

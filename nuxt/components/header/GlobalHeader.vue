@@ -101,6 +101,10 @@ export default {
       ],
       partnerLinks: [
         {
+          path: '/partners/2022',
+          name: '2022'
+        },
+        {
           path: '/partners/2021',
           name: '2021'
         },

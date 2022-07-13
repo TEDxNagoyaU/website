@@ -21,7 +21,7 @@
         </v-col>
         -->
 
-        <h1 class="display-1 mb-4">TEDxNagoyaU2022メインイベントを開催します！</h1>
+        <h1 class="display-1 mb-4">【終了済】メインイベントを開催しました！</h1>
           <h2 class=" font-weight mb-4"></h2><br/>
           <v-btn
             class="ma-2"

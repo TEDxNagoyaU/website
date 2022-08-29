@@ -3,7 +3,7 @@ title: 2022年度スピーカーさんにインタビュー
 date: 2022/08/30
 description: インタビュー
 tags: ["2022"]
-thumbnail: article/others/風間さん/風間さん_サムネイル用.jpg
+thumbnail: article/others/風間さん/風間さん_サムネイル用.png
 meta_tag:
   [
     {
@@ -19,12 +19,12 @@ meta_tag:
     {
       hid: "og:image",
       property: "og:image",
-      content: "article/others/風間さん/風間さん_サムネイル用.jpg",
+      content: "article/others/風間さん/風間さん_サムネイル用.png",
     },
   ]
 ---
 
-![風間さん](article/others/風間さん/風間さん_サムネイル用.jpg)
+![風間さん](article/others/風間さん/風間さん_サムネイル用.png)
 
 大学で性の多様性を自分の問題として捉えたいと思い、授業をしている風間孝さん。「LGBTQ を理解してあげる」という姿勢ではなく、「性的マジョリティーが自分ごととして捉えるには「特権」を持っているという視点が必要である」と今回のメインイベントでお話をしていただきました。今回は、そんな風間さんにトークづくりをサポートしていたスピーカーチームがインタビューをさせていただきました！！！
 

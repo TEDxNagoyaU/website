@@ -24,7 +24,7 @@ meta_tag:
   ]
 ---
 
-![安藤さん](article/others/柴崎さん/柴崎さん_サムネイル用.jpg)
+![柴崎さん](article/others/柴崎さん/柴崎さん_サムネイル用.jpg)
 
 ![写真](article/others/柴崎さん/柴崎さん_インタビュー.jpg)
 

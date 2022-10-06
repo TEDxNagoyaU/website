@@ -1,6 +1,6 @@
 ---
 title: 2022年度スピーカーさんにインタビュー
-date: 2022/010/6
+date: 2022/10/06
 description: インタビュー
 tags: ["2022"]
 thumbnail: article/others/柴崎さん/柴崎さん_サムネイル用.jpg
